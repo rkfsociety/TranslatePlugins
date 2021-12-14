@@ -171,7 +171,7 @@
   "parameter.price": "price",
   "value.false": "false",
   "value.true": "true",
-  "warning.cancel.failed": "&cCould not cancel the auction!",
+  "warning.cancel.failed": "&cНе удалось отменить аукцион!",
   "warning.cancel_all.failed": "&cOne or more auctions could not be cancelled.",
   "warning.command.console_only": "&cThis command can only be executed from the console!",
   "warning.command.deny": "&cThis command must be executed by a player or from the console.",
