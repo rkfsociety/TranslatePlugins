@@ -66,3 +66,6 @@ Actions:
   MessageSetBaseFailed: '%prefix% &cWait until the cooldown is over!'
 SpecificWorlds:
   FailedText: '%prefix% Your World does not support Clans'
+  
+# the author of the translation: rkfsociety
+# the author's server: 135.181.170.94:25996 // Unclear Craft // https://discord.com/invite/d8VtKf2dk2
