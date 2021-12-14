@@ -1,0 +1,3 @@
+# TranslatePlugins
+AuctionHouse
+HeadsPlus
