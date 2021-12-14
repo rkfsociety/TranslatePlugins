@@ -1,4 +1,4 @@
-# TranslatePlugins
+# TranslatePluginsRu
 
 AuctionHouse - https://www.spigotmc.org/resources/auctionhouse.61836/
 
