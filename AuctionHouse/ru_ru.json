@@ -20,7 +20,7 @@
   "command.sold": "sold",
   "command.ulist": "ulist",
   "discord.prefix": ":shopping_cart: ",
-  "discord.sell.player.item_sold": "**{0} продан {1}x &f{2} to {3} for ${4} на Аукционе!**",
+  "discord.sell.player.item_sold": "**{0} продал {1}x &f{2} to {3} for ${4} на Аукционе!**",
   "discord.sell.player.listed_item": "**{0} выставил {1}x {2} за ${3} на Аукцион!**",
   "duration.days": "d",
   "duration.hours": "h",
