@@ -1,20 +1,20 @@
-Prefix: '&7[&cClans&7]'
+Prefix: '&7[&cКланы&7]'
 Commands:
   NoPermission: '%prefix% &cYou do not have the permission to execute this command!'
-  DisplayCreate: '%prefix% /clan create [name] | &eCreate a Clan'
+  DisplayCreate: '%prefix% /clan create [название] | &eСоздайте клан'
   Vault:
-    CreatePriceFailed: '%prefix% You need %amount% $ to create a Clan'
-  DisplayInvite: '%prefix% /clan invite [player] | &eInvite a Player'
-  DisplayAccept: '%prefix% /clan accept [player] | &eAccept a Clan invite'
-  DisplayKick: '%prefix% /clan kick [player] | &eKick a Player'
-  DisplayStats: '%prefix% /clan stats [name] | &eGet Clan Stats'
-  DisplayTopStats: '%prefix% /clan stats | &eGlobal Top 10 Stats'
-  DisplayBase: '%prefix% /clan base | &eTeleport to the Clan Base'
-  DisplaySetBase: '%prefix% /clan setbase | &eSet the Clan Base'
-  DisplayLeave: '%prefix% /clan leave | &eLeave the Clan'
-  DisplayDelete: '%prefix% /clan delete | &eDelete the Clan'
-  DisplayList: '%prefix% /clan list | &eList all Clan Members'
-  Reload: '%prefix% /clan reload | &eReload the configuration'
+    CreatePriceFailed: '%prefix% Тебе нужно %amount% $ для создания клана'
+  DisplayInvite: '%prefix% /clan invite [ник игрока] | &eInvite a Player'
+  DisplayAccept: '%prefix% /clan accept [ник игрока] | &eAccept a Clan invite'
+  DisplayKick: '%prefix% /clan kick [ник игрока] | &eВыгнать игрока из клана'
+  DisplayStats: '%prefix% /clan stats [название клана] | &eПолучить Статистику Клана'
+  DisplayTopStats: '%prefix% /clan stats | &eТоп-10 кланов'
+  DisplayBase: '%prefix% /clan base | &eТелепортироваться на базу Клана'
+  DisplaySetBase: '%prefix% /clan setbase | &eУстановите базу клана'
+  DisplayLeave: '%prefix% /clan leave | &eПокинуть Клан'
+  DisplayDelete: '%prefix% /clan delete | &eУдалить клан'
+  DisplayList: '%prefix% /clan list | &eСписок всех членов Клана'
+  Reload: '%prefix% /clan reload | &eПерезагрузить конфигурацию'
   MessageReload: '%prefix% &aReloading configuration!'
   MessageReloadComplete: '%prefix% &aReloading complete!'
   MessageTopStats: '%prefix% &c%id%.  &eClan: &7%clan% &8| &eKills: &7%kills%'
@@ -66,6 +66,6 @@ Actions:
   MessageSetBaseFailed: '%prefix% &cWait until the cooldown is over!'
 SpecificWorlds:
   FailedText: '%prefix% Your World does not support Clans'
-  
+
 # the author of the translation: rkfsociety
 # the author's server: 135.181.170.94:25996 // Unclear Craft // https://discord.com/invite/d8VtKf2dk2
