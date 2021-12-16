@@ -1,11 +1,11 @@
 Prefix: '&7[&cКланы&7]'
 Commands:
-  NoPermission: '%prefix% &cYou do not have the permission to execute this command!'
+  NoPermission: '%prefix% &cУ вас нет разрешения на выполнение этой команды!'
   DisplayCreate: '%prefix% /clan create [название] | &eСоздайте клан'
   Vault:
     CreatePriceFailed: '%prefix% Тебе нужно %amount% $ для создания клана'
-  DisplayInvite: '%prefix% /clan invite [ник игрока] | &eInvite a Player'
-  DisplayAccept: '%prefix% /clan accept [ник игрока] | &eAccept a Clan invite'
+  DisplayInvite: '%prefix% /clan invite [ник игрока] | &eПригласить игрока'
+  DisplayAccept: '%prefix% /clan accept [ник игрока] | &eПринять приглашение клана'
   DisplayKick: '%prefix% /clan kick [ник игрока] | &eВыгнать игрока из клана'
   DisplayStats: '%prefix% /clan stats [название клана] | &eПолучить Статистику Клана'
   DisplayTopStats: '%prefix% /clan stats | &eТоп-10 кланов'
@@ -15,9 +15,9 @@ Commands:
   DisplayDelete: '%prefix% /clan delete | &eУдалить клан'
   DisplayList: '%prefix% /clan list | &eСписок всех членов Клана'
   Reload: '%prefix% /clan reload | &eПерезагрузить конфигурацию'
-  MessageReload: '%prefix% &aReloading configuration!'
-  MessageReloadComplete: '%prefix% &aReloading complete!'
-  MessageTopStats: '%prefix% &c%id%.  &eClan: &7%clan% &8| &eKills: &7%kills%'
+  MessageReload: '%prefix% &aКонфигурация перезагружается!'
+  MessageReloadComplete: '%prefix% &aПерезагрузка завершена!'
+  MessageTopStats: '%prefix% &c%id%.  &eКлан: &7%clan% &8| &eУбийств: &7%kills%'
   MessageBaseDelayMove: '%prefix% &9You will be teleported in &e%delay% &9seconds,
     &cdon''t move&9!'
   MessageBaseAlreadyQueued: '%prefix% &cYou are already in the teleport queue!'
@@ -25,7 +25,7 @@ Commands:
   MessageSetBase: '%prefix% &aThe Clan Base has been set to your position!'
   MessageSetBaseFailed: '%prefix% &cFailed! Only the Clan Owner is allowed to perform
     this command!'
-  MessageDeleteClan: '%prefix% &9Clan &e%clan% &9has been removed!'
+  MessageDeleteClan: '%prefix% &9Клан &e%clan% &9был удален!'
   MessageDeleteClanFailed: '%prefix% &cFailed! Only the Clan Owner is allowed to perform
     this command!'
   MessageLeaveClan: '%prefix% &9You left the Clan!'
