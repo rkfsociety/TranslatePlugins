@@ -1,7 +1,7 @@
 ---
 reloaded: "%prefix% &7Configuration has been reloaded."
-noPermission: "%prefix% &7You don't have permission for that."
-mustBeAPlayer: "%prefix% &7You must be a player to execute this command."
+noPermission: "%prefix% &7У вас нет на это разрешения."
+mustBeAPlayer: "%prefix% &7Вы должны быть игроком, чтобы выполнить эту команду."
 notAPlayer: "%prefix% &7That player doesn't exist."
 unknownCommand: "%prefix% &7Unknown Command, Try /is help."
 helpCommandHeader: "&8===== &b&lIridiumSkyblock Help &r&8====="
