@@ -43,31 +43,31 @@ sections:
     lore: []
   TEDIOUS:
     material: BLUE_TERRACOTTA
-    display-name: '&8[&c&lTedious&8]'
+    display-name: '&8[&c&lУтомительный&8]'
     lore: []
   TEDIOUS_PAINFUL:
     material: PURPLE_TERRACOTTA
-    display-name: '&8[&c&lTedious&8-&5&lPainful&8]'
+    display-name: '&8[&c&lУтомительный&8-&5&lБолезненный&8]'
     lore: []
   PAINFUL:
     material: MAGENTA_TERRACOTTA
-    display-name: '&8[&5&lPainful&8]'
+    display-name: '&8[&5&lБолезненный&8]'
     lore: []
   PAINFUL_DEADLY:
     material: PINK_TERRACOTTA
-    display-name: '&8[&5Painful&8-&4Deadly&8]'
+    display-name: '&8[&5Болезненный&8-&4Смертоносный&8]'
     lore: []
   DEADLY:
     material: RED_TERRACOTTA
-    display-name: '&8[&4Deadly&8]'
+    display-name: '&8[&4Смертоносный&8]'
     lore: []
 challenges:
   starter:
     name: Starter
-    header: '&8[&6&lStarter Challenge&8]'
+    header: '&8[&6&lСтартовый вызов&8]'
     description:
-    - '&7Don''t worry, just'
-    - '&7try this out ;)'
+    - '&7Не волнуйтесь, просто'
+    - '&7попробуйте это сделать;)'
     type: MISC
     min: 0
     reward: default
@@ -78,10 +78,10 @@ challenges:
     completed-icon: default-completed
   AXOLOTL-1-hunting:
     name: AXOLOTL-I Hunting
-    header: '&8[&c&lAxolotl Hunting I&8]'
+    header: '&8[&c&lОхота на аксолотля I&8]'
     description:
-    - '&7Get 25 heads from'
-    - '&7killing axolotl(s)!'
+    - '&7Получите 25 голов от'
+    - '&7убийства аксолотлей!'
     type: LEADERBOARD
     min: 25
     reward: default
@@ -92,10 +92,10 @@ challenges:
     completed-icon: default-completed
   AXOLOTL-1-crafting:
     name: AXOLOTL-I Crafting
-    header: '&8[&a&lAxolotl Crafting I&8]'
+    header: '&8[&a&lИзготовление аксолотля I&8]'
     description:
-    - '&7Get 25 heads from'
-    - '&7crafting axolotl heads!'
+    - '&7Получите 25 голов от'
+    - '&7создание голов аксолотля!'
     type: CRAFTING
     min: 25
     reward: default
