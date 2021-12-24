@@ -1,0 +1,187 @@
+###############################
+#######    BestTools    #######
+###############################
+
+# BestTools lets you automatically use the best tool you have in your inventory
+# when breaking blocks or attacking mobs. It also features automatic hotbar
+# refill when you run out of blocks.
+
+
+###############################
+#######    Commands     #######
+###############################
+
+# /besttools (or /bt:)  Toggle BestTools per player
+# /besttools hotbar:    Toggles whether BestTools only uses tools from your hotbar
+# /besttools reload:    Reloads the config file
+
+# /refill (or /rf:)     Toggle automatic hotbar refill per player
+
+# /besttools bl                      Shows your blacklist
+# /besttools bl add                  Adds your current item to your blacklist
+# /besttools bl add <items...>       Adds all specified items to your blacklist
+# /besttools bl add inventory        Adds all items in your inventory to your blacklist
+# /besttools bl add hotbar           Adds all items in your hotbar to your blacklist
+# /besttools bl remove               Removes your current item from your blacklist
+# /besttools bl remove <items...>    Removes all specified items from your blacklist
+# /besttools bl remove inventory     Removes all items in your inventory from your blacklist
+# /besttools bl remove hotbar        Removes all items in your hotbar from your blacklist
+# /besttools bl reset                Removes all items from your blacklist
+
+
+###############################
+#######   Permissions   #######
+###############################
+
+# besttools.use:        Allows to use the /besttools (or /bt) command
+# besttools.refill:     Allows to use the /refill (or /rf) command
+# besttools.reload:     Allows to use the /besttools reload command
+
+
+###############################
+#######  Placeholders   #######
+###############################
+
+# When using PlaceholderAPI, you can use the following placeholders:
+
+# %besttools_btenabled%    - true if this player has BestTools enabled, otherwise false
+# %besttools_rfenabled%    - true if this player has Refill enabled, otherwise false
+# %besttools_hotbaronly%   - true if this player has set BestTools to hotbar-only
+# %besttools_favoriteslot% - the slot number this player chose as favorite slot
+
+
+###############################
+####### General config  #######
+###############################
+
+# When false, new players have to run /besttools or /bt once to enable BestTools
+besttools-enabled-by-default: false
+
+# When false, new players have to run /refill or /rf once to enable hotbar refill
+refill-enabled-by-default: false
+
+# Only use tools from the hotbar? Can be changed per player using /besttools hotbar
+hotbar-only: true
+
+# The preferred slot where BestTools should move the tool if it's not in the hotbar
+# and hotbar-only is set to false. Must be a number between 0 (leftmost hotbar slot)
+# and 8 (rightmost hotbar slot)
+# Set this to -1 to always use the player's current slot
+favorite-slot: 8
+
+# When set to false, /besttools and /refill will only work in survival game mode
+# When set to true, it works in survival and adventure game mode
+allow-in-adventure-mode: false
+
+# When enabled, BestTools will not attempt to switch any tools when the player is
+# holding a sword, crossbow, bow or trident
+dont-switch-during-battle: true
+
+# The best tool for leaves are shears as only those give drops. BestTools will try to
+# use hoes instead if you don't have any shears. You can also make BestTools try to use
+# swords if you don't have both, however swords will take twice the damage when breaking
+# leaves with it.
+consider-swords-for-leaves: false
+
+# Allow /besttools to switch to your sword/axe (whatever is better) when attacking mobs?
+use-sword-on-hostile-mobs: true
+
+# Use axe instead of sword when the axe does more damage (it's slower though and does not deal sweep damage)
+use-axe-as-sword: false
+
+# NOT IMPLEMENTED YET, comes with next update
+#use-sword-on-friendly-mobs: false
+#use-sword-on-players: false
+
+###############################
+####### Global blacklist ######
+###############################
+
+# You can add blocks to the global blacklist here that will apply to ALL players.
+# Blocks broken that are mentioned in this list will not trigger BestTools.
+
+# Example:
+#
+# global-block-blacklist:
+# - POTATOES
+# - BEETROOTS
+# - CARROTS
+# - WHEAT
+
+global-block-blacklist:
+
+###############################
+####### Update checker  #######
+###############################
+
+# Checks for updates (asynchronously).
+# When enabled, a message is printed in the console if a new
+# version has been found, and OPs will be notified when they join the server
+# When set to true, check for updates on startup and every X hours (see "check-interval" below)
+# When set to on-startup, only check on server startup
+# When set to false, don't check for updates
+check-for-updates: true
+
+# When you set "check-for-updates" to true, you can define the amount
+# of hours inbetween each update check.
+check-interval: 4
+
+###############################
+#######  Localization   #######
+###############################
+
+# Available color codes:
+# &0 Black        &6 Gold       &c Red
+# &1 Dark Blue    &7 Gray       &d Light Purple
+# &2 Dark Green   &8 Dark Gray  &e Yellow
+# &3 Dark Aqua    &9 Blue       &f White
+# &4 Dark Red     &a Green
+# &5 Dark Purple  &b Aqua
+
+# Available formatting codes:
+# &k Obfuscated   &m Strikethrough
+# &l Bold         &o Italic
+# &n Underline    &r Reset
+
+# Please note that using color codes in the GUI is not supported yet.
+
+# You can set messages to an empty String ("") to avoid displaying those messages.
+
+##### You can edit these messages yourself or uncomment the existing translations (see below)
+message-besttools-enabled: "&7Автовыбор инструментов был &aвключен&7."
+message-besttools-disabled: "&7Автовыбор инструментов был &cвыключен&7."
+message-refill-enabled: "&7АвтоПополнение блоков было &aвключено&7."
+message-refill-disabled: "&7АвтоПополнение блоков было &cвыключено&7."
+message-besttools-usage: "&7Подсказка: Напиши &6/besttools&7 или &6/bt&7 чтобы автоматически использовать лучший инструмент при разбивании блоков."
+message-refill-usage": "&7Подсказка: Напиши &6/refill&7 или &6/rf&7 для автоматического пополнения пустых предметов из вашего инвентаря."
+message-hotbar-only-enabled: "&7Автовыбор инструментов будет использовать только инструменты с вашей горячей панели."
+message-hotbar-only-disabled: "&7Автовыбор инструментов будет использовать все инструменты из вашего инвентаря."
+gui-favorite-slot: "Установить в качестве любимого слота"
+gui-favorite-slot-lore: "Если ваша горячая панель заполнена и Автовыбор инструментов использует инструмент из вашего инвентаря, он будет помещен в этот слот."
+gui-besttools-lore: "Автоматически выбирает лучшие инструменты при разбивании блоков."
+gui-hotbar-lore: "Если этот параметр включен, Автовыбор инструментов будет использовать инструменты только с вашей панели быстрого доступа, а не из всего вашего инвентаря."
+gui-refill-lore: "Автоматически заполняет пустые слоты горячей панели."
+
+
+############################
+##### Technical stuff! #####
+############################
+
+# Show some infos on startup
+verbose: true
+
+# You can enable debug mode using /bt debug (permission: besttools.debug)
+debug: false
+
+# Prints the Material<>Tool map to a csv file
+dump: false
+
+# You can enable performance test using /bt performance (permission: besttools.debug)
+measure-performance: false
+
+# Do you like bad puns?
+puns: false
+
+# Do not change the following line! It is used to automatically update
+# your config to the latest version. Your changes will be kept.
+config-version: 17
