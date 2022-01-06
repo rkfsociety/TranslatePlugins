@@ -18,4 +18,8 @@ Iridium Skyblock - https://www.spigotmc.org/resources/iridium-skyblock-1-13-1-18
 
 MarriageMaster - https://www.spigotmc.org/resources/marriage-master-mc-1-7-1-18.19273/
 
+RTP - https://www.spigotmc.org/resources/rtp.94812/
+
 UltimateAutoRestart - https://www.spigotmc.org/resources/1-8-1-18-3-1k-users-ultimateautorestart-need-an-autorestart-plugin-grab-the-best-one-today.64414/
+
+dtlTraders - https://www.spigotmc.org/resources/dtltraders.35890/
