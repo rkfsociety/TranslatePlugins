@@ -1,5 +1,9 @@
 # TranslatePluginsRu
 
+# Все переводы делаются исключительно для сервера UnclearCraft
+
+# ip: play.unclearcraft.ru
+
 AuctionHouse - https://www.spigotmc.org/resources/auctionhouse.61836/
 
 BestTools - https://www.spigotmc.org/resources/besttools.81490/
