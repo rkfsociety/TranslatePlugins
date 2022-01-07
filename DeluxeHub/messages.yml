@@ -1,0 +1,78 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+# PLUGIN MESSAGES
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+Messages:
+  GENERAL:
+    PREFIX: "&d&8❙"
+    NO_PERMISSION: "%prefix% &cВам запрещено использовать это."
+    CUSTOM_COMMAND_NO_PERMISSION: "&cВам не разрешается выполнять эту команду."
+    INVALID_PLAYER: "%prefix% &c%player% не находится в сети!"
+    CONFIG_RELOAD: "%prefix% &aВсе файлы конфигурации были перезагружены за &7%time%ms"
+    COOLDOWN_ACTIVE: "%prefix% &cВы должны подождать &e%time%s &cпрежде чем делать это снова!"
+
+  GAMEMODE:
+    GAMEMODE_CHANGE: "%prefix% &7Вы изменили режим игры на &a%gamemode%"
+    GAMEMODE_CHANGE_OTHER: "%prefix% &7Вы изменили режим игры на &a%gamemode% &7for &e%player%"
+    GAMEMODE_INVALID: "%prefix% &e%gamemode% &cне является допустимым игровым режимом"
+
+  VANISH:
+    ENABLE: "%prefix% &aYou have now vanished"
+    DISABLE: "%prefix% &cYou have now unvanished"
+
+  FLIGHT:
+    ENABLE: "%prefix% &aВы включили полет"
+    DISABLE: "%prefix% &cВы отключили полет"
+    ENABLE_OTHER: "%prefix% &cВы включили полет для &7%player%"
+    DISABLE_OTHER: "%prefix% &cВы отключили полет для &7%player%"
+
+  PLAYER_HIDER:
+    HIDDEN: "%prefix% &cВидимость игроков отключена"
+    SHOWN: "%prefix% &aВидимость игроков включена"
+
+  LOBBY:
+    SET_LOBBY: "%prefix% &aВы успешно установили точку возрождения лобби"
+
+  CHAT:
+    CLEARCHAT: "&b&l* &fЧат был очищен с помощью &e%player% &b&l*"
+    CLEARCHAT_PLAYER: "&cВаш чат был удален администратором."
+
+    LOCKED: "%prefix% &cЧат в настоящее время заблокирован"
+    LOCKED_BROADCAST: "%prefix% &e%player% &cзаблокировал глобальный чат"
+    UNLOCKED_BROADCAST: "%prefix% &e%player% &aразблокирован глобальный чат"
+
+    ANTI_SWEAR_WORD_BLOCKED: "%prefix% &cСообщение удалено системами защиты от ругани"
+    ANTI_SWEAR_ADMIN_NOTIFY: "%prefix% &c%player% &7попытался сказать: &b%word%"
+
+    COMMAND_BLOCKED: "%prefix% &cЭта команда была заблокированна администратором"
+
+  SCOREBOARD:
+    TOGGLE: "%prefix% &aYou have %value% the scoreboard"
+
+  DOUBLE_JUMP:
+    COOLDOWN_ACTIVE: "%prefix% &cВы должны подождать &e%time%s &cчтобы снова совершить двойной прыжок!"
+
+  WORLD_EVENT_MODIFICATIONS:
+    ITEM_DROP: "%prefix% &cYou are not allowed to drop items."
+    ITEM_PICKUP: "%prefix% &cYou are not allowed to pickup items."
+    BLOCK_PLACE: "%prefix% &cYou are not allowed to place blocks."
+    BLOCK_BREAK: "%prefix% &cYou are not allowed to break blocks."
+    BLOCK_INTERACT: "%prefix% &cYou are not allowed to use this."
+    PLAYER_PVP: "%prefix% &cYou are not allowed to pvp here."
+
+  HOLOGRAMS:
+    EMPTY: "%prefix% &cCould not find any holograms."
+    ALREADY_EXISTS: "%prefix% &cThere is a hologram with this name already &7(%name%)&c."
+    INVALID_HOLOGRAM: "%prefix% &cThere is no hologram with this name &7(%name%)&c."
+    INVALID_LINE: "%prefix% &cCould not find hologram line."
+
+    SPAWNED: "%prefix% &7Created new hologram with name &b%name%&7."
+    DESPAWNED: "%prefix% &7Removed hologram with name &b%name%&7."
+    MOVED: "%prefix% &7Moved hologram &b%name%&7."
+
+    LINE_SET: "%prefix% &7Set line &b%line%&7."
+    ADDED_LINE: "%prefix% &7Added new line."
+    REMOVED_LINE: "%prefix% &7Removed line &b%line%&7."
+
+  ANTI_WORLD_DOWNLOADER:
+    ADMIN_NOTIFY: "%prefix% &f%player% &chas joined with the World Downloader Mod, their ability to use it has been restricted by our systems."
