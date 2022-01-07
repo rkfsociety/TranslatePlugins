@@ -1,69 +1,69 @@
-#logs and command responses
+#журналы и ответы команд
 
-#when teleporting, say this
-alreadyTeleporting: "&e[rtp] you're already teleporting!"
-# placeholder: [time] - how long before teleporting
+#при телепортации скажите это
+alreadyTeleporting: "&e[rtp] ты уже телепортируешься!"
+# placeholder: [time] - сколько времени до телепортации
 delayMessage: "&e[rtp] Teleporting in [time]. Don't move"
-# placeholder: [numAttempts] - number of attempts
+# placeholder: [numAttempts] - количество попыток
 teleportMessage: "&e[rtp] Teleported in [numAttempts] attempts, in [time]"
-chunkLoading: "&e[rtp] Loading chunks! please wait..."
+chunkLoading: "&e[rtp] Загрузка чанков! пожалуйста подождите..."
 
 #if player moves
-teleportCancel: "&e[rtp] Teleport cancelled!"
+teleportCancel: "&e[rtp] Телепорт отменен!"
 
 #if no safe places after reaching max attempts
-unsafe: "&e[rtp] could not find a safe location within [numAttempts] attempts"
+unsafe: "&e[rtp] не удалось найти безопасное место за [numAttempts] попыток"
 
-# placeholder: [time] - how long before player is able to teleport again
-cooldownMessage: "&e[rtp] You can't teleport again for [time]"
+# placeholder: [time] - сколько времени пройдет, прежде чем игрок сможет снова телепортироваться
+cooldownMessage: "&e[rtp] Вы не можете телепортироваться снова, подождите [time]"
 
-#if the region doesn't have any locations queued and the player doesn't have rtp.unqueued permission
-noLocationsQueued: "#f5eb73[rtp] no locations ready at this time"
+#если в регионе нет локаций, поставленных в очередь, и у игрока нет rtp.unqueued разрешения
+noLocationsQueued: "#f5eb73[rtp] в настоящее время нет готовых локаций"
 
-#when the line shifts
-queueUpdate: "#2636ef[rtp] your spot in line: [num]"
+#когда строка сдвигается
+queueUpdate: "#2636ef[rtp] ваше место в очереди: [num]"
 
-#if the player doesn't have enough money to teleport in the region
-# placeholder: [money] - how much money is required for the command
-notEnoughMoney: "&e[rtp] you need at least $[money] for that."
+#если у игрока недостаточно денег для телепортации в регион
+# placeholder: [money] - сколько денег требуется для команды
+notEnoughMoney: "&e[rtp] вам нужно, по крайней мере $[money] для этого."
 
-# for time placeholders, what to call days, hours, minutes, seconds
-days: "d"
-hours: "h"
-minutes: "m"
-seconds: "s"
-millis: "ms"
+# для временных заполнителей, что называть днями, часами, минутами, секундами
+days: "д"
+hours: "ч"
+minutes: "м"
+seconds: "с"
+millis: "мс"
 
 # a configuration file 'version' is lower than the latest
 # placeholder: [filename] - name of file, including file extension
-oldFile: "&b[rtp] old [filename] detected. Updating"
+oldFile: "&b[rtp] старый [filename] файл найден. Обновление"
 
 # detected a bukkit world that isn't in the config file
 # placeholder: [worldName] - the world detected
-newWorld: "&b[rtp] detected a new world '[worldName]'"
+newWorld: "&b[rtp] обнаружен новый мир '[worldName]'"
 
-updatingWorlds: "&b[rtp] updating worlds configuration..."
-updatedWorlds: "&b[rtp] updated worlds configuration!"
+updatingWorlds: "&b[rtp] обновление конфигурации миров..."
+updatedWorlds: "&b[rtp] обновление конфигурации миров выполнено!"
 
-updatingRegions: "&b[rtp] updating regions configuration..."
-updatedRegions: "&b[rtp] updated regions configuration!"
+updatingRegions: "&b[rtp] обновление конфигурации регионов..."
+updatedRegions: "&b[rtp] обновление конфигурации регионов выполнено!"
 
 # plugin reload text
-reloading: "&b[rtp] reloading..."
-reloaded: "&b[rtp] successfully reloaded."
+reloading: "&b[rtp] перезагрузка..."
+reloaded: "&b[rtp] успешно перезагружен."
 
 # plugin doesn't have the command the user requested
 # placeholder: [arg] - the argument attempted
-badArg: "&c[rtp] invalid command argument [arg]"
+badArg: "&c[rtp] недопустимый аргумент команды [arg]"
 
-consoleCmdNotAllowed: "&cYou can't do this from console. Try adding a player or world argument or not using '~'."
+consoleCmdNotAllowed: "&cВы не можете сделать это с консоли. Попробуйте добавить аргумент игрока или мира или не использовать '~'."
 
 # user doesn't have permission for the command requested
-noPerms: "&eI'm sorry, but you do not have permission to perform this command. Please contact the server administrators if you believe that this is in error."
+noPerms: "&eИзвините, но у вас нет разрешения на выполнение этой команды. Пожалуйста, свяжитесь с администраторами сервера, если вы считаете, что это ошибка."
 
 # user tried to wake a world that doesn't send messages to their location, without perms
 # placeholder: [worldName] - the world attempted in the command
-noGlobalPerms: "&eYou don't have permission to teleport to [worldName] from your location"
+noGlobalPerms: "&eУ вас нет разрешения на телепортацию в [worldName] из вашего местоположения"
 
 # world doesn't exist in bukkit
 invalidWorld: "&e[rtp] could not find world '[worldName]'"
@@ -79,25 +79,25 @@ fillRunning: "&c[rtp] fill task already running for region [region]"
 fillNotRunning: "&c[rtp] fill task not running for region [region]"
 fillStatus: "&a[rtp] completed [num] / [total] chunks for region [region]"
 
-#command descriptions
-rtp: "&b/rtp - teleport to a random location"
+#описания команд
+rtp: "&b/rtp - телепортироваться в случайное место"
 help: "&b/rtp help - see this"
-reload: "&b/rtp reload - reload config files"
-setWorld: "&b/rtp setWorld - update world settings"
-setRegion: "&b/rtp setRegion - create or update region settings"
-fill: "&b/rtp fill - attempt each location once in a region"
-info: "&b/rtp info - see plugin and region info"
+reload: "&b/rtp reload - перезагрузить конфигурационные файлы"
+setWorld: "&b/rtp setWorld - обновить настройки мира"
+setRegion: "&b/rtp setRegion - создание или обновление региональных настроек"
+fill: "&b/rtp fill - попытайтесь найти каждое местоположение один раз в регионе"
+info: "&b/rtp info - посмотрите информацию о плагине и регионе"
 
-#player teleport status placeholders for PAPI
-PLAYER_AVAILABLE: "&aAVAILABLE"
-PLAYER_COOLDOWN: "&eON COOLDOWN"
-PLAYER_SETUP: "&bPICKING A LOCATION"
-PLAYER_LOADING: "&bLOADING CHUNKS"
-PLAYER_TELEPORTING: "&bTELEPORTING"
+#заполнители статуса телепорта игрока для PAPI
+PLAYER_AVAILABLE: "&aДОСТУПНО"
+PLAYER_COOLDOWN: "&eНА ПЕРЕЗАРЯДКЕ"
+PLAYER_SETUP: "&bВЫБОР МЕСТОПОЛОЖЕНИЯ"
+PLAYER_LOADING: "&bЗАГРУЗКА ЧАНКОВ"
+PLAYER_TELEPORTING: "&bТЕЛЕПОРТАЦИЯ"
 
-#info command
-title: "&a======RTP Info======"
-chunks: "#D4AF37Chunks currently loaded by RTP: [chunks]"
+#информация о командах
+title: "&a======RTP Инфо======"
+chunks: "#D4AF37Фрагменты, загруженные в данный момент RTP: [chunks]"
 worldHeader: "#008080Worlds:"
 world: "  #21ADA8[world]"
 regionHeader: "#63C5DARegions:"
@@ -106,15 +106,15 @@ region: "  #52B2BF[region]"
 #sub-info
 worldInfo:
   - "#21ADA8[world]:"
-  - "#99EEBB  name: [name]"
-  - "#99EEBB  region: [region]"
-  - "#99EEBB  requirePermission: [requirePermission]"
-  - "#99EEBB  override: [override]"
-  - "#99EEBB  nearShape: [nearShape]"
-  - "#99EEBB  nearRadius: [nearRadius]"
-  - "#99EEBB  nearCenterRadius: [nearCenterRadius]"
-  - "#99EEBB  nearMinY: [nearMinY]"
-  - "#99EEBB  nearMaxY: [nearMaxY]"
+  - "#99EEBB  имя: [name]"
+  - "#99EEBB  регион: [region]"
+  - "#99EEBB  Требуемые разрешения: [requirePermission]"
+  - "#99EEBB  переопределение: [override]"
+  - "#99EEBB  ближайшая форма: [nearShape]"
+  - "#99EEBB  ближайший радиус: [nearRadius]"
+  - "#99EEBB  ближайший радиус Центра: [nearCenterRadius]"
+  - "#99EEBB  ближайший Минимальный Y: [nearMinY]"
+  - "#99EEBB  ближайший Максимальный Y: [nearMaxY]"
 
 regionInfo:
   - "#52B2BF[region]:"
@@ -129,7 +129,7 @@ regionInfo:
   - "#58CCED  maxY: [maxY]"
   - "#58CCED  weight: [weight]"
   - "#58CCED  requireSkyLight: [requireSkyLight]"
-  - "#58CCED  requirePermission: [requirePermission]"
+  - "#58CCED  Требуемые разрешения: [requirePermission]"
   - "#58CCED  worldBorderOverride: [worldBorderOverride]"
   - "#58CCED  uniquePlacements: [uniquePlacements]"
   - "#58CCED  expand: [expand]"
