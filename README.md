@@ -6,7 +6,7 @@
 
 Кол-во плагинов:
 
-**Всего - 11**
+**Всего - 12**
 
 **Готово - 0**
 
@@ -31,3 +31,5 @@
 10. UltimateAutoRestart - https://www.spigotmc.org/resources/1-8-1-18-3-1k-users-ultimateautorestart-need-an-autorestart-plugin-grab-the-best-one-today.64414/
 
 11. dtlTraders - https://www.spigotmc.org/resources/dtltraders.35890/
+
+12. DeluxeHub 3 - https://www.spigotmc.org/resources/deluxehub-3-professional-hub-management.49425/
