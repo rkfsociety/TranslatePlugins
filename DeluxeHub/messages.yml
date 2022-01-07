@@ -17,8 +17,8 @@ Messages:
     GAMEMODE_INVALID: "%prefix% &e%gamemode% &cне является допустимым игровым режимом"
 
   VANISH:
-    ENABLE: "%prefix% &aYou have now vanished"
-    DISABLE: "%prefix% &cYou have now unvanished"
+    ENABLE: "%prefix% &aТеперь вас не видно"
+    DISABLE: "%prefix% &cТеперь вас видно"
 
   FLIGHT:
     ENABLE: "%prefix% &aВы включили полет"
@@ -47,32 +47,32 @@ Messages:
     COMMAND_BLOCKED: "%prefix% &cЭта команда была заблокированна администратором"
 
   SCOREBOARD:
-    TOGGLE: "%prefix% &aYou have %value% the scoreboard"
+    TOGGLE: "%prefix% &aУ тебя есть %value% табло"
 
   DOUBLE_JUMP:
     COOLDOWN_ACTIVE: "%prefix% &cВы должны подождать &e%time%s &cчтобы снова совершить двойной прыжок!"
 
   WORLD_EVENT_MODIFICATIONS:
-    ITEM_DROP: "%prefix% &cYou are not allowed to drop items."
-    ITEM_PICKUP: "%prefix% &cYou are not allowed to pickup items."
-    BLOCK_PLACE: "%prefix% &cYou are not allowed to place blocks."
-    BLOCK_BREAK: "%prefix% &cYou are not allowed to break blocks."
-    BLOCK_INTERACT: "%prefix% &cYou are not allowed to use this."
-    PLAYER_PVP: "%prefix% &cYou are not allowed to pvp here."
+    ITEM_DROP: "%prefix% &cВам не разрешается бросать предметы."
+    ITEM_PICKUP: "%prefix% &cВам не разрешается подбирать предметы."
+    BLOCK_PLACE: "%prefix% &cВам не разрешается размещать блоки."
+    BLOCK_BREAK: "%prefix% &cВам не разрешается ломать блоки."
+    BLOCK_INTERACT: "%prefix% &cВам не разрешается использовать это."
+    PLAYER_PVP: "%prefix% &cВам не разрешается участвовать в пвп здесь."
 
   HOLOGRAMS:
-    EMPTY: "%prefix% &cCould not find any holograms."
-    ALREADY_EXISTS: "%prefix% &cThere is a hologram with this name already &7(%name%)&c."
-    INVALID_HOLOGRAM: "%prefix% &cThere is no hologram with this name &7(%name%)&c."
-    INVALID_LINE: "%prefix% &cCould not find hologram line."
+    EMPTY: "%prefix% &cНе удалось найти никаких голограмм."
+    ALREADY_EXISTS: "%prefix% &cГолограмма с этим именем уже есть &7(%name%)&c."
+    INVALID_HOLOGRAM: "%prefix% &cГолограммы с таким названием не существует &7(%name%)&c."
+    INVALID_LINE: "%prefix% &cНе удалось найти строку голограммы."
 
-    SPAWNED: "%prefix% &7Created new hologram with name &b%name%&7."
-    DESPAWNED: "%prefix% &7Removed hologram with name &b%name%&7."
-    MOVED: "%prefix% &7Moved hologram &b%name%&7."
+    SPAWNED: "%prefix% &7Создана новая голограмма с именем &b%name%&7."
+    DESPAWNED: "%prefix% &7Удалена голограмма с именем &b%name%&7."
+    MOVED: "%prefix% &7Голограмма перемещена &b%name%&7."
 
-    LINE_SET: "%prefix% &7Set line &b%line%&7."
-    ADDED_LINE: "%prefix% &7Added new line."
-    REMOVED_LINE: "%prefix% &7Removed line &b%line%&7."
+    LINE_SET: "%prefix% &7Выбранная строка &b%line%&7."
+    ADDED_LINE: "%prefix% &7Добавлена новая строка."
+    REMOVED_LINE: "%prefix% &7Удаленна строка &b%line%&7."
 
   ANTI_WORLD_DOWNLOADER:
-    ADMIN_NOTIFY: "%prefix% &f%player% &chas joined with the World Downloader Mod, their ability to use it has been restricted by our systems."
+    ADMIN_NOTIFY: "%prefix% &f%player% &cприсоединился с модом World Downloader, возможность использовать его была ограничена нашими системами."

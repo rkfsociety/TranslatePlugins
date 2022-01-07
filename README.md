@@ -8,7 +8,7 @@
 
 **Всего - 12**
 
-**Готово - 0**
+**Готово - 1 (DeluxeHub 3)**
 
 1. AuctionHouse - https://www.spigotmc.org/resources/auctionhouse.61836/
 
