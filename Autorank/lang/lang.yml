@@ -1,0 +1,156 @@
+# Language file
+
+ADVANCEMENT-MULTIPLE-REQUIREMENT: Obtain at least {0} advancements
+ADVANCEMENT-SINGLE-REQUIREMENT: Obtain Advancement '{0}'
+ALREADY-COMPLETED-PATH: but has already completed this path before.
+ALREADY-COMPLETED-REQUIREMENT: '&cYou have already completed this requirement!'
+ALREADY-ON-THIS-PATH: '&cYou''re already on this path!'
+AND: and
+ANIMALS-BRED-REQUIREMENT: Breed at least {0} animals
+AURELIUM-SKILLS-MANA-REQUIREMENT: Have at least {0} mana.
+AURELIUM-SKILLS-SKILL-REQUIREMENT: Reach level {0} in {1}.
+AURELIUM-SKILLS-STAT-REQUIREMENT: Reach level {0} in {1}.
+AURELIUM-SKILLS-XP-REQUIREMENT: Have {0} xp in {1}.
+AUTOMATICALLY-ASSIGNED-PATH: '&2You have automatically been assigned the path ''&6{0}&2''.'
+AUTORANK-NUMBER-OF-ACTIVE-PATHS-REQUIREMENT: Have at least {0} active paths.
+AUTORANK-NUMBER-OF-COMPLETED-PATHS-REQUIREMENT: Have at least completed {0} paths.
+AUTORANK-RELOADED: '&3Autorank''s files have been reloaded.'
+AUTORANK-SPECIFIC-ACTIVE-PATH-REQUIREMENT: Have '{0}' set as an active path.
+AUTORANK-SPECIFIC-COMPLETED-PATH-REQUIREMENT: Have completed path '{0}'.
+AUTORANK-TIMES-HEADER: '&a----------- [Times of &6{0}&a] -----------'
+AUTORANK-TIMES-PLAYER-PLAYED: '&6{0}&9 played:'
+AUTORANK-TIMES-THIS-MONTH: '&eThis month: &d{0}'
+AUTORANK-TIMES-THIS-WEEK: '&cThis week: &d{0}'
+AUTORANK-TIMES-TODAY: '&3Today: &d{0}'
+AUTORANK-TIMES-TOTAL: '&aTotal: &d{0}'
+BENTOBOX-LEVEL-REQUIREMENT: Have at least an island level of {0}.
+BLOCKS-MOVED-REQUIREMENT: Travel at least {0} {1}
+BROKEN-BLOCKS-REQUIREMENT: Break at least {0}
+CAKESLICES-EATEN-REQUIREMENT: Eat at least {0} slices of cake
+CANNOT-CHECK-CONSOLE: '&cCannot check for console!'
+CHOSEN-PATH: '&2You have chosen &7''{0}''&2.'
+COMMAND-RESULT: 'Perform the following command(s): {0}'
+COMPLETED-PATH-NOW: ' and now completed his path.'
+COMPLETED-REQUIREMENT: '&2You completed requirement &6{0}&2: &3{1}'
+DAMAGE-TAKEN-REQUIREMENT: Take at least {0} damage
+DAY-PLURAL: days
+DAY-SINGULAR: day
+DONE-MARKER: Done
+DO-NOT-MEET-REQUIREMENTS-FOR: 'You do not meet requirements for #&6{0}&c:'
+EFFECT-RESULT: Play '{0}' effect on you.
+ESSENTIALS-GEOIP-LOCATION-REQUIREMENT: Be from area {0}
+EXP-REQUIREMENT: Have at least level {0} in exp
+FACTIONS-POWER-REQUIREMENT: Have at least {0} power in your faction
+FISH-CAUGHT-REQUIREMENT: Catch at least {0} fish
+FOOD-EATEN-REQUIREMENT: Eat at least {0}
+GAMEMODE-REQUIREMENT: Be in gamemode {0}
+GLOBAL-TIME-REQUIREMENT: Play for at least {0} on any of the servers
+GRIEF-PREVENTION-BONUS-BLOCKS-REQUIREMENT: Have at least {0} bonus blocks in GriefPrevention
+GRIEF-PREVENTION-CLAIMED-BLOCKS-REQUIREMENT: Have at least {0} claimed blocks in GriefPrevention
+GRIEF-PREVENTION-CLAIMS-COUNT-REQUIREMENT: Have at least {0} claims in GriefPrevention
+GRIEF-PREVENTION-REMAINING-BLOCKS-REQUIREMENT: Have at least {0} remaining blocks
+  to use in claims in GriefPrevention
+GROUP-REQUIREMENT: Be in group {0}.
+HAS-PLAYED-FOR: '&6{0}&7 has played for {1}.'
+HOUR-PLURAL: hours
+HOUR-SINGULAR: hour
+INVALID-FORMAT: '&cInvalid format, use {0}.'
+INVALID-LEADERBOARD-TYPE: '&cYou have not specified a valid leaderboard type! &eOnly
+  ''total'', ''daily'', ''weekly'' and ''monthly'' are allowed.'
+INVALID-NUMBER: '&c{0} is not a valid number!'
+IN-BIOME-REQUIREMENT: Be in biome {0}
+ITEMS-CRAFTED-REQUIREMENT: Craft at least {0} item(s)
+ITEMS-ENCHANTED-REQUIREMENT: Enchant at least {0} items
+ITEM-CRAFTED-REQUIREMENT: Craft at least {0} {1}.
+ITEM-REQUIREMENT: Obtain {0}
+ITEM-THROWN-REQUIREMENT: Throw at least {0} {1}.
+JOBS-CURRENT-POINTS-REQUIREMENT: Have at least {0} points in Jobs
+JOBS-EXPERIENCE-REQUIREMENT: Have at least {0} experience in the job '{1}'
+JOBS-LEVEL-REQUIREMENT: Have at least level {0} in the job '{1}'
+JOBS-TOTAL-POINTS-REQUIREMENT: Have at least {0} points in total in Jobs
+LAST-LOGIN-LOGIN-REQUIREMENT: Been at least {0} minutes since last login
+LAST-LOGIN-LOGOUT-REQUIREMENT: Been at least {0} minutes since last logout
+LEADERBOARD-FOOTER: '&a------------------------------------'
+LEADERBOARD-HEADER-ALL-TIME: '&a-------- Leaderboard (All time) --------'
+LEADERBOARD-HEADER-DAILY: '&a-------- Leaderboard (Daily time) --------'
+LEADERBOARD-HEADER-MONTHLY: '&a-------- Leaderboard (Monthly time) --------'
+LEADERBOARD-HEADER-WEEKLY: '&a-------- Leaderboard (Weekly time) --------'
+LOCATION-REQUIREMENT: Be at {0}
+MCMMO-POWER-LEVEL-REQUIREMENT: Have at least power level {0}
+MCMMO-SKILL-LEVEL-REQUIREMENT: Have at least level {0} in {1}
+MCRPG-POWER-LEVEL-REQUIREMENT: Have at least power level {0}
+MCRPG-SKILL-LEVEL-REQUIREMENT: Have at least level {0} in {1}
+MEETS-ALL-REQUIREMENTS: meets all the requirements for path {0}
+MEETS-ALL-REQUIREMENTS-WITHOUT-RANK-UP: meets all the requirements
+MESSAGE-RESULT: 'Send you the following message: {0}'
+MINUTE-PLURAL: minutes
+MINUTE-SINGULAR: minute
+MONEY-REQUIREMENT: Have at least {0}
+MONEY-RESULT: Reward you with {0}.
+MYSQL-IS-NOT-ENABLED: '&cMySQL is not enabled!'
+NO-FURTHER-PATH-FOUND: none (no path found)
+NO-PATHS-TO-CHOOSE: '&cThere are no paths that you can choose.'
+NO-PATH-FOUND-WITH-THAT-NAME: '&cThere was no ranking path found with that name.'
+NO-PATH-LEFT-TO-CHOOSE: '&2{0} has played for {1} and currently has no path. There
+  are no paths left to choose.'
+NO-PERMISSION: '&cYou need ({0}) for that!'
+OPTIONAL-MARKER: Optional
+PARTIAL-COMPLETION-NOT-ENABLED: '&cYou cannot use this command as this server has
+  not enabled partial completion!'
+PATH-IS-NOT-ACTIVE: You are not active on path {0}.
+PATH-NOT-ALLOWED-TO-RETAKE: '&cYou already completed this path before. You are not
+  allowed to retake it!'
+PERMISSION-REQUIREMENT: Have permission {0}
+PLACED-BLOCKS-REQUIREMENT: Place at least {0}
+PLANTS-POTTED-REQUIREMENT: Pot at least {0} plants
+PLAYERPOINTS-POINTS-REQUIREMENT: Obtain at least {0} player points.
+PLAYER-IS-EXCLUDED: '&c{0} is excluded from ranking!'
+PLAYER-IS-INVALID: '&6{0}&c has never been logged before.'
+PLAYER-KILLS-REQUIREMENT: Kill at least {0} player(s)
+PLAYER-NOT-ONLINE: '&6{0}&c is not online!'
+PLAYTIME-CHANGED: Changed playtime of {0} to {1}.
+PROGRESS-RESET: '&eYour progress for the path is reset.'
+PROGRESS-RESTORED: '&eYour progress for the path has been restored.'
+QUESTS-ACTIVE-QUESTS-REQUIREMENT: Have {0} quests active at the same time.
+QUESTS-COMPLETED-QUESTS-REQUIREMENT: Complete at least {0} quests.
+QUESTS-COMPLETE-SPECIFIC-QUEST-REQUIREMENT: Complete the quest '{0}'.
+QUESTS-QUEST-POINTS-REQUIREMENT: Obtain at least {0} quest points.
+RANK-CHANGE-RESULT: Change rank to {0}.
+REQUIREMENT-PROGRESS: 'Progress of requirement {0}:'
+RESET-DAILY-TIME: '&6[Autorank] &5A new day has arrived! &eAll daily times have been
+  reset.'
+RESET-MONTHLY-TIME: '&6[Autorank] &5A new month has arrived! &eAll monthly times have
+  been reset.'
+RESET-WEEKLY-TIME: '&6[Autorank] &5A new week has arrived! &eAll weekly times have
+  been reset.'
+RPGME-COMBAT-LEVEL-REQUIREMENT: Have at least a combat level of {0} in RPGme.
+RPGME-POWER-LEVEL-REQUIREMENT: Have at least a combined level {0} of RPGMe.
+RPGME-SKILL-LEVEL-REQUIREMENT: Have at least level {0} in {1} in RPGme.
+SECOND-PLURAL: seconds
+SECOND-SINGULAR: second
+SPAWN-FIREWORK-RESULT: Spawn firework at {0}.
+STORAGE-IMPORTED: New storage has been imported!
+SUCCESSFULLY-COMPLETED-REQUIREMENT: 'You have successfully completed requirement &6{0}&a:'
+TELEPORT-RESULT: Get teleported to {0}.
+TIMES-DIED-REQUIREMENT: Die at least {0} times
+TIMES-SHEARED-REQUIREMENT: Shear at least {0} sheep
+TIMES-TRADED-WITH-VILLAGERS-REQUIREMENT: Trade at least {0} with villagers
+TIME-DAILY-REQUIREMENT: ' Play for at least {0} in a single day.'
+TIME-MONTHLY-REQUIREMENT: ' Play for at least {0} in a month.'
+TIME-REQUIREMENT: Play for at least {0}
+TIME-WEEKLY-REQUIREMENT: ' Play for at least {0} in a week.'
+TOTAL-MOBS-KILLED-REQUIREMENT: Kill at least {0}
+TOTAL-TIME-REQUIREMENT: Be with this server for at least {0}
+TOWNY-HAS-NATION-REQUIREMENT: Need to be part of a nation.
+TOWNY-HAS-TOWN-REQUIREMENT: Need to be part of a town.
+TOWNY-IS-KING-REQUIREMENT: Need to be king of a nation.
+TOWNY-IS-MAYOR-REQUIREMENT: Need to be mayor of a town.
+TOWNY-NEED-NUMBER-OF-TOWN-BLOCKS: Need to have at least {0} town blocks.
+UHC-STATS-DEATHS-REQUIREMENT: Get at least {0} deaths.
+UHC-STATS-KILLS-REQUIREMENT: Get at least {0} kills.
+UHC-STATS-WINS-REQUIREMENT: Get at least {0} wins.
+UNKNOWN-PLAYER: '&cPlayer {0} is unknown and couldn''t be identified.'
+VOTE-REQUIREMENT: Vote at least {0} times
+WORLD-GUARD-REGION-REQUIREMENT: Be in region {0}
+WORLD-REQUIREMENT: Be in {0}
+YOU-ARE-A-ROBOT: '&cYou are a robot, {0}'
