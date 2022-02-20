@@ -33,3 +33,5 @@
 11. dtlTraders - https://www.spigotmc.org/resources/dtltraders.35890/
 
 12. DeluxeHub 3 - https://www.spigotmc.org/resources/deluxehub-3-professional-hub-management.49425/
+
+13. Autorank - https://www.spigotmc.org/resources/autorank.3239/
