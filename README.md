@@ -6,7 +6,7 @@
 
 Кол-во плагинов:
 
-**Всего - 6**
+**Всего - 5**
 
 **Готово - 0**
 
@@ -16,8 +16,6 @@
 
 3. FastAsyncWorldEdit - https://www.spigotmc.org/resources/fast-async-worldedit.13932/ -
 
-4. HeadsPlus - https://www.spigotmc.org/resources/headsplus-»-1-15-2-1-18.40265/ -
+4. MarriageMaster - https://www.spigotmc.org/resources/marriage-master-mc-1-7-1-18.19273/ -
 
-5. MarriageMaster - https://www.spigotmc.org/resources/marriage-master-mc-1-7-1-18.19273/ -
-
-6. DeathMessages - https://www.spigotmc.org/resources/deathmessages.3789/ -
+5. DeathMessages - https://www.spigotmc.org/resources/deathmessages.3789/ -
