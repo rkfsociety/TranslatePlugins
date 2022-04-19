@@ -97,7 +97,7 @@
   "message.listing.order.oldest": "Сначала самые старые",
   "message.listing.order.value": "&9Выбрано: &e{0}",
   "message.listing.price.key": "Price:",
-  "message.listing.price.value": "&9Price: &e${0}",
+  "message.listing.price.value": "&9Цена: &e${0}",
   "message.listing.purchased.key": "Purchased:",
   "message.listing.purchased.value": "&9Приобретенный: &e{0} &eтому назад",
   "message.listing.repair_cost": "&8Стоимость ремонта: {0}",
