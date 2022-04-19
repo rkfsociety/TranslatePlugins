@@ -22,4 +22,4 @@
 
 6. MarriageMaster - https://www.spigotmc.org/resources/marriage-master-mc-1-7-1-18.19273/
 
-7. RTP - https://www.spigotmc.org/resources/rtp.94812/
+7. DeathMessages - https://www.spigotmc.org/resources/deathmessages.3789/
