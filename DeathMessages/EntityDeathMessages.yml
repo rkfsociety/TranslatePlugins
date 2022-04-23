@@ -48,18 +48,18 @@ Entities:
     Weapon:
       - "%killer% murdered a dog using %weapon%"
     Melee:
-      - "%killer% killed a random dog"
+      - "%killer% убил случайную собаку"
     Void:
-      - "%killer% pushed a random dog into the void"
+      - "%killer% столкнул случайную собаку в пустоту"
     TNT:
-      - "%killer% blew up a dog!"
+      - "%killer% взорвал собаку!"
     Respawn-Anchor:
-      - "%killer% blew up a dog using a respawn-anchor"
+      - "%killer% взорвал собаку, используя якорь возрождения"
   enderdragon:
     Projectile-Arrow:
       - "%killer% 360'd Y Y'd the &6&lEnder Dragon &cusing %weapon%"
     Melee:
-      - "The Ender Dragon was taken down by %killer%!"
+      - "Дракон Эндера был уничтожен %killer%!"
 
 #Mythic-Mob Entities https://www.spigotmc.org/resources/%E2%9A%94-mythicmobs-free-version-%E2%96%BAthe-1-custom-mob-creator%E2%97%84.5702/
 Mythic-Mobs-Entities:

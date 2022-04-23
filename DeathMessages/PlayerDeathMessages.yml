@@ -5,14 +5,14 @@
 # Player Death Messages Config
 #
 #Placeholders:
-# %player% - returns the player name
-# %player_display% - returns the custom display name of the player
-# %weapon% - returns a tooltip of the item name, lore, and enchantments
+# %player% - возвращает имя игрока
+# %player_display% - возвращает пользовательское отображаемое имя проигрывателя
+# %weapon% - возвращает всплывающую подсказку с названием предмета, знаниями и заклинаниями
 # %killer% - returns the entity's name. If there is no name set, it will be the entity type.
 # %killer_display% - if the killer is a player, returns the display name of the player
 # %killer_type% - returns the entity type from Mobs.<Mob> in Messages.yml
-# %biome% - returns the biome the player was in
-# %world% - returns the world name
+# %biome% - возвращает биом, в котором находился игрок
+# %world% - возвращает название мира
 # %world_environment% - returns the environment of the world (normal, nether, the_end) (These are configurable in Messages.yml (Environment))
 # %x% - returns the x position the player died at.
 # %y% - returns the y position the player died at.
@@ -90,15 +90,15 @@ Basic-Mode:
 
 Natural-Cause:
   Bed:
-    - "%player% tried sleeping in the %world_environment% :kappa:"
+    - "%player% попробовал поспать в %world_environment% :kappa:"
   Respawn-Anchor:
-    - "%player% tried using the respawn anchor in the %world_environment%!"
+    - "%player% пробовал использовать якорь возрождения в %world_environment%!"
   Contact:
-    - "%player% was pricked to death"
+    - "%player% был заколот до смерти"
   Melee:
-    - "%player% killed themselves"
+    - "%player% покончил с собой"
   Projectile-Unknown:
-    - "%player% shot themselves"
+    - "%player% застрелился"
   Projectile-Arrow:
     - "%player% shot themselves with %weapon%"
   Projectile-Egg:
@@ -114,10 +114,10 @@ Natural-Cause:
   Projectile-Trident:
     - "%player% shot themselves with trident"
   Suffocation:
-    - "%player% was squished to death"
+    - "%player% был раздавлен до смерти"
     - "PERMISSION[deathmessages.premium]%player% was mashed up pretty good."
   Fall:
-    - "%player% fell from a high place"
+    - "%player% упал с высоты"
   Climbable:
     - "%player% tried climbing to greater heights and fell off %climbable%"
   Fire:
@@ -133,7 +133,7 @@ Natural-Cause:
   Explosion:
     - "%player% blew up"
   TNT:
-    - "%player% was playing with tnt"
+    - "%player% играл с тротилом"
   Firework:
     - "%player% thought playing with fireworks was a good idea"
   End-Crystal:

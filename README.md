@@ -6,7 +6,7 @@
 
 Кол-во плагинов:
 
-**Всего - 5**
+**Всего - 6**
 
 **Готово - 0**
 
@@ -19,3 +19,5 @@
 4. MarriageMaster - https://www.spigotmc.org/resources/marriage-master-mc-1-7-1-18.19273/ -
 
 5. DeathMessages - https://www.spigotmc.org/resources/deathmessages.3789/ -
+
+6. Brewery - https://www.spigotmc.org/resources/brewery.3082/  -
