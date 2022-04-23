@@ -156,7 +156,7 @@ customItems:
 cauldron:
   # Example with all possible entries
   ex:
-    name: Example
+    name: Админская бражка
     ingredients:
       - Bedrock/2
       - Diamond
@@ -166,8 +166,7 @@ cauldron:
       - 'WHITE/10'
       - '800000/25' # maroon
     lore:
-      - An example for a Base Potion
-      - This is how it comes out of a Cauldron
+      - Смесь бедрока с алмазами)))
     customModelData: 545
 
   # -- One Ingredient: --
@@ -437,7 +436,7 @@ cauldron:
 recipes:
   #  Example Recipe with every possible entry first:
   ex:
-    name: Bad Example/Example/Good Example
+    name: Плохая админская бражка/Админская бражка/Отличная админская бражка
     ingredients:
       - Diamond/1
       - Spruce_Planks/8
@@ -454,9 +453,7 @@ recipes:
     difficulty: 3
     alcohol: 14
     lore:
-      - This is an examble brew
-      - ++Just a normal Example
-      - This text would be on the brew
+      - Смесь бедрока с алмазами
       - + Smells disgusting
       - ++ Smells alright
       - +++ Smells really good
@@ -465,8 +462,8 @@ recipes:
       - + weather rain
     playercommands:
       - homes
-    drinkmessage: Tastes good
-    drinktitle: Warms you from inside
+    drinkmessage: Зря ты это выпил
+    drinktitle: Согревает тебя изнутри
     customModelData: 556/557/557
     effects:
       - FIRE_RESISTANCE/20
@@ -955,8 +952,8 @@ distortBypass:
 # percentage: Probability of replacing a Word in percent
 
 words:
--  replace: s
-   to: sh
+-  replace: с
+   to: сш
    percentage: 90
    alcohol: 30
 
@@ -998,8 +995,8 @@ words:
    percentage: 40
    alcohol: 15
 
--  replace: you
-   to: u
+-  replace: ты
+   to: ы
    percentage: 40
 
 -  replace: u
