@@ -475,7 +475,7 @@ recipes:
       - POISON/1-0/20-0
 
   wheatbeer:
-    name: Skunky Wheatbeer/Wheatbeer/Fine Wheatbeer
+    name: Вонючее пшеничное пиво/Пшеничное пиво/Прекрасное Пшеничное пиво
     ingredients:
       - Wheat/3
     cookingtime: 8
@@ -488,7 +488,7 @@ recipes:
     lore: +++ &8Refreshing
 
   beer:
-    name: Skunky Beer/Beer/Fine Beer
+    name: Вонючее пиво/Пиво/Прекрасное Пиво
     ingredients:
       - Wheat/6
     cookingtime: 8
@@ -498,7 +498,7 @@ recipes:
     color: 'ffd333' # Bright Orange
     difficulty: 1
     lore:
-      - +++ &8Crisp taste
+      - +++ &8Хрустящий вкус
     alcohol: 6
 
   darkbeer:
@@ -512,7 +512,7 @@ recipes:
     color: '650013' # Dark Red-Brown
     difficulty: 2
     lore:
-      - +++ &8Roasted taste
+      - +++ &8Жареный вкус
     alcohol: 7
 
   wine:

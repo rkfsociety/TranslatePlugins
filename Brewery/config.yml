@@ -5,7 +5,7 @@
 # Defaults are written in []
 
 # Languagefile to be used (found in plugins/Brewery/languages)
-language: en
+language: ru
 
 # If the player wakes up at /home when logging in after excessive drinking (/home plugin must be installed!) [true]
 enableHome: true
