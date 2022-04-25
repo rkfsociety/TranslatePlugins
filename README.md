@@ -8,9 +8,9 @@
 
 **Всего - 6**
 
-**Готово - 0**
+**Готово - 1**
 
-1. AuctionHouse - https://www.spigotmc.org/resources/auctionhouse.61836/ -
+1. AuctionHouse - https://www.spigotmc.org/resources/auctionhouse.61836/ +
 
 2. ChatManager - https://www.spigotmc.org/resources/chat-manager-1-7-1-18-30-features-and-40-commands.52245/ -
 
