@@ -68,13 +68,13 @@ Anti_Spam:
 Anti_Swear:
   Chat:
     Message: "{Prefix} &cПожалуйста, не ругайтесь в чате."
-    Notify_Staff_Format: "&7[Anti-Swear Chat] &f{player}: &7{message}"
+    Notify_Staff_Format: "&7[Анти-ругань в чате] &f{player}: &7{message}"
   Commands:
     Message: "{Prefix} &cПожалуйста, не ругайтесь в командах."
-    Notify_Staff_Format: "&7[Anti-Swear Commands] &f{player}: &7{message}"
+    Notify_Staff_Format: "&7[Анти-ругань в командах] &f{player}: &7{message}"
   Signs:
     Message: "{Prefix} &cПожалуйста, не ругайтесь на табличках."
-    Notify_Staff_Format: "&7[Anti-Swear Signs] &f{player}: &7{message}"
+    Notify_Staff_Format: "&7[Анти-ругань на табличках] &f{player}: &7{message}"
   Blacklisted_Word:
     Added: "{Prefix} &7Вы добавили слово &c{word} &7в черный список против ругательств."
     Exists: "{Prefix} &7Слово &c{word} &7уже добавлено в черный список по борьбе с ругательствами."
@@ -82,16 +82,16 @@ Anti_Swear:
     Not_Found: "{Prefix} &7Слово &c{word} &7не входит в черный список по борьбе с ругательствами."
   Whitelisted_Word:
     Added: "{Prefix} &7Вы добавили слово &c{word} &7в белый список против ругательств."
-    Exists: "{Prefix} &7Слово &c{word} &7is already added to the anti swears whitelist."
+    Exists: "{Prefix} &7Слово &c{word} &7уже добавлен в белый список анти-ругательств."
     Removed: "{Prefix} &7Вы удалили слово &c{word} &7из белого списка против ругательств."
-    Not_Found: "{Prefix} &7Слово &c{word} &7is not in the anti swears whitelist."
+    Not_Found: "{Prefix} &7Слово &c{word} &7его нет в белом списке анти-ругательств."
     
 #=================================================================================================#
 # Anti-Unicode Messages
 #=================================================================================================#
 Anti_Unicode:
   Message: "{Prefix} &cПожалуйста, не используйте специальные символы в чате."
-  Notify_Staff_Format: "&7[Anti-Unicode] &f{player}: &7{message}"
+  Notify_Staff_Format: "&7[Анти-Юникод] &f{player}: &7{message}"
     
 #=================================================================================================#
 # Auto-Broadcast Messages
@@ -99,7 +99,7 @@ Anti_Unicode:
 Auto_Broadcast:
   List: "&c{section}'s &7автоматическая широковещательная передача сообщений:"
   Added: "{Prefix} &r{message} &7был добавлен в &c{section} &7messages&7!"
-  Created: "{Prefix} &7Сотворил мир &c'{world}' &7with the message &r{message}&7."
+  Created: "{Prefix} &7Сотворил мир &c'{world}' &7с сообщением &r{message}&7."
   
 #=================================================================================================#
 # Banned Commands Messages
@@ -107,10 +107,10 @@ Auto_Broadcast:
 Banned_Commands:
   Message: "{Prefix} &cУ вас нет разрешения на использование команды &7/{command}&c."
   Command_Added: "{Prefix} &7Вы добавили команду &c{command} &7to the list of banned commands."
-  Command_Exists: "{Prefix} &7The command &c{command} &7is already added to the list of banned commands."
-  Command_Removed: "{Prefix} &7You removed the command &c{command} &7from the list of banned commands."
-  Command_Not_Found: "{Prefix} &7The command &c{command} &7is not in the list of banned commands."
-  Notify_Staff_Format: "&7[Blocked-Cmd] &f{player}: &7{command}"
+  Command_Exists: "{Prefix} &7Команда &c{command} &7 уже добавлена в список запрещенных команд."
+  Command_Removed: "{Prefix} &7Вы удалили команду &c {command} &7 из списка запрещенных команд."
+  Command_Not_Found: "{Prefix} &7Команда &c{command} &7 отсутствует в списке запрещенных команд."
+  Notify_Staff_Format: "&7[Заблокирован-Cmd] &f{player}: &7{command}"
   
 #=================================================================================================#
 # Chat Radius Messages
@@ -162,40 +162,40 @@ Mute_Chat:
 # Per-World Chat Messages
 #=================================================================================================#
 Per_World_Chat:
-  Bypass_Enabled: "{Prefix} &aPer-world chat bypass has been enabled."
-  Bypass_Disabled: "{Prefix} &cPer-world chat bypass has been disabled."
+  Bypass_Enabled: "{Prefix} &aВключен обход чата по всему миру."
+  Bypass_Disabled: "{Prefix} &cОбход чата по всему миру был отключен."
   
 #=================================================================================================#
 # Ping Messages
 #=================================================================================================#
 Ping:
-  Players_Ping: "{Prefix} &7Your current ping is &c{ping} ms."
-  Targets_Ping: "{Prefix} &7{target}'s current ping is &c{ping} ms."
+  Players_Ping: "{Prefix} &7Ваш текущий пинг равен &c{ping} ms."
+  Targets_Ping: "{Prefix} &7{target}'s текущий пинг равен &c{ping} ms."
   
 #=================================================================================================#
 # Private Message Messages
 #=================================================================================================#
 Private_Message:
-  Recipient_Not_Found: "{Prefix} &cYou have nobody to reply to."
-  Toggled: "{Prefix} &cThat player cannot receive messages right now."
-  Ignored: "{Prefix} &c{target} &7is currently ignoring you and cant receive any private messages."
-  Self: "{Prefix} &cYou cannot message yourself."
-  AFK: "{Prefix} &c{target} &7is currently afk."
+  Recipient_Not_Found: "{Prefix} &cВам не перед кем отвечать."
+  Toggled: "{Prefix} &cЭтот игрок не может получать сообщения прямо сейчас."
+  Ignored: "{Prefix} &c{target} &7в настоящее время игнорирует вас и не может получать никаких личных сообщений."
+  Self: "{Prefix} &cВы не можете отправить сообщение самому себе."
+  AFK: "{Prefix} &c{target} &7в настоящее время является АФК."
   
 #=================================================================================================#
 # Social Spy Messages
 #=================================================================================================#
 Social_Spy:
   Format: "&b&l(*)&bSpy &f&l[&e{player} &d-> &e{receiver}&f&l] &b{message}"
-  Enabled: "{Prefix} &aSocial Spy has been enabled."
-  Disabled: "{Prefix} &cSocial Spy has been disabled."
+  Enabled: "{Prefix} &aСоциальный шпион был включен."
+  Disabled: "{Prefix} &cСоциальный шпион был отключен."
   
 #=================================================================================================#
 # Staff Chat Messages
 #=================================================================================================#
 Staff_Chat:
-  Enabled: "{Prefix} &aStaff chat has been enabled."
-  Disabled: "{Prefix} &cStaff chat has been disabled."
+  Enabled: "{Prefix} &aВключен чат персонала."
+  Disabled: "{Prefix} &cЧат персонала был отключен."
   
 #=================================================================================================#
 # Toggle Chat Messages

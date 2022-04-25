@@ -8,11 +8,11 @@
 
 **Всего - 6**
 
-**Готово - 1**
+**Готово - 2**
 
 1. AuctionHouse - https://www.spigotmc.org/resources/auctionhouse.61836/ +
 
-2. ChatManager - https://www.spigotmc.org/resources/chat-manager-1-7-1-18-30-features-and-40-commands.52245/ -
+2. ChatManager - https://www.spigotmc.org/resources/chat-manager-1-7-1-18-30-features-and-40-commands.52245/ +
 
 3. FastAsyncWorldEdit - https://www.spigotmc.org/resources/fast-async-worldedit.13932/ -
 
