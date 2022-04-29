@@ -145,7 +145,7 @@ Natural-Cause:
   Suicide:
     - "%player% покончил с собой"
   Starvation:
-    - "%player% кончилась еда, и он умер"
+    - "%player% кончилась еда и он умер"
   Poison:
     - "%player% играл с ядом"
   Magic:
