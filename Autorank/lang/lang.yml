@@ -1,21 +1,24 @@
 # Language file
 
-ADVANCEMENT-MULTIPLE-REQUIREMENT: Obtain at least {0} advancements
-ADVANCEMENT-SINGLE-REQUIREMENT: Obtain Advancement '{0}'
-ALREADY-COMPLETED-PATH: but has already completed this path before.
-ALREADY-COMPLETED-REQUIREMENT: '&cYou have already completed this requirement!'
-ALREADY-ON-THIS-PATH: '&cYou''re already on this path!'
-AND: and
-ANIMALS-BRED-REQUIREMENT: Breed at least {0} animals
-AURELIUM-SKILLS-MANA-REQUIREMENT: Have at least {0} mana.
-AURELIUM-SKILLS-SKILL-REQUIREMENT: Reach level {0} in {1}.
-AURELIUM-SKILLS-STAT-REQUIREMENT: Reach level {0} in {1}.
-AURELIUM-SKILLS-XP-REQUIREMENT: Have {0} xp in {1}.
-AUTOMATICALLY-ASSIGNED-PATH: '&2You have automatically been assigned the path ''&6{0}&2''.'
-AUTORANK-NUMBER-OF-ACTIVE-PATHS-REQUIREMENT: Have at least {0} active paths.
-AUTORANK-NUMBER-OF-COMPLETED-PATHS-REQUIREMENT: Have at least completed {0} paths.
-AUTORANK-RELOADED: '&3Autorank''s files have been reloaded.'
-AUTORANK-SPECIFIC-ACTIVE-PATH-REQUIREMENT: Have '{0}' set as an active path.
+ACTIVE: Активные задания
+ADVANCEMENT-MULTIPLE-REQUIREMENT: Получить по крайней мере {0} достижений
+ADVANCEMENT-SINGLE-REQUIREMENT: Получить достижений '{0}'
+ALREADY-COMPLETED-PATH: уже выполнил это задание раньше.
+ALREADY-COMPLETED-REQUIREMENT: '&cВы уже выполнили это требование!'
+ALREADY-ON-THIS-PATH: '&cТы уже на этом задании!'
+AND: и
+AND-YOUR-PROGRESS: и ваш прогресс на этом задании был сброшен.
+ANIMALS-BRED-REQUIREMENT: Разведите не менее {0} животных
+ASSIGNED: '&aПрисвоено значение "&6{1}&a" {0}'
+AURELIUM-SKILLS-MANA-REQUIREMENT: Иметь по крайней мере {0} маны.
+AURELIUM-SKILLS-SKILL-REQUIREMENT: Достигните уровня {0} в {1}.
+AURELIUM-SKILLS-STAT-REQUIREMENT: Достигните уровня {0} в {1}.
+AURELIUM-SKILLS-XP-REQUIREMENT: Имейте {0} опыта в {1}.
+AUTOMATICALLY-ASSIGNED-PATH: '&2Вам автоматически было назначено задание ''&6{0}&2''.'
+AUTORANK-NUMBER-OF-ACTIVE-PATHS-REQUIREMENT: Иметь по крайней мере {0} активных заданий.
+AUTORANK-NUMBER-OF-COMPLETED-PATHS-REQUIREMENT: Иметь по крайней мере завершенных заданий {0}.
+AUTORANK-RELOADED: '&3Файлы Autorank были перезагружены.'
+AUTORANK-SPECIFIC-ACTIVE-PATH-REQUIREMENT: Установите '{0}' в качестве активного задания.
 AUTORANK-SPECIFIC-COMPLETED-PATH-REQUIREMENT: Have completed path '{0}'.
 AUTORANK-TIMES-HEADER: '&a----------- [Times of &6{0}&a] -----------'
 AUTORANK-TIMES-PLAYER-PLAYED: '&6{0}&9 played:'
@@ -23,27 +26,43 @@ AUTORANK-TIMES-THIS-MONTH: '&eThis month: &d{0}'
 AUTORANK-TIMES-THIS-WEEK: '&cThis week: &d{0}'
 AUTORANK-TIMES-TODAY: '&3Today: &d{0}'
 AUTORANK-TIMES-TOTAL: '&aTotal: &d{0}'
-BENTOBOX-LEVEL-REQUIREMENT: Have at least an island level of {0}.
+BENTOBOX-LEVEL-REQUIREMENT: Have at least an island level of {0} on {1}.
 BLOCKS-MOVED-REQUIREMENT: Travel at least {0} {1}
 BROKEN-BLOCKS-REQUIREMENT: Break at least {0}
+BUT-YOUR-PROGRESS: but your progress for this path has been stored.
 CAKESLICES-EATEN-REQUIREMENT: Eat at least {0} slices of cake
 CANNOT-CHECK-CONSOLE: '&cCannot check for console!'
+CHECKED: ' checked!'
 CHOSEN-PATH: '&2You have chosen &7''{0}''&2.'
 COMMAND-RESULT: 'Perform the following command(s): {0}'
+COMPLETED: Completed paths
 COMPLETED-PATH-NOW: ' and now completed his path.'
-COMPLETED-REQUIREMENT: '&2You completed requirement &6{0}&2: &3{1}'
+COMPLETED-REQUIREMENT: '&2Вы выполнили требование &6{0}&2: &3{1}'
+COULD-NOT-ASSIGN: '&4Could not assign ''&6{1}&4'' to {0}'
+COULD-NOT-FIND: Could not find a migration plugin for the type you specified.
+COULD-NOT-IMPORT: Could not import any players for {0}! Are you sure you put any files
+  in the imports folder?
+COULD-NOT-SYNC: Could not sync stats. Run command again!
+CURRENT: 'Current: '
 DAMAGE-TAKEN-REQUIREMENT: Take at least {0} damage
 DAY-PLURAL: days
 DAY-SINGULAR: day
+DEBUG-FILE: Debug file '{0}' created!
+DEBUG-MODE: 'Debug mode of Autorank has been '
+DISABLED: disabled
+DOES-NOT-HAVE-ACTIVE: ' does not have any active paths.'
+DOES-NOT-HAVE-AS-ACTIVE: '&6{0} &4does not have &6{1} &4as an active path!'
 DONE-MARKER: Done
 DO-NOT-MEET-REQUIREMENTS-FOR: 'You do not meet requirements for #&6{0}&c:'
 EFFECT-RESULT: Play '{0}' effect on you.
+ENABLED: enabled
 ESSENTIALS-GEOIP-LOCATION-REQUIREMENT: Be from area {0}
 EXP-REQUIREMENT: Have at least level {0} in exp
 FACTIONS-POWER-REQUIREMENT: Have at least {0} power in your faction
 FISH-CAUGHT-REQUIREMENT: Catch at least {0} fish
 FOOD-EATEN-REQUIREMENT: Eat at least {0}
 GAMEMODE-REQUIREMENT: Be in gamemode {0}
+GLOBAL: Global playtime
 GLOBAL-TIME-REQUIREMENT: Play for at least {0} on any of the servers
 GRIEF-PREVENTION-BONUS-BLOCKS-REQUIREMENT: Have at least {0} bonus blocks in GriefPrevention
 GRIEF-PREVENTION-CLAIMED-BLOCKS-REQUIREMENT: Have at least {0} claimed blocks in GriefPrevention
@@ -51,30 +70,44 @@ GRIEF-PREVENTION-CLAIMS-COUNT-REQUIREMENT: Have at least {0} claims in GriefPrev
 GRIEF-PREVENTION-REMAINING-BLOCKS-REQUIREMENT: Have at least {0} remaining blocks
   to use in claims in GriefPrevention
 GROUP-REQUIREMENT: Be in group {0}.
-HAS-PLAYED-FOR: '&6{0}&7 has played for {1}.'
-HOUR-PLURAL: hours
-HOUR-SINGULAR: hour
+HAS-PLAYED-FOR: '&6{0}&7 играет уже {1}.'
+HOUR-PLURAL: часа
+HOUR-SINGULAR: час
+ILL-LET: I'll let you know when the leaderboard is updated.
+IMPORTED-DATA: Imported data of {0} players from Minecraft statistics!
+IMPORTED-OPERATION: Import operation cancelled by user.
+IMPORTING-DATA-ADDING-GLOBAL: Importing data and adding to global database.
+IMPORTING-DATA-ADDING-LOCAL: Importing data and adding to local database.
+IMPORTING-DATA-BOTH: Importing data and overriding both the global and local database.
+IMPORTING-DATA-OVERRIDING-GLOBAL: Importing data and overriding global database.
+IMPORTING-DATA-OVERRIDING-LOCAL: Importing data and overriding local database.
 INVALID-FORMAT: '&cInvalid format, use {0}.'
 INVALID-LEADERBOARD-TYPE: '&cYou have not specified a valid leaderboard type! &eOnly
   ''total'', ''daily'', ''weekly'' and ''monthly'' are allowed.'
 INVALID-NUMBER: '&c{0} is not a valid number!'
+INVALID-STORAGE-FILE: Invalid storage file. You can only backup 'playerdata' or 'storage'.
 IN-BIOME-REQUIREMENT: Be in biome {0}
+IS-EXEMPTED-CHECKING: Is exempted from checking
+IS-EXEMPTED-LEADERBOARD: Is exempted from leaderboard
+IS-EXEMPTED-OBTAINING: Is exempted from obtaining time
 ITEMS-CRAFTED-REQUIREMENT: Craft at least {0} item(s)
-ITEMS-ENCHANTED-REQUIREMENT: Enchant at least {0} items
+ITEMS-ENCHANTED-REQUIREMENT: Enchant at least {0} items.
 ITEM-CRAFTED-REQUIREMENT: Craft at least {0} {1}.
 ITEM-REQUIREMENT: Obtain {0}
 ITEM-THROWN-REQUIREMENT: Throw at least {0} {1}.
-JOBS-CURRENT-POINTS-REQUIREMENT: Have at least {0} points in Jobs
-JOBS-EXPERIENCE-REQUIREMENT: Have at least {0} experience in the job '{1}'
+JOBS-CURRENT-POINTS-REQUIREMENT: Have at least {0} points in Jobs.
+JOBS-EXPERIENCE-REQUIREMENT: Have at least {0} experience in the job '{1}'.
 JOBS-LEVEL-REQUIREMENT: Have at least level {0} in the job '{1}'
 JOBS-TOTAL-POINTS-REQUIREMENT: Have at least {0} points in total in Jobs
-LAST-LOGIN-LOGIN-REQUIREMENT: Been at least {0} minutes since last login
-LAST-LOGIN-LOGOUT-REQUIREMENT: Been at least {0} minutes since last logout
+LAST-LOGIN-LOGIN-REQUIREMENT: Been at least {0} minutes since last login.
+LAST-LOGIN-LOGOUT-REQUIREMENT: Been at least {0} minutes since last logout.
+LEADERBOARD: Leaderboard updated!
 LEADERBOARD-FOOTER: '&a------------------------------------'
 LEADERBOARD-HEADER-ALL-TIME: '&a-------- Leaderboard (All time) --------'
 LEADERBOARD-HEADER-DAILY: '&a-------- Leaderboard (Daily time) --------'
 LEADERBOARD-HEADER-MONTHLY: '&a-------- Leaderboard (Monthly time) --------'
 LEADERBOARD-HEADER-WEEKLY: '&a-------- Leaderboard (Weekly time) --------'
+LOCAL: Local playtime
 LOCATION-REQUIREMENT: Be at {0}
 MCMMO-POWER-LEVEL-REQUIREMENT: Have at least power level {0}
 MCMMO-SKILL-LEVEL-REQUIREMENT: Have at least level {0} in {1}
@@ -83,11 +116,12 @@ MCRPG-SKILL-LEVEL-REQUIREMENT: Have at least level {0} in {1}
 MEETS-ALL-REQUIREMENTS: meets all the requirements for path {0}
 MEETS-ALL-REQUIREMENTS-WITHOUT-RANK-UP: meets all the requirements
 MESSAGE-RESULT: 'Send you the following message: {0}'
-MINUTE-PLURAL: minutes
-MINUTE-SINGULAR: minute
-MONEY-REQUIREMENT: Have at least {0}
-MONEY-RESULT: Reward you with {0}.
+MINUTE-PLURAL: минут
+MINUTE-SINGULAR: минута
+MONEY-REQUIREMENT: Требуется {0} на балансе (/money)
+MONEY-RESULT: Награда для вас {0}.
 MYSQL-IS-NOT-ENABLED: '&cMySQL is not enabled!'
+NONE: none
 NO-FURTHER-PATH-FOUND: none (no path found)
 NO-PATHS-TO-CHOOSE: '&cThere are no paths that you can choose.'
 NO-PATH-FOUND-WITH-THAT-NAME: '&cThere was no ranking path found with that name.'
@@ -97,18 +131,26 @@ NO-PERMISSION: '&cYou need ({0}) for that!'
 OPTIONAL-MARKER: Optional
 PARTIAL-COMPLETION-NOT-ENABLED: '&cYou cannot use this command as this server has
   not enabled partial completion!'
+PATH: '&aPath ''&6{1}&a'' has been completed for {0}'
+PATH-IS-DEACTIVATED: 'Path ''{0}'' is deactivated '
 PATH-IS-NOT-ACTIVE: You are not active on path {0}.
 PATH-NOT-ALLOWED-TO-RETAKE: '&cYou already completed this path before. You are not
   allowed to retake it!'
 PERMISSION-REQUIREMENT: Have permission {0}
 PLACED-BLOCKS-REQUIREMENT: Place at least {0}
+PLACEHOLDERAPI-INTEGER-REQUIREMENT: Have at least {0} {1}
+PLACEHOLDERAPI-STRING-REQUIREMENT: Have at least {0} {1}
 PLANTS-POTTED-REQUIREMENT: Pot at least {0} plants
 PLAYERPOINTS-POINTS-REQUIREMENT: Obtain at least {0} player points.
+PLAYERS-HAVE-BEEN-MIGRATED: '{0} players have been migrated to Autorank.'
 PLAYER-IS-EXCLUDED: '&c{0} is excluded from ranking!'
 PLAYER-IS-INVALID: '&6{0}&c has never been logged before.'
 PLAYER-KILLS-REQUIREMENT: Kill at least {0} player(s)
 PLAYER-NOT-ONLINE: '&6{0}&c is not online!'
 PLAYTIME-CHANGED: Changed playtime of {0} to {1}.
+PREREQUISITES: Prerequisites of path '
+PROGRESS-OF: Прогресс в '
+PROGRESS-OF-PATHS: '&a----- &7[Прогресс задания для &6{0}&7]&a -----'
 PROGRESS-RESET: '&eYour progress for the path is reset.'
 PROGRESS-RESTORED: '&eYour progress for the path has been restored.'
 QUESTS-ACTIVE-QUESTS-REQUIREMENT: Have {0} quests active at the same time.
@@ -116,29 +158,54 @@ QUESTS-COMPLETED-QUESTS-REQUIREMENT: Complete at least {0} quests.
 QUESTS-COMPLETE-SPECIFIC-QUEST-REQUIREMENT: Complete the quest '{0}'.
 QUESTS-QUEST-POINTS-REQUIREMENT: Obtain at least {0} quest points.
 RANK-CHANGE-RESULT: Change rank to {0}.
-REQUIREMENT-PROGRESS: 'Progress of requirement {0}:'
-RESET-DAILY-TIME: '&6[Autorank] &5A new day has arrived! &eAll daily times have been
-  reset.'
-RESET-MONTHLY-TIME: '&6[Autorank] &5A new month has arrived! &eAll monthly times have
-  been reset.'
-RESET-WEEKLY-TIME: '&6[Autorank] &5A new week has arrived! &eAll weekly times have
-  been reset.'
+REMOVED-ALL-ACTIVE: '&aRemoved all active paths of &e{0}'
+REMOVED-ALL-COMPLETED: '&aRemoved all completed paths of &e{0}'
+REQUIREMENT: '&aRequirement ''&6{1}&a'' has been completed for {0}'
+REQUIREMENTS: 'Требования:'
+REQUIREMENTS_OF_PATH: Требования к заданию '
+REQUIREMENT-PROGRESS: 'Выполнение требований {0}:'
+RESET-DAILY-TIME: '&6[Диспетчер Заданий] &5Наступил новый день! &eВсе ежедневные задания
+  были сброшены.'
+RESET-MONTHLY-TIME: '&6[Диспетчер Заданий] &5Наступил новый месяц! &eВсе ежемесячные
+  задания были сброшены.'
+RESET-PROGRESS: '&aReset progress on all active paths of &e{0}'
+RESET-PROGRESS-ON-ALL: '&aReset progress on all paths (active AND completed) of &e{0}'
+RESET-WEEKLY-TIME: '&6[Диспетчер Заданий] &5Наступила новая неделя! &eВсе еженедельные
+  задания были сброшены.'
+RESULTS-OF-PATH: Результаты задания '
 RPGME-COMBAT-LEVEL-REQUIREMENT: Have at least a combat level of {0} in RPGme.
 RPGME-POWER-LEVEL-REQUIREMENT: Have at least a combined level {0} of RPGMe.
 RPGME-SKILL-LEVEL-REQUIREMENT: Have at least level {0} in {1} in RPGme.
-SECOND-PLURAL: seconds
-SECOND-SINGULAR: second
+SECOND-PLURAL: секунд
+SECOND-SINGULAR: секунда
 SPAWN-FIREWORK-RESULT: Spawn firework at {0}.
 STORAGE-IMPORTED: New storage has been imported!
-SUCCESSFULLY-COMPLETED-REQUIREMENT: 'You have successfully completed requirement &6{0}&a:'
+SUCCESSFULLY-COMPLETED-REQUIREMENT: 'Вы успешно выполнили требования задания:'
+SUCCESSFULLY-CREATED-PLAYERDATA: Successfully created a backup of playerdata!
+SUCCESSFULLY-CREATED-STORAGE: Successfully created a backup of regular time storage!
+SUCCESSFULLY-UPDATED: Successfully updated {0} items in data.yml from MySQL database
+  records!
+SUCCESSFULLY-UPDATED-MYSQL: Successfully updated MySQL records!
 TELEPORT-RESULT: Get teleported to {0}.
+THERE-ARE-NO-ACTIVE: There are no active storage providers, so I can't store the imported
+  data!
+THERE-IS-NO-ACTIVE-FLATFILE: There is no active storage provider that supports flatfile
+  data.
+THERE-IS-NO-PLAYER: There is no player or path named '{0}'.
+THE-FOLLOWING-PATHS: 'The following paths are possible: '
+THIS-IS-NOT: This is not a valid type of migration!
+THIS-MIGRATION: This migration plugin is not ready to be used. Are the plugins that
+  depend on it active?
+THIS-PATH-DOES-NOT: This path does not allow you to complete requirements one by one.
+  You need to meet all requirements simulateneously.
 TIMES-DIED-REQUIREMENT: Die at least {0} times
 TIMES-SHEARED-REQUIREMENT: Shear at least {0} sheep
 TIMES-TRADED-WITH-VILLAGERS-REQUIREMENT: Trade at least {0} with villagers
-TIME-DAILY-REQUIREMENT: ' Play for at least {0} in a single day.'
-TIME-MONTHLY-REQUIREMENT: ' Play for at least {0} in a month.'
-TIME-REQUIREMENT: Play for at least {0}
-TIME-WEEKLY-REQUIREMENT: ' Play for at least {0} in a week.'
+TIME-DAILY-REQUIREMENT: ' Отыграть на сервере {0} за один день.'
+TIME-HAS: Time has succesfully been updated for all entries.
+TIME-MONTHLY-REQUIREMENT: ' Отыграть на сервере {0} за месяц.'
+TIME-REQUIREMENT: Отыграть на сервере {0}
+TIME-WEEKLY-REQUIREMENT: ' Отыграть на сервере {0} за неделю.'
 TOTAL-MOBS-KILLED-REQUIREMENT: Kill at least {0}
 TOTAL-TIME-REQUIREMENT: Be with this server for at least {0}
 TOWNY-HAS-NATION-REQUIREMENT: Need to be part of a nation.
@@ -146,11 +213,27 @@ TOWNY-HAS-TOWN-REQUIREMENT: Need to be part of a town.
 TOWNY-IS-KING-REQUIREMENT: Need to be king of a nation.
 TOWNY-IS-MAYOR-REQUIREMENT: Need to be mayor of a town.
 TOWNY-NEED-NUMBER-OF-TOWN-BLOCKS: Need to have at least {0} town blocks.
+TO-VIEW-THE-PROGRESS: '&6To view the progress of a specific path, use /ar check <path
+  name>.'
+TYPE: '&4Type &6/ar view {0} &4to see a list of prerequisites.'
 UHC-STATS-DEATHS-REQUIREMENT: Get at least {0} deaths.
 UHC-STATS-KILLS-REQUIREMENT: Get at least {0} kills.
 UHC-STATS-WINS-REQUIREMENT: Get at least {0} wins.
+UNASSIGNED: '&4Unassigned ''&6{1}&4'' from {0}'
 UNKNOWN-PLAYER: '&cPlayer {0} is unknown and couldn''t be identified.'
+UPDATING: Updating the leaderboard. This could take a while!
 VOTE-REQUIREMENT: Vote at least {0} times
 WORLD-GUARD-REGION-REQUIREMENT: Be in region {0}
 WORLD-REQUIREMENT: Be in {0}
 YOU-ARE-A-ROBOT: '&cYou are a robot, {0}'
+YOU-ARE-ON-COOLDOWN: You are on cooldown for this path!
+YOU-ARE-VIEWING: '&2Вы просматриваете задание &6{1}&2 для игрока {0}.'
+YOU-DONT-HAVE: You don't have any requirements left.
+YOU-DONT-HAVE-ANY: У вас нет никаких требований!
+YOU-DO-NOT-HAVE: You do not have to use this command regularly.
+YOU-DO-NOT-MEET: You do not meet the prerequisites of this path!
+YOU-NEED-TO: 'You need to wait '
+YOU-PROBARLY: You probably meant /ar syncstats or /ar sync!
+YOU-SHOULD-SPECIFY: You should specify a player to check.
+YOU-WANT: You want to store the imported data to the global database, but no database
+  is active.

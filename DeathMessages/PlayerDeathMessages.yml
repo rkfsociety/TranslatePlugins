@@ -131,39 +131,39 @@ Natural-Cause:
   Drowning:
     - "%player% thought they could swim forever"
   Explosion:
-    - "%player% blew up"
+    - "%player% взорвался"
   TNT:
     - "%player% играл с тротилом"
   Firework:
-    - "%player% thought playing with fireworks was a good idea"
+    - "%player% подумал, что поиграть с фейерверком - хорошая идея"
   End-Crystal:
-    - "%player% blew up! They were playing around with an end-crystal!"
+    - "%player% взорвался! Решил поиграть с кристаллом энда!"
   Void:
-    - "%player% fell into the void"
+    - "%player% упал в пустоту"
   Lightning:
-    - "%player% was struck by /lighting"
+    - "%player% был убил командой /lighting"
   Suicide:
-    - "%player% killed themselves"
+    - "%player% покончил с собой
   Starvation:
-    - "%player% ran out of food, and died"
+    - "%player% кончилась еда, и он умер"
   Poison:
-    - "%player% was playing with poison"
+    - "%player% играл с ядом"
   Magic:
-    - "%player% was playing with magic"
+    - "%player% играл с магией"
   Wither:
     - "%player% withered away"
   Falling-Block:
-    - "%player% was squished by a %block%"
+    - "%player% был раздавлен %block%"
   Dragon-Breath:
-    - "%player% died to a lingering dragons breath"
+    - "%player% умер от затяжного дыхания дракона"
   Custom:
     - "%player% died in a unique way"
   Fly-Into-Wall:
-    - "%player% flew into a wall"
+    - "%player% влетел в стену"
   Hot-Floor:
-    - "%player% was playing on a magma block too long"
+    - "%player% слишком долго стоял на блоке магмы"
   Cramming:
-    - "%player% was killed in a heavily populated space"
+    - "%player% был убит в густонаселенном пространстве"
   Dryout:
     - "%player% belonged in the water. Not land"
   Freeze:
