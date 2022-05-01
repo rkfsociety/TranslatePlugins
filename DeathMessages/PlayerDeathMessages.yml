@@ -115,21 +115,22 @@ Natural-Cause:
     - "%player% shot themselves with trident"
   Suffocation:
     - "%player% был раздавлен до смерти"
-    - "PERMISSION[deathmessages.premium]%player% was mashed up pretty good."
+    - "PERMISSION[deathmessages.premium]%player% был красиво раздавлен до смерти."
   Fall:
     - "%player% упал с высоты"
   Climbable:
-    - "%player% tried climbing to greater heights and fell off %climbable%"
+    - "%player% попытался подняться на большую высоту и упал %climbable%"
   Fire:
-    - "%player% thought standing in fire was a good idea"
+    - "%player% подумал, что стоять в огне - хорошая идея"
   Fire-Tick:
-    - "%player% was burnt to a crisp"
+    - "%player% был поджарен до хрустящей корочки"
   Melting:
     - "%player% melted away"
   Lava:
-    - "%player% thought lava was a hot tub"
+    - "%player% думал, что лава - это горячая ванна"
   Drowning:
-    - "%player% thought they could swim forever"
+    - "%player% думал, что может плавать вечно."
+    - "%player% почувствовал себя акваменом."
   Explosion:
     - "%player% взорвался"
   TNT:
@@ -157,7 +158,8 @@ Natural-Cause:
   Dragon-Breath:
     - "%player% умер от затяжного дыхания дракона"
   Custom:
-    - "%player% died in a unique way"
+    - "%player% умер уникальным образом"
+    - "%player% забрали НЛО"
   Fly-Into-Wall:
     - "%player% влетел в стену"
   Hot-Floor:
@@ -167,9 +169,9 @@ Natural-Cause:
   Dryout:
     - "%player% belonged in the water. Not land"
   Freeze:
-    - "%player% did not put their snow suit on before they went to play."
+    - "%player% не надели свой снежный костюм перед тем, как пойти играть."
   Unknown:
-    - "%player% died"
+    - "%player% умер таинственным способом"
 Mobs:
   elderguardian:
     Solo:
