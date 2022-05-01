@@ -87,10 +87,9 @@ Discord:
     Image: https://crafatar.com/avatars/%uuid%
     # Block title|Block value|inline boolean
     # To have no content, set content to 'Content: []'
-    Content:
-      - "ИНФО:|World: %world%, X: %x%, Y: %y%, Z: %z%|false"
+    Content: []
     Footer:
-      Text: "ЧТО ТО"
+      Text: " "
       Icon-URL: https://crafatar.com/avatars/%uuid%
     Timestamp: true
     # Defining the message below will ignore all above embed values and just return regular text.
