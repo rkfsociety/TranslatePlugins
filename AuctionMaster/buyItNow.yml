@@ -9,14 +9,14 @@ use-only-buy-it-now: false
 buy-it-now-select-price:
   item-id: '27'
   #Use %price% for the item price
-  name: '&fItem price: &6%price%'
+  name: '&fЦена товара: &6%price%'
   lore:
-    - '&7The price at which you want'
-    - '&7to sell this item.'
+    - '&7Цена, по которой вы хотите'
+    - '&7продать этот товар.'
     - ''
-    - '&7Extra fee: &6+%fee% coins &e(1%)'
+    - '&7Комиссия: &6+%fee% монет &e(1%)'
     - ''
-    - '&eClick to edit!'
+    - '&eНажмите, чтобы отредактировать!'
 
 #Use percents from 1 to 100
 buy-it-now-fee: 1
@@ -24,18 +24,18 @@ buy-it-now-fee: 1
 switch-button:
   switch-to-auction:
     material: '266'
-    name: '&aSwitch to Auction'
+    name: '&aПереключиться на аукцион'
     lore:
-      - '&7With traditional auctions,'
-      - '&7multiple buyers compete for the'
-      - '&7item by bidding turn by turn.'
+      - '&7С традиционными аукционами,'
+      - '&7многочисленные покупатели конкурируют за'
+      - '&7товар, предлагая цену по очереди.'
       - ''
-      - '&eClick to switch!'
+      - '&eНажмите, чтобы переключиться!'
   switch-to-bin:
     material: 27
-    name: '&aSwitch to BIN'
+    name: '&aПереключиться на Ставки'
     lore:
-      - '&7BIN Auctions are simple.'
+      - '&7Аукционы по ставкам очень просты.'
       - ''
       - '&7Set a price, then one player may'
       - '&7buy the item at that price.'

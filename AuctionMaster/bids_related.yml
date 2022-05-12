@@ -4,10 +4,10 @@ bid-history-item: '358:0'
 bid-history-item-name: '&fBid History'
 bid-history-item-lore:
   no-bids:
-    - '&7No bids have been placed on'
-    - '&7this item yet.'
+    - '&7Никаких ставок на'
+    - '&7этого предмет пока нет.'
     - ''
-    - '&7Be the first to bid on it!'
+    - '&7Будьте первым, кто сделает ставку на него!'
   #The lore of the bid history item is dynamic when
   #it has bids on it, the structure below repeats itself
   #at every new bid, adding to the lore
@@ -16,9 +16,9 @@ bid-history-item-lore:
   #Use %when-bidded% for when the bid was placed (eg. 2 Days) (Ago is not included so you can modify)
   bid-structure:
     - '&8&m--------------'
-    - '&7Bid: &6%bid-amount% coins'
-    - '&7By: %bidder-display-name%'
-    - '&b%when-bidded% Ago'
+    - '&7Ставка: &6%bid-amount% монет'
+    - '&7От: %bidder-display-name%'
+    - '&b%when-bidded% назад'
 
 #This is the message items with "Ending soon" will give when clicked
 too-late-to-open-now: '&cСлишком поздно открывать это сейчас!'
