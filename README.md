@@ -6,7 +6,7 @@
 
 Кол-во плагинов:
 
-**Всего - 7**
+**Всего - 8**
 
 **Готово - 2**
 
@@ -23,3 +23,5 @@
 6. Brewery - https://www.spigotmc.org/resources/brewery.3082/  -
 
 7. EvenMoreFish - https://www.spigotmc.org/resources/evenmorefish-%E2%96%AA-extensive-fishing-plugin-%E2%96%AA.91310/ -
+
+8. AuctionMaster - https://www.spigotmc.org/resources/%E2%9A%A1-auctionmaster-%E2%9A%A1-1-8-1-18x-mysql-sqlite-auctions-categories-bin-fully-configurable.84784/ -
