@@ -70,7 +70,7 @@ Discord:
   # %z% - returns the z position the player died at.
   # Placeholders from placeholderapi works here too
   DeathMessage:
-    Remove-Plugin-Prefix: false
+    Remove-Plugin-Prefix: true
     # Besides the color, you can leave all this blank if you want.
     Color: BLUE
     # NEW: this was how the old DMP had messages formatted (Playerhead - IconURL, Name - the death message)
@@ -82,15 +82,15 @@ Discord:
       # The picture that shows up in the author name
       # Placeholders: %uuid%, %username%
       Icon-URL: "https://crafatar.com/avatars/%uuid%"
-    Title: АИД
-    Description: '%message%'
-    Image: https://crafatar.com/avatars/%uuid%
+    Title: 
+    Description: ' '
+    Image: 
     # Block title|Block value|inline boolean
     # To have no content, set content to 'Content: []'
     Content: []
     Footer:
       Text: " "
-      Icon-URL: https://crafatar.com/avatars/%uuid%
+      Icon-URL: 
     Timestamp: true
     # Defining the message below will ignore all above embed values and just return regular text.
     # Meaning if you change Text: "" to anything else, the plugin will send regular text.

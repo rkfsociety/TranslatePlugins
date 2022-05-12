@@ -6,7 +6,7 @@
 
 Кол-во плагинов:
 
-**Всего - 6**
+**Всего - 7**
 
 **Готово - 2**
 
@@ -21,3 +21,5 @@
 5. DeathMessages - https://www.spigotmc.org/resources/deathmessages.3789/ -
 
 6. Brewery - https://www.spigotmc.org/resources/brewery.3082/  -
+
+7. EvenMoreFish - https://www.spigotmc.org/resources/evenmorefish-%E2%96%AA-extensive-fishing-plugin-%E2%96%AA.91310/ -
