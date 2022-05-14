@@ -1,11 +1,11 @@
 others-menu-item: '32'
-others-menu-name: '&2Others'
+others-menu-name: '&2Прочее'
 others-menu-lore:
-  - '&8Category'
+  - '&8Категория'
   - ''
-  - '&7Anything that is'
-  - '&7auctionable and not'
-  - '&7in other categories.'
+  - '&7Все, что выставлено'
+  - '&7на аукцион и не относится'
+  - '&7к другим категориям.'
 
 #If you have custom items that you want to be in this
 #category, specify their name here

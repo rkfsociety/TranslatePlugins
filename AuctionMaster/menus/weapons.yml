@@ -1,11 +1,11 @@
 weapons-menu-item: '283'
-weapons-menu-name: '&6Weapons'
+weapons-menu-name: '&6Оружие'
 weapons-menu-lore:
-  - '&8Category'
+  - '&8Категория'
   - ''
-  - '&7Examples:'
-  - '&8■ &7Swords'
-  - '&8■ &7Bows'
+  - '&7Примеры:'
+  - '&8■ &7Мечи'
+  - '&8■ &7Луки'
 
 #If you have custom items that you want to be in this
 #category, specify their name here

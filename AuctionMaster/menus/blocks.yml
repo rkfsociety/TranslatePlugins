@@ -1,12 +1,12 @@
 blocks-menu-item: '4'
-blocks-menu-name: '&eBlocks'
+blocks-menu-name: '&eБлоки'
 blocks-menu-lore:
-  - '&8Category'
+  - '&8Категория'
   - ''
-  - '&7Examples:'
-  - '&8■ &7Dirt'
-  - '&8■ &7Stone'
-  - '&8■ &7Any blocks really'
+  - '&7Примеры:'
+  - '&8■ &7Земля'
+  - '&8■ &7Камень'
+  - '&8■ &7И другие блоки'
 
 #If you have custom items that you want to be in this
 #category, specify their name here

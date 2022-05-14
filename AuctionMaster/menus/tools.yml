@@ -1,10 +1,13 @@
 tools-menu-item: '280'
-tools-menu-name: '&dTools'
+tools-menu-name: '&dИнструменты'
 tools-menu-lore:
-  - '&8Category'
+  - '&8Категория'
   - ''
-  - '&7Examples:'
-  - '&8■ &7Tools'
+  - '&7Примеры:'
+  - '&8■ &7Кирка'
+  - '&8■ &7Топор'
+  - '&8■ &7Мотыга'
+  - '&8■ &7И прочее'
 
 #If you have custom items that you want to be in this
 #category, specify their name here
