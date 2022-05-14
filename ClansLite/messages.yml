@@ -1,0 +1,136 @@
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#                                        ----[ClansLite]----                                        #
+#                                        ----[By Gamlin]----                                        #
+#                                ----[Contributors: Loving11ish]----                                #
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#                                  ----[Plugin Messages File]----                                   #
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+#Clan Creation Messages
+clan-name-too-short: "&3Слишком короткое название клана - минимальная длина &63 символа&3."
+clan-name-too-long: "&3Слишком длинное название клана - максимальная длина составляет &616 символов&3."
+clan-created-successfully: "&3Клан &6%CLAN% &3был создан!"
+clan-creation-failed: "&3Клан &6%CLAN% &3не был создан, пожалуйста, убедитесь, что вы еще не состоите в клане!"
+
+#Clan Disbanded Messages
+clan-successfully-disbanded: "&3Клан был распущен!"
+clan-disband-failure: "&3Не удалось распустить клан - Пожалуйста, убедитесь, что вы владелец!"
+
+#Clan Invite Messages
+clan-invite-no-valid-player: "&3Пожалуйста, укажите игрока, которого вы хотите пригласить!"
+clan-invite-not-clan-owner: "&3Вы должны быть владельцем клана, чтобы приглашать людей!"
+clan-invite-self-error: "&3Ты не можешь пригласить сам себя!"
+clan-invitee-not-found: "&3Игрок &6%INVITED% &3не найден, убедитесь, что он онлайн!"
+clan-invite-invited-already-in-clan: "&3Игрок &6%INVITED% &3уже в клане!"
+clan-invite-max-size-reached: "&3Вы достигли предельного размера членов клана &a%LIMIT%&3!"
+clan-invite-successful: "&3Вы пригласили &6%INVITED% &3в свой клан!"
+clan-invite-failed: "&3Не удалось отправить приглашение &6%INVITED%&3, возможно, у этого игрока уже есть приглашение!"
+clan-invited-player-invite-pending: "&3Вы были приглашены в клан &6%CLANOWNER% &3- напиши /clan join - чтобы вступить."
+
+#Clan Join Messages
+clan-join-successful: "&3Успешно присоединился &6%CLAN%&3!"
+clan-join-failed: "&3Не удалось присоединиться &6%CLAN%&3"
+clan-join-failed-no-valid-clan: "&3Не удалось вступить в клан - клан не найден!"
+clan-join-failed-no-invite: "&3Не удалось вступить в клан - приглашение не найдено!"
+
+#Clan Leave Messages
+failed-clan-owner: "&3Вы являетесь владельцем клана, используйте &6/clan disband&3."
+clan-leave-successful: "&3Вы покинули &6%CLAN%."
+clan-leave-failed: "&3Не удалось покинуть клан, пожалуйста, повторите попытку позже."
+
+#Clan Kick Messages
+clan-member-kick-successful: "&3Игрок &6%KICKEDPLAYER%&3 был изгнан из вашего клана."
+clan-kicked-player-message: "&3Тебя выгнали из &6%CLAN%&3!"
+targeted-player-is-not-in-your-clan: "&3Игрок &6%KICKEDPLAYER%&3 не состоит в вашем клане."
+could-not-find-specified-player: "&3Не удалось найти игрока &6%KICKEDPLAYER%&3."
+must-be-owner-to-kick: "&3Вы не являетесь владельцем клана!"
+incorrect-kick-command-usage: "&3Непризнанный аргумент, пожалуйста, используйте &6/clan kick <member>&3."
+failed-cannot-kick-yourself: "&3Вы не можете выгнать себя, используйте &6/clan leave&3."
+
+#Clan Prefix Messages
+clan-prefix-change-successful: "&3Успешно изменен префикс клана на &6%CLANPREFIX%&3!"
+clan-prefix-too-long: "&3Слишком длинный префикс клана - максимальная длина составляет &616 символов&3."
+clan-prefix-too-short: "&3Префикс клана слишком короткий - минимальная длина составляет 763 символов&3."
+clan-invalid-prefix: "&3Пожалуйста, укажите новый префикс. Используйте &b/clan prefix <prefix>&3!"
+must-be-owner-to-change-prefix: "&3Вы не являетесь владельцем клана!"
+
+#Clan List Messages
+no-clans-to-list: "&3Никаких кланов не найдено!\n&3Создайте его с помощью &b/clan create <name>&3!"
+clans-list-header: "&7----- &6Список кланов &7-----&r\n"
+clans-list-footer: "\n&7-----"
+
+#Clan Info Messages
+clan-info-header: "&7----- &6Информация о клане &7-----&r\n&3Название: %CLAN%&r\n&3Префикс: &7(%CLANPREFIX%&r&7)&r"
+clan-info-owner-online: "\n\n&3Создатель: &a%OWNER%"
+clan-info-owner-offline: "\n\n&3Создатель: &c%OWNER%&7&o(не в сети)"
+clan-info-members-header: "\n\n&3Члены:"
+clan-info-members-online: "\n&a%MEMBER%\n"
+clan-info-members-offline: "\n&c%MEMBER%&7&o(не в сети)\n"
+clan-info-allies-header: "\n\n&3Союзные кланы:"
+clan-ally-members: "\n&a%ALLYCLAN%\n"
+clan-pvp-status-enabled: "\n\n&3ПВП: &a&oВКЛЮЧЕНО"
+clan-pvp-status-disabled: "\n\n&3ПВП: &c&oОТКЛЮЧЕНО"
+clan-home-set-true: "\n\n&3Дом клана: &a&oУстановлен"
+clan-home-set-false: "\n\n&3Дом клана: &c&oОтсутствует"
+clan-info-footer: "\n&7-----"
+not-in-clan: "&3Ты не состоишь в клане!"
+
+#Clan Ally Messages
+added-clan-to-your-allies: "&3Вы успешно добавили &6%ALLYCLAN% &3в список ваших союзников!"
+clan-added-to-other-allies: "&6%CLANOWNER% &3добавил ваш клан в свои союзники!"
+failed-to-add-clan-to-allies: "&3Невозможно добавить &6%ALLYOWNER%&3! Убедитесь, что владелец находится в сети!"
+failed-player-not-clan-owner: "&6%ALLYOWNER%&3 не является владельцем клана!"
+removed-clan-from-your-allies: "&3Вы успешно удалили &6%ALLYCLAN% &со своих союзников!"
+clan-removed-from-other-allies: "&3Владелец клана &6%CLANOWNER% &3 удалил ваш клан из своих союзников!"
+failed-to-remove-clan-from-allies: "&3Невозможно удалить &6%ALLYOWNER%&3! Убедись, что они твои союзники"
+ally-clan-add-owner-offline: "&3Невозможно добавить &6%ALLYOWNER%&3! Убедитесь, что владелец находится в сети!"
+ally-clan-remove-owner-offline: "&3Невозможно удалить &6%ALLYOWNER%&3! Убедитесь, что владелец находится в сети!"
+incorrect-clan-ally-command-usage: "&3Непризнанный аргумент, пожалуйста, используйте &6/clan [add|remove] <clan-owner>&3."
+failed-cannot-ally-your-own-clan: "&3Вы не можете быть союзником со своим &3&lOWN&r&3 кланом!"
+clan-ally-max-amount-reached: "&3Вы достигли предела количества союзников клана &a%LIMIT%&3!"
+
+#Clan Friendly Fire
+enabled-friendly-fire: "&3Вы успешно &aвключили &3ПВП.\n&3Члены вашего клана теперь могут сражаться друг с другом в ПВП!"
+disabled-friendly-fire: "&3Вы успешно &cотключили &3ПВП.\n&3Члены вашего клана больше не могут сражаться друг с другом в ПВП!"
+failed-not-in-clan: "&3Сначала ты должен быть в клане! Используй &6/clan &3чтобы узнать подробнее о том, как это сделать."
+friendly-fire-is-disabled: "&3В вашем клане отключено ПВП."
+
+#Clan Homes
+successfully-set-clan-home: "&3Вы &aУспешно &3установили дом клана в ваше текущее местоположение!"
+cool-down-timer-wait: "&3Извините, вы не можете использовать это снова. Подождите &6%TIMELEFT%&r &3секунд."
+successfully-teleported-to-home: "&3Ты телепортировался в дом своего клана."
+failed-no-home-set: "&3У вашего клана нет точки дома!"
+failed-tp-not-in-clan: "&3Сначала ты должен быть в клане! Используй &6/clan &3чтобы узнать подробнее о том, как это сделать."
+
+#General Plugin Messages
+clan-must-be-owner: "&3Вы должны быть владельцем клана, чтобы сделать это."
+function-disabled: "&3Извините, это было отключено. :("
+plugin-reload-successful: "&6ClansLite: &aКонфигурации были перезагружены!"
+incorrect-command-usage: "&3Непризнанный аргумент, пожалуйста, используйте &6/clan&3."
+player-only-command: "&4Извините, эта команда может быть запущена только игроком!"
+saving-clans-start: "&6ClansLite: Сохранение данных о кланах..."
+save-completed: "&6ClansLite: &aКланы сохранены!"
+auto-save-started: "&6ClansLite: &aЗапущена задача автоматического сохранения."
+auto-save-complete: "&6ClansLite: &aСохранены все кланы в файл!"
+auto-save-failed: "&6ClansLite: &4Не удалось сохранить clans.yml в файл!"
+auto-invite-wipe-started: "&6ClansLite: &aЗапущена задача автоматической очистки приглашений."
+auto-invite-wipe-complete: "&6ClansLite: &aОчищены все непринятые приглашения в клан!"
+invite-wipe-failed: "&6ClansLite: &cНе удалось очистить все непринятые приглашения в клан!"
+clans-save-error-1: "&6ClansLite: &4Не удалось сохранить clans.yml в файл!"
+clans-save-error-2: "&6ClansLite: &4Проверьте консоль на наличие ошибок!"
+clans-load-error-1: "&6ClansLite: &4Не удалось загрузить данные из clans.yml!"
+clans-load-error-2: "&6ClansLite: &4Смотрите консоль для поиска ошибок!"
+clans-update-error: "&6ClansLite: &4Failed to update clans.yml file!\n&6ClansLite: &4Check the console for errors!"
+
+#Update Notification
+update-check-failure: "&6ClansLite: &4Невозможно проверить наличие обновлений! - &c"
+update-available:
+  1: "&4*-------------------------------------------*"
+  2: "&6ClansLite: &cДоступна новая версия!"
+  3: "&4*-------------------------------------------*"
+no-update-available:
+  1: "&a*-------------------------------------------*"
+  2: "&6ClansLite: &aУстановлена последняя версия!"
+  3: "&a*-------------------------------------------*"

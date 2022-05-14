@@ -6,9 +6,9 @@
 
 Кол-во плагинов:
 
-**Всего - 8**
+**Всего - 9**
 
-**Готово - 2**
+**Готово - 3**
 
 1. AuctionHouse - https://www.spigotmc.org/resources/auctionhouse.61836/ + (more don't support)
 
@@ -25,3 +25,5 @@
 7. EvenMoreFish - https://www.spigotmc.org/resources/evenmorefish-%E2%96%AA-extensive-fishing-plugin-%E2%96%AA.91310/ -
 
 8. AuctionMaster - https://www.spigotmc.org/resources/%E2%9A%A1-auctionmaster-%E2%9A%A1-1-8-1-18x-mysql-sqlite-auctions-categories-bin-fully-configurable.84784/ -
+
+9. ClansLite - https://www.spigotmc.org/resources/clanslite.97163/ +
