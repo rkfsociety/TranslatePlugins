@@ -1,8 +1,8 @@
 # TranslatePluginsRu
 
-# Все переводы делаются исключительно для сервера UnclearCraft
+# Все переводы делаются исключительно для сервера UberCraft
 
-# ip: play.unclearcraft.ru
+# ip: game.ubercraft.ru
 
 Кол-во плагинов:
 
