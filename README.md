@@ -10,7 +10,7 @@
 
 **Готово - 3**
 
-1. AuctionHouse - https://www.spigotmc.org/resources/auctionhouse.61836/ + (more don't support)
+1. AuctionHouse - https://www.spigotmc.org/resources/auctionhouse.61836/ +
 
 2. ChatManager - https://www.spigotmc.org/resources/chat-manager-1-7-1-18-30-features-and-40-commands.52245/ +
 
