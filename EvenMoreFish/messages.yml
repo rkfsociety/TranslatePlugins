@@ -1,106 +1,116 @@
-# Если сообщение содержит заполнители EvenMoreFish, например {player} или {rarity}, оно также поддерживает заполнители placeholderapi.
+# If a message contains EvenMoreFish placeholders, e.g. {player} or {rarity} it also supports placeholderapi placeholders.
 
-# Отправляется игрокам, когда они ловят рыбу EvenMoreFish
-fish-caught: "&l{player} &rвыловил рыбу {rarity_colour}{length}cm &l{rarity} {rarity_colour}{fish}!"
-# Установив минимальную длину рыбы меньше 0, вы можете создать рыбу меньшей длины. Это используется, когда игрок ловит рыбу без длины.
-lengthless-fish-caught: "&l{player} &rвыловил рыбу {rarity_colour}&l{rarity} {rarity_colour}{fish}!"
-# Отправляется игроку, когда у него нет разрешения на выполнение команды.
+# Sent to players when they fish an EvenMoreFish fish
+fish-caught: "&l{player} &rвыловил {rarity_colour}{length}cm &l{rarity} {rarity_colour}{fish}!"
+# By setting a fish's minimum-length to less than 0, you can create a lengthless fish. This is used when a player fishes a lengthless fish.
+lengthless-fish-caught: "&l{player} &rвыловил {rarity_colour}&l{rarity} {rarity_colour}{fish}!"
+# Sent to a player when they don't have permission to execute a command.
 no-permission: "&cУ вас нет разрешения на выполнение этой команды."
 
-# Сообщение, которое будет отправлено при начале и окончании соревнования
-contest-start: "&rНачалось соревнование по рыбной ловле в категории {type}."
+# The message to be sent when a competition starts and ends
+contest-start: "&rНачался конкурс на рыбалку для {type}."
 contest-end: "&rСоревнование по рыбной ловле закончилось."
-# Сообщение, которое отправляется, когда игрок присоединяется во время соревнования
-contest-join: "&rПроисходит соревнование по ловле рыбы в категории {type}."
+# The message to be sent when a player joins whilst a competition is going on
+contest-join: "&rПроводится конкурс на ловлю рыбы для {type}."
 
-# Показывается игрокам, когда новый игрок занимает место №1. Удалите это значение или установите для него значение "", чтобы отключить это сообщение
-new-first: "&r{player} теперь №1"
+# Shown to players when a new player takes #1 spot, remove this value or set it to "" to disable this message
+new-first: "&r{player} теперь он №1"
 # Should this message appear in chat (false) or above the exp bar (true)
 action-bar-message: true
 # What competition types should the action bar be used for? (recommended: MOST_FISH)
 action-bar-types:
   - MOST_FISH
 
-# Что должно заменить переменную {type} для каждого типа соревнования?
+# What should replace the {type} variable for each competition type?
 competition-types:
   # MOST_FISH
-  most: "самая большая рыба"
+  most: "the most fish"
   # LARGEST_FISH
   largest: "самая крупная рыба"
+  # LARGEST_TOTAL_FISH
+  largest-total: "самая длинная рыбы"
   # SPECIFIC_FISH
   specific: "{amount} {rarity_colour}&l{rarity} {rarity_colour}{fish}&r"
-
+  # SPECIFIC_RARITY
+  specific-rarity: "{amount} {rarity_colour}&l{rarity}&r fish"
 # Segments shown in the bossbar when competitions run
 bossbar:
   # The abbreviations used for different units of time
   hour: "ч"
   minute: "м"
   second: "с"
-  # Для перевода "left" в конце, например, "5с осталось" -> "5с до конца"
+  # For translating the "left" at the end e.g. "5s left" -> "5s kvar"
   remaining: " осталось"
 
-# Префикс, показанный перед практически всеми командами, связанными с плагином. Рекомендуется ставить пробел в конце.
+# The prefix shown before pretty much all commands to do with the plugin. Keeping the space in is recommended.
 prefix: "[Рыбалка] "
-# Цвет префикса [EvenMoreFish] в командах (для случаев, когда у вашего префикса нет цветов)
+# The colour of the [EvenMoreFish] prefix in commands (for when your prefix doesn't have colours)
 prefix-regular: "&a"
-# Цвет префикса [EvenMoreFish] в командах администратора (для случаев, когда у вашего префикса нет цветов)
+# The colour of the [EvenMoreFish] prefix in admin commands (for when your prefix doesn't have colours)
 prefix-admin: "&c"
-# Цвет префикса [EvenMoreFish] при возникновении ошибок, например, нет разрешения на выполнение команды (для случаев, когда ваш префикс не имеет цветов)
+# The colour of the [EvenMoreFish] prefix when errors occur e.g. no permission to run a command (for when your prefix doesn't have colours)
 prefix-error: "&c"
 
-# Это формат сведений, которые даются рыбе, когда она поймана.
-# {custom-lore} указывается в файле fish.yml в разделе lore:, если у рыбы есть сведения, строки знаний будут
-# замените {fish_lore}, однако, если он пуст, строка будет удалена. НЕ ДОБАВЛЯЙТЕ НИЧЕГО, КРОМЕ ЭТОЙ ПЕРЕМЕННОЙ
-# К ЭТОЙ СТРОКЕ.
+# This is the format of the lore given to fish when they're caught.
+# {custom-lore} is specified in the fish.yml under the lore: section, if the fish has a lore, the lore's lines will
+# replace the {fish_lore}, however if it's empty the line will be removed. DO NOT ADD ANYTHING OTHER THAN THIS VARIABLE
+# TO THAT LINE.
 fish-lore:
-  - "&fПоймал: {player}"
-  - "&fРазмер: {length}см"
+  - "{fisherman_lore}"
+  - "{length_lore}"
   - ""
   - "{fish_lore}"
   - "{rarity_colour}&l{rarity}"
 
-# Формат команд в справке /emf help (это сообщение не поддерживает заполнители papi)
+# Sets what to replace with the {fisherman_lore} or {length_lore} with above ^
+fisherman-lore:
+  - "&fПоймал {player}"
+length-lore:
+  - "&fMeasures {length}cm."
+
+# The format of commands in /emf help (this message doesn't support papi placeholders)
 help: "/{command} - {description}"
 
-# Формат таблицы лидеров после окончания соревнования (это сообщение не поддерживает заполнители papi)
+# The format of the leaderboard after a competition is over (this message doesn't support papi placeholders)
 leaderboard-largest-fish: "&r#{position} | {pos_colour}{player} &r({rarity_colour}&l{rarity} {rarity_colour}{fish}&r, {length}cm&r)"
+leaderboard-largest-total: "&r#{position} | {pos_colour}{player} &r({pos_colour}{amount}cm&r)"
 leaderboard-most-fish: "&r#{position} | {pos_colour}{player} &r({pos_colour}{amount} &rfish)"
-# Если вы проводите соревнование, в котором нет таблицы лидеров, это сообщение отправляется при определении победителя
-single-winner: "&r{player} выиграл в соревнование в категории {type}. Поздравляю!"
-# Это показывает количество игроков, участвующих в соревновании в данный момент, для отключения установлено значение "".
-total-players: "&rВ таблице лидеров всего {amount} игроков."
-# Количество позиций, показанных в таблице лидеров, не может быть меньше 1.
+# If you're running a competition where there's no leaderboard, this message is sent when there's a winner
+single-winner: "&r{player} has won the competition for {type}. Congratulations!"
+# This shows the number of players currently in the competition, set to "" to disable.
+total-players: "&rThere are a total of {amount} player(s) in the leaderboard."
+# The number of positions shown in the leaderboard - can't be less than 1.
 leaderboard-count: 5
-# Если игрок не отображается в / emf top, должна ли его позиция отображаться внизу?
+# If the player doesn't appear on /emf top, should their position be displayed at the bottom?
 always-show-pos: true
-# Отправляется игрокам, когда никто не установил рекорд во время соревнования
-no-winners: "&rРекорда в рыбалке не было."
-# Когда отдельный игрок не поставил рекорд
-no-record: "&rТы не поймал ни одной рыбы."
-# Отправляется, когда администратор пытается запустить соревнование, в котором тип не существует, например /emf admin competition start 600 ABCDEFGH
-invalid-type: "&rЭто не тип типа конкуренции, доступные типы: MOST_FISH, LARGEST_FISH, SPECIFIC_FISH"
+# Sent to players when nobody got a record during a competition
+no-winners: "&rЗаписей о рыбалке не было."
+# When an individual player didn't get a record
+no-record: "&rТы не поймал никакой рыбы."
+# Sent when an admin tries to start a competition where the type doesn't exist e.g. /emf admin competition start 600 ABCDEFGH
+invalid-type: "&rЭто не тип соревновательного типа, доступные типы: MOST_FISH, LARGEST_FISH, SPECIFIC_FISH"
 # Sent to all online players when not enough players are on to start a competition
-not-enough-players: "&rВ сети недостаточно игроков, чтобы начать запланированное соревнование по рыбной ловле."
-# Отправляется всем игрокам в определенное время, чтобы показать оставшееся время
-# {time_formatted} показывает время (например, осталось 5 м, осталось 10 м 30 секунд)
-# {time_raw} - это то, что вы вводите в competitions.yml
-time-alert: "&rДо оконцания соревнования в категории {type} осталось {time_formatted}"
+not-enough-players: "&rВ сети недостаточно игроков, чтобы начать запланированные соревнования по рыбной ловле."
+# Sent to all players at specific times to show the remaining time left
+# {time_formatted} shows the time (e.g. 5m left, 10m 30s left)
+# {time_raw} is what you input in competitions.yml
+time-alert: "&rThere is {time_formatted} left on the competition for {type}"
 
-# Название графического интерфейса для /emf shop
-worth-gui-name: "&1&lПродать Рыбу"
-# Название, указанное на кнопке для продажи в магазине /emf shop
+# The GUI title for /emf shop
+worth-gui-name: "&1&lпродажа рыбы"
+# The name found on the selling item in /emf shop
 sell-gui-name: "&6&lПРОДАТЬ"
-# Название, указанное на кнопке для продажи всей рыбы в инвентаре в магазине /emf shop
-sell-all-name: "&6&lПРОДАТЬ ВСЁ"
-# Имя, указанное на подтверждающей кнопке в /emf shop
+# The name found on the item to sell all fish in inventory in /emf shop
+sell-all-name: "&6&lПРОДАТЬ ВСЕ"
+# The name found on the confirming item in /emf shop
 confirm-gui-name: "&6&lПОДТВЕРДИТЬ"
-# Название, указанное нав кнопка продажи всего товара в /emf shop
+# The name found on the confirming sell all item in /emf shop
 confirm-sell-all-gui-name: "&6&lПОДТВЕРДИТЬ"
-# Имя, указанное в элементе ошибки в /emf shop, когда графический интерфейс не содержит ценных элементов.
-error-gui-name: "&c&lНет предметов для продажи"
-# Имя, указанное на кнопке ошибки в /emf shop, когда в инвентаре игрока нет ценных предметов.
-error-sell-all-gui-name: "&c&lНет предметов для продажи"
-# Описание, определенные на товаре для продажи/подтверждения в магазине /emf shop
+# The name found on the error item in /emf shop when the gui contains no items of value.
+error-gui-name: "&c&lНе могу продать"
+# The name found on the error item in /emf shop when the player's inventory contains no items of value.
+error-sell-all-gui-name: "&c&lНе могу продать"
+# The lore found on the selling/confirmation item in /emf shop
 sell-gui-lore:
   - "&8Рыбный магазин"
   - ""
@@ -157,6 +167,7 @@ help-general:
   - "/emf toggle - Переключает, получаете ли вы кастомную рыбу или нет."
   - "/emf admin - Страница справки команды администратора."
 
+# Competition help (/emf admin competition help)
 # Справка по соревнованиям (/emf admin competition help)
 help-competition:
   - "&f&m &#f1ffed&m &#e2ffdb&m &#d3ffc9&m &#c3ffb7&m &#b2ffa5&m &#9fff92&m &#8bff7f&m &#73ff6b&m &a&m &f &a&lEvenMoreFish &a&m &#73ff6b&m&m &#8bff7f&m &#9fff92&m &#b2ffa5&m &#c3ffb7&m &#d3ffc9&m &#f1ffed&m &f&m &f"
@@ -167,6 +178,7 @@ help-competition:
 help-admin:
   - "&f&m &#f1ffed&m &#e2ffdb&m &#d3ffc9&m &#c3ffb7&m &#b2ffa5&m &#9fff92&m &#8bff7f&m &#73ff6b&m &a&m &f &a&lEvenMoreFish &a&m &#73ff6b&m&m &#8bff7f&m &#9fff92&m &#b2ffa5&m &#c3ffb7&m &#d3ffc9&m &#f1ffed&m &f&m &f"
   - "/emf admin competition <start/end> <duration> <type> - Запускает или останавливает соревнование"
+  - "&f/emf admin clearbait - Removes all applied baits from a fishing rod."
   - "/emf admin reload - Перезагружает конфигурационные файлы плагина"
   - "/emf admin version - Отображает информацию о плагине."
 
@@ -174,28 +186,75 @@ help-admin:
 no-player-in-place: "Начните ловить рыбу, чтобы занять это место"
 # Отображается, когда заполнители соревнований emf используются, когда соревнования не проводятся
 no-competition-running: "Прямо сейчас никаких соревнований не проводится."
-# Должен ли %emf_competition_place_player_*% содержать указанное выше значение (false) или возвращать значение null (true).
-emf-competition-player-null: false
-# Должен ли %emf_competition_place_size_*% содержать указанное выше значение (false) или возвращать значение null (true).
-emf-competition-size-null: true
-# Должен ли %emf_competition_place_fish_*% содержать указанное выше значение (false) или возвращать значение null (true).
-emf-competition-fish-null: true
 # Как следует форматировать %emf_competition_place_fish_*%?
 emf-competition-fish-format: "{length}cm &l{rarity} {fish}"
+# How should the %emf_competition_place_fish_*% be formatted when there's no length on the fish?
+emf-lengthless-fish-format: "{rarity_colour}&l{rarity} {fish}"
+# How should %emf_competition_place_fish_*% be formatted during MOST/SPECIFIC_FISH competitions?
+emf-most-fish-format: "{amount} fish"
+# What should be displayed for %emf_competition_place_size_*% during the MOST_FISH competition?
+emf-size-during-most-fish: "N/A"
+# How the %emf_competition_time_left% variable should be formatted.
+emf-time-remaining: "Time left until next competition: {days}d, {hours}h, {minutes}m."
+# Replaces the %emf_competition_time_left% variable when there's a competition already running.
+emf-time-remaining-during-comp: "There is a competition running right now."
 
-# Отправляется, когда игрок пытается применить слишком много типов приманок к удочке, установленных в общем разделе baits.yml
-max-baits-reached: "Вы достигли максимального количества типов приманок для этой удочки."
-# Не следует путать с вышеизложенным, это отправляется, когда достигается максимум конкретной приманки. Определите это в baits.yml с использованием "max-baits".
-max-bait-reached: "Вы достигли максимального количества {bait_theme}{bait} &r приманки, которое может быть применено к одной удочке."
-# Отправляется, когда игрок ловит приманку во время рыбалки (это можно отключить, установив процент улова равным 0 в baits.yml
-bait-catch: "&l{player} &rhas caught a {bait_theme}&l{bait} &rbait!"
-# Отправляется, когда наживка применена и рыба поймана.
-bait-use: "You have used one of your rod's {bait_theme}&l{bait} &rbait."
+# Sent when a player tries to apply too many types of baits to a fishing rod, set in the general section of baits.yml
+max-baits-reached: "&rYou have reached the maximum number of types of baits for this fishing rod."
+# Not to be confused with the above, this is sent when the maximum of a specific bait is reached. Define this in baits.yml using "max-baits".
+max-bait-reached: "&rYou have reached the maximum number of {bait_theme}{bait} &rbait that can be applied to one rod."
+# Sent when a player catches a bait from fishing (this can be disabled by setting catch-percentage to 0 in baits.yml
+bait-catch: "&r&l{player} &rhas caught a {bait_theme}&l{bait} &rbait!"
+# Sent when a bait is applied and a fish is caught.
+bait-use: "&rYou have used one of your rod's {bait_theme}&l{bait} &rbait."
+# Sent when someone tries to use a bait in creative
+bait-survival-limited: "&rYou must be in &nsurvival&r to apply baits to fishing rods."
 
 # Отображается при включении переключателя /emf toggle для выключения и включения соответственно.
 toggle-off: "Вы больше не будете ловить кастомную рыбу."
 toggle-on: "Теперь вы будете ловить кастомную рыбу."
 
-# ВНИМАНИЕ ВНИМАНИЕ ВНИМАНИЕ
-# НЕ РЕДАКТИРУЙТЕ ЭТО ЗНАЧЕНИЕ, ЕСЛИ ВЫ НЕ ОБНОВЛЯЕТЕ СООБЩЕНИЯ.
-config-version: 10
+# When trying to place a skull-fish when this is blocked in config.yml
+place-fish-blocked: "&rYou cannot place this fish."
+
+admin:
+  # Opens an /emf shop for another player
+  open-fish-shop: "&rOpened a shop inventory for {player}."
+  # When a fish is given to a player
+  given-player-fish: "&rYou have given {player} a {fish}."
+  # When a bait is given to a player
+  given-player-bait: "&rYou have given {player} a {bait}."
+  # When an admin runs /emf admin bait without a bait name.
+  no-bait-specified: "&rВы должны указать название приманки."
+  # When the admin tries the command /emf admin clearbaits whe not holding a fishing rod.
+  must-be-holding-rod: "&rYou need to be holding a fishing rod to run that command."
+  # When /emf admin clearbaits command is run.
+  all-baits-cleared: "&rВы удалили все приманки {amount} со своей удочки."
+  # /emf admin clearbaits is run, but there are no baits on the rod.
+  no-baits-on-rod: "&rНа удочке нет никаких приманок."
+
+  # When economy is disabled for the plugin
+  economy-disabled: "&rEvenMoreFish's функции экономии отключены."
+
+  # When the specified player can't be found when using -p: parameter.
+  player-not-found: "&r{player} could not be found."
+  # When the specified number in -q: is not a number.
+  number-format-error: "&r{amount} is not a valid number."
+  # When the specified number in -q: is not within the minecraft stack range (1-64)
+  number-range-error: "&r{amount} is not a number between 1-64."
+  # When a command cannot be run from the console
+  cannot-run-on-console: "&rКоманда не может быть запущена с консоли."
+
+  # Sent when a competition is already running when using /emf admin competition start
+  competition-already-running: "&rТам уже проводится соревнование."
+  # When an invalid competition type is tried to be started
+  competition-type-invalid: "&rЭто не тип соревновательного типа, доступные типы: MOST_FISH, LARGEST_FISH, SPECIFIC_FISH"
+
+  # When there's a spigot update available, don't translate the URL otherwise it won't direct to the correct page.
+  update-available: "&rДоступно обновление: https://www.spigotmc.org/resources/evenmorefish.91310/updates"
+  # When the plugin is reloaded
+  reload: "&rКонфигурация успешно перезагружена."
+
+# ATTENTION ATTENTION ATTENTION
+# DO NOT EDIT THIS VALUE UNLESS YOU'RE UPDATING THE MESSAGES.
+config-version: 12
