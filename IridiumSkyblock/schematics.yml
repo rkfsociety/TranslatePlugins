@@ -4,12 +4,12 @@ schematics:
     item:
       material: "PLAYER_HEAD"
       amount: 1
-      displayName: "&b&lDesert Island"
+      displayName: "&b&lНеобитаемый остров"
       headData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGY0OTNkZDgwNjUzM2Q5ZDIwZTg0OTUzOTU0MzY1ZjRkMzY5NzA5Y2ViYzlkZGVmMDIyZDFmZDQwZDg2YTY4ZiJ9fX0="
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7A starter desert island."
+      - "&7Начни своё выживание на Пустынном острове."
       slot: 11
     xHome: 1.5
     yHome: 88.0
@@ -34,12 +34,12 @@ schematics:
     item:
       material: "PLAYER_HEAD"
       amount: 1
-      displayName: "&b&lJungle Island"
+      displayName: "&b&lОстров джунглей"
       headData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjgzYWRmNDU2MGRlNDc0MTQwNDA5M2FjNjFjMzNmYjU1NmIzZDllZTUxNDBmNjIwMzYyNTg5ZmRkZWRlZmEyZCJ9fX0="
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7A starter jungle island."
+      - "&7Начни своё выживание на острове в джунглях."
       slot: 13
     xHome: 0.5
     yHome: 89.0
@@ -64,12 +64,12 @@ schematics:
     item:
       material: "PLAYER_HEAD"
       amount: 1
-      displayName: "&b&lMushroom Island"
+      displayName: "&b&lГрибной остров"
       headData: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE0NWQxYjQxN2NiZGRjMjE3NjdiMDYwNDRlODk5YjI2NmJmNzhhNjZlMjE4NzZiZTNjMDUxNWFiNTVkNzEifX19"
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7A starter mushroom island."
+      - "&7Начни своё выживание на Грибном острове"
       slot: 15
     xHome: 1.5
     yHome: 89.0
