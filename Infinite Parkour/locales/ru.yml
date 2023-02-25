@@ -1,0 +1,289 @@
+# Russian (Русский, ru)
+# By Enis
+# Materials have to be from: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+# Learn more about colouring: https://docs.adventure.kyori.net/minimessage/format.html#format
+
+name: Русский
+
+main:
+  name: <white>Паркур
+
+play:
+  name: <white>Выбор Режима Игры
+  
+  item:
+    material: sugar_cane
+    name: <#60EB76><bold>Режим Игры
+    lore: ''
+  
+  single:
+    name: <white>Одиночная
+    
+    item:
+      material: ender_pearl
+      name: <#6E92B1><bold>Одиночная игра
+      lore: ''
+    
+    default:
+      material: barrel
+      name: <#6693E7><bold>Обычный
+      lore: <dark_gray>Обычный режим игры.
+  
+  spectator:
+    name: <white>Наблюдение
+    
+    join: <#4CB3FF>Ты теперь наблюдатель. Ты можешь использовать "/parkour" чтобы
+      выйти/сменить свой режим игры.
+    action_bar: <#4CB3FF>Ты наблюдатель <gray>• <#4CB3FF>Используй "/parkour" для
+      выхода.
+    
+    other_join: <dark_green><bold>+ <reset><gray>%s начал наблюдать за тобой
+    other_leave: <red><bold>- <reset><gray>%s перестал наблюдать за тобой
+    
+    item:
+      material: glass
+      name: <#39D5AB><bold>Наблюдение
+      lore: ''
+    
+    head:
+      material: ''
+      name: <#6693E7><bold>%s
+      lore: ''
+
+community:
+  name: <white>Сообщество
+  
+  item:
+    material: oak_boat
+    name: <#60C9DF><bold>Сообщество
+    lore: ''
+  
+  leaderboards:
+    name: <white>Список Лидеров
+    
+    item:
+      material: gold_nugget
+      name: <#6693E7><bold>Список Лидеров
+      lore: ''
+    
+    sort:
+      material: bookshelf
+      name: <#DEA11F><bold>Сортировать по %s
+      lore: ''
+      values:
+      - счету
+      - времени
+      - сложности
+    
+    head:
+      material: ''
+      name: <#6693E7><bold>#%r - %p
+      lore: '<#5574AF>Счёт: <gray>%s||<#5574AF>Время: <gray>%t||<#5574AF>Сложность:
+        <gray>%d<dark_gray>/1.0'
+
+settings:
+  name: <white>Настройки
+  
+  item:
+    material: comparator
+    name: <#6086EB><bold>Настройки
+    lore: ''
+  
+  lang:
+    name: <white>Выбор Языка
+    
+    item:
+      material: writable_book
+      name: <#6693E7><bold>Язык
+      lore: '<dark_gray>Текущий: <#5574AF><bold>%s'
+  
+  chat:
+    material: crossbow
+    name: <#20C6BC><bold>Чат
+    lore: '<dark_gray>Текущий: <#17B2CE><bold>%s||<dark_gray>Выбери кто моежт общаться
+      с тобой'
+    values:
+    - только лобби
+    - только игроки
+    - все
+    
+    formats:
+      lobby: <#8A1010>(Лобби) <#BE0D0D>%s <dark_gray>> <gray>%s
+      players: <#8A1010>(Игроки) <#BE0D0D>%s <dark_gray>> <gray>%s
+  
+  parkour_settings:
+    
+    item:
+      material: redstone
+      name: <#A10404><bold>Настройки Паркура
+      lore: <dark_gray>Выбери каким будет твой паркур.
+    
+    items:
+      
+      no_change:
+        material: barrier
+        name: <dark_red><bold>Ты не можешь изменить это прямо сейчас!
+        lore: <gray>Твой счет выше 0,||<gray>что означает, что ты не можешь менять
+          это.
+      
+      styles:
+        name: <white>Выбор Стиля
+        
+        item:
+          material: crafting_table
+          name: <#6693E7><bold>Стили
+          lore: '<#5574AF>Текущий: <gray>%s||<gray>Выбери какие будут блоки.'
+      
+      leads:
+        material: feather
+        name: <#6693E7><bold>Дальность Генерации
+        lore: '<#5574AF>Текущая: <gray>%s blocks||<gray>Сколько блоков||<gray>будет
+          генерировано перед тобой.'
+      
+      time:
+        material: clock
+        name: <#6693E7><bold>Время
+        lore: '<#5574AF>Текущее: <gray>%s||<gray>Твоё текущее визуальное время.'
+      
+      schematic_difficulty:
+        material: ''
+        name: <#6693E7><bold>Сложность Построек
+        lore: '<#5574AF>Текущая: <gray>%s||<gray>Сложность построек'
+        values:
+        - легкая
+        - средняя
+        - трудная
+        - невозможная
+      
+      schematic_use:
+        material: ''
+        name: Использовать Постройки
+        lore: '<gray>Текущее: %s||<gray>Если включены, то статичные постройки||<gray>будут
+          появлятся на паркуре.'
+      
+      schematic:
+        name: <white>Постройки
+        
+        item:
+          material: scaffolding
+          name: <#6693E7><bold>Постройки
+          lore: <gray>Изменить настройки построек
+      
+      scoreboard:
+        material: ''
+        name: Показывать Таблицу Счёта
+        lore: '<gray>Текущее: %s||<gray>Если включена, то показывает таблицу счета.'
+      
+      fall_message:
+        item:
+          material: ''
+          name: Показывать сообщение о падении
+          lore: '<gray>Текущее: %s||<gray>Если включено, показывает сообщение о падении||<gray>с
+            дополнительной информацией.'
+        
+        divider: <dark_gray><strikethrough>-----------------------------------
+        score: <#80C7FD><bold>Счёт <reset><white>%s
+        time: <#80C7FD><bold>Время <reset><white>%s
+        high_score: <#80C7FD><bold>Рекорд <reset><white>%s
+        
+        formats:
+          miss: <gray>Тебе не хватило (%s) очков до рекорда
+          beat: <gray>Ты побил свой рекорд на (%s) очков!
+          tied: <gray>Ты сравнял свой рекорд!
+      
+      particles:
+        material: ''
+        name: Показывать Частицы
+        lore: '<gray>Текущее: %s||<gray>Если включено, то каждый появляющийся блок||<gray>будет
+          испускать частицы.'
+      
+      sound:
+        material: ''
+        name: Проигрывать Звуки
+        lore: '<gray>Текущее: %s||<gray>Если включено, то каждый появляющийся блок||<gray>будет
+          проигрывать звук.'
+      
+      special_blocks:
+        material: ''
+        name: Использовать специальные блоки
+        lore: '<gray>Текущее: %s||<gray>Если включено, использовать специальные блоки
+          как лед и плиты.'
+      
+      score_difficulty:
+        material: ''
+        name: Сложный Счёт
+        lore: '<gray>Текущее: %s||<gray>Когда включено, чем выше у тебя счёт,||<gray>
+          тем выше сложность.'
+
+lobby:
+  name: <white>Лобби
+  
+  item:
+    material: iron_ingot
+    name: <#EB608C><bold>Твоё Лобби
+    lore: ''
+  
+  visibility:
+    material: firework_rocket
+    name: <#A1E1DD><bold>Видимость
+    lore: '<dark_gray>Текущая: <#2BD4E2><bold>%s||<dark_gray>Выбери кто может зайти
+      к тебе в лобби.'
+    values:
+    - закрытая
+    - по приглашения
+    - открытая
+  
+  player_management:
+    name: <white>Управление Игроками
+    
+    kicked: Ты был выгнан с твоего лобби его владельцем.
+    advice: Установи свою видимость на "по приглашения" или "закрытая", чтобы избежать
+      случайных заходов людей.
+    muted: Ты был заткнут владельцем лобби.
+    unmuted: Владелец лобби разрешил тебе говорить.
+    
+    item:
+      material: cake
+      name: <#8DC9E5><bold>Управлять Игроками
+      lore: <dark_gray>Выгоняй или затыкай здесь игроков.
+    
+    head:
+      material: ''
+      name: <#4BD16D><bold>%s
+      lore: ''
+      top: <dark_gray>Заткнут в лобби||
+      bottom: <#8DE5A3>Левый клик<dark_gray> чтобы выгнать из лобби||<#8DE5A3>Правый
+        Клик<dark_gray> для (раз)мута в лобби.
+
+scoreboard:
+  
+  title: <#FF6464><bold>Паркур
+  
+  lines:
+  - <blue>
+  - <#F6A8A8>Счёт <white>%score%
+  - <#F6A8A8>Время <white>%time%
+  - <#F6A8A8>Рекорд <white>%highscore%
+  - <red>
+  - <dark_gray>%session%
+  - <#FF6464><bold>айпи.сервера
+
+other:
+  
+  no_do: <gray>Ты не можешь сейчас делать это.
+  customize: <gray>Разнообразь свой паркур при помощи "/parkour"
+  
+  quit:
+    material: barrier
+    name: <#D71F1F><bold>Выйти
+    lore: ''
+  
+  close:
+    material: arrow
+    name: <#F5A3A3><bold>Закрыть
+    lore: ''
+styles:
+  default:
+    material: poppy
+    name: <#348EDB><bold>Default
+    lore: ''
