@@ -3,20 +3,20 @@ farmingBooster:
   item:
     material: "WHEAT"
     amount: 1
-    displayName: "&b&lFarming Booster"
+    displayName: "&b&lФермерский бустер"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Crops growing too slow? Buy this"
-    - "&7booster and double crop growth."
+    - "&7Посевы растут слишком медленно?"
+    - "&7Купите этот бустер и увеличьте урожай вдвое."
     - ""
-    - "&b&lInformation:"
-    - "&b&l * &7Time Remaining: &b%timeremaining_minutes% minutes and %timeremaining_seconds%\
-      \ seconds"
-    - "&b&l * &7Booster Cost: &b%crystalcost% Crystals and $%vaultcost%"
+    - "&b&lИнформация:"
+    - "&b&l * &7Оставшееся время: &b%timeremaining_minutes% минут и %timeremaining_seconds%\
+      \ секунд"
+    - "&b&l * &7Стоимость бустера: &b%crystalcost% кристаллов и $%vaultcost%"
     - ""
-    - "&b&l[!] &bRight Click to Purchase this Booster."
+    - "&b&l[!] &bПКМ, чтобы приобрести этот бустер."
     slot: 10
   crystalsCost: 15
   vaultCost: 10000
@@ -28,20 +28,20 @@ spawnerBooster:
   item:
     material: "SPAWNER"
     amount: 1
-    displayName: "&b&lSpawner Booster"
+    displayName: "&b&lБустер Спавнера"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Spawners too slow? Buy this"
-    - "&7booster and double your spawner speed."
+    - "&7Спавнеры слишком медленные?"
+    - "&7Купите этот бустер и удвойте скорость своего спавнера."
     - ""
-    - "&b&lInformation:"
-    - "&b&l * &7Time Remaining: &b%timeremaining_minutes% minutes and %timeremaining_seconds%\
-      \ seconds"
-    - "&b&l * &7Booster Cost: &b%crystalcost% Crystals and $%vaultcost%"
+    - "&b&lИнформация:"
+    - "&b&l * &7Оставшееся время: &b%timeremaining_minutes% минут и %timeremaining_seconds%\
+      \ секунд"
+    - "&b&l * &7Стоимость бустера: &b%crystalcost% кристаллов и $%vaultcost%"
     - ""
-    - "&b&l[!] &bRight Click to Purchase this Booster."
+    - "&b&l[!] &bПКМ, чтобы приобрести этот бустер."
     slot: 12
   crystalsCost: 15
   vaultCost: 10000
@@ -53,20 +53,20 @@ experienceBooster:
   item:
     material: "EXPERIENCE_BOTTLE"
     amount: 1
-    displayName: "&b&lExperience Booster"
+    displayName: "&b&lБустер опыта"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Gaining Experience too slow? Buy this"
-    - "&7booster and double experience drops."
+    - "&7Набираете опыт слишком медленно?"
+    - "&7Купите этот бустер и удвойте количество выпадений опыта."
     - ""
-    - "&b&lInformation:"
-    - "&b&l * &7Time Remaining: &b%timeremaining_minutes% minutes and %timeremaining_seconds%\
-      \ seconds"
-    - "&b&l * &7Booster Cost: &b%crystalcost% Crystals and $%vaultcost%"
+    - "&b&lИнформация:"
+    - "&b&l * &7Оставшееся время: &b%timeremaining_minutes% минут и %timeremaining_seconds%\
+      \ секунд"
+    - "&b&l * &7Стоимость бустера: &b%crystalcost% кристаллов и $%vaultcost%"
     - ""
-    - "&b&l[!] &bRight Click to Purchase this Booster."
+    - "&b&l[!] &bПКМ, чтобы приобрести этот бустер."
     slot: 14
   crystalsCost: 15
   vaultCost: 10000
@@ -78,24 +78,24 @@ flightBooster:
   item:
     material: "FEATHER"
     amount: 1
-    displayName: "&b&lFlight Booster"
+    displayName: "&b&lБустер для полета"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Keep falling off your island? Buy this"
-    - "&7booster and Gain access to /is fly."
+    - "&7Постоянно падаешь со своего острова?"
+    - "&7Купите этот бустер и получите доступ к /is fly."
     - ""
-    - "&b&lInformation:"
-    - "&b&l * &7Time Remaining: &b%timeremaining_minutes% minutes and %timeremaining_seconds%\
-      \ seconds"
-    - "&b&l * &7Booster Cost: &b%crystalcost% Crystals and $%vaultcost%"
+    - "&b&lИнформация:"
+    - "&b&l * &7Оставшееся время: &b%timeremaining_minutes% минут и %timeremaining_seconds%\
+      \ секунд"
+    - "&b&l * &7Стоимость бустера: &b%crystalcost% кристаллов и $%vaultcost%"
     - ""
-    - "&b&l[!] &bRight Click to Purchase this Booster."
+    - "&b&l[!] &bПКМ, чтобы приобрести этот бустер."
     slot: 16
   crystalsCost: 15
   vaultCost: 10000
   time: 3600
   name: "Flight"
   stackable: true
-  enabled: true
+  enabled: false
