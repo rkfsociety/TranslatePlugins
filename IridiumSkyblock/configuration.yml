@@ -1,6 +1,6 @@
 ---
-prefix: "<GRADIENT:09C6F9>&lIridiumSkyblock</GRADIENT:045DE9> &8»"
-worldName: "IridiumSkyblock"
+prefix: "<GRADIENT:09C6F9>&lSkyblock</GRADIENT:045DE9> &8»"
+worldName: "mSkyblock"
 islandCreateTitle: "&b&lIsland Created"
 islandCreateSubTitle: "&7IridiumSkyblock by Peaches_MLG"
 dateTimeFormat: "EEEE, MMMM dd HH:mm:ss"
@@ -8,6 +8,7 @@ spawnWorldName: "world"
 defaultCommandSyntax: "/is %command%"
 islandLevelEquation: "abs(cbrt($1+1))"
 defaultIslandName: "%island_owner_name%'s Island"
+paster: "worldedit"
 enableCheckVersion: true
 defaultIslandPublic: true
 voidTeleport: true
@@ -19,6 +20,7 @@ patreonMessage: true
 islandMenu: true
 backButtons: true
 createIslandOnHome: true
+putBackOnIslandLeave: false
 regenSettings:
   moneyPrice: 0.0
   crystalPrice: 0
@@ -64,9 +66,11 @@ pvpSettings:
   - "FIRE_TICK"
 distance: 151
 islandRecalculateInterval: 5
+chunkPerTickRecalculation: 1
 maxIslandName: 16
 minIslandName: 3
 teleportDelay: 0
+trackTicks: 20
 islandCrystal:
   material: "NETHER_STAR"
   amount: 1
@@ -76,8 +80,8 @@ islandCrystal:
   headOwnerUUID: null
   lore:
   - ""
-  - "&b%amount% Island Crystals"
-  - "&b&l[!] &bRight-Click to Redeem"
+  - "&b%amount% кристалов"
+  - "&b&l[!] &bПКМ, чтобы активировать"
   slot: null
 islandLevelUpSound: "ENTITY_PLAYER_LEVELUP"
 numberFormatter:
@@ -125,7 +129,7 @@ islandLevelRewards:
       - "&b&l* &b5 Island Crystals"
       - "&b&l* &b200 Island Money"
       - ""
-      - "&b&l[!] &bLeft click to redeem"
+      - "&b&l[!] &bЛКМ, чтобы активировать"
       slot: null
     commands: []
     islandExperience: 0
