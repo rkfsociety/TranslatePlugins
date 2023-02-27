@@ -1,52 +1,52 @@
 ---
 crystalsBankItem:
   name: "crystals"
-  displayName: "Crystals"
+  displayName: "Кристаллы"
   defaultAmount: 10.0
   enabled: true
   item:
     material: "NETHER_STAR"
     amount: 1
-    displayName: "&b&lIsland Crystals"
+    displayName: "&b&lОстровные кристаллы"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7%amount% Crystals"
-    - "&b&l[!] &bLeft click to withdraw"
-    - "&b&l[!] &bRight click to deposit"
+    - "&7%amount% Кристаллов"
+    - "&b&l[!] &bЛКМ, чтобы вывести"
+    - "&b&l[!] &bПКМ, чтобы внести"
     slot: 13
 experienceBankItem:
   name: "experience"
-  displayName: "Experience"
+  displayName: "Опыт"
   defaultAmount: 10.0
   enabled: true
   item:
     material: "EXPERIENCE_BOTTLE"
     amount: 1
-    displayName: "&b&lIsland Experience"
+    displayName: "&b&lОстровной опыт"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7%amount% Experience"
-    - "&b&l[!] &bLeft click to withdraw"
-    - "&b&l[!] &bRight click to deposit"
+    - "&7%amount% Опыт"
+    - "&b&l[!] &bЛКМ, чтобы вывести"
+    - "&b&l[!] &bПКМ, чтобы внести"
     slot: 15
 moneyBankItem:
   name: "money"
-  displayName: "Money"
+  displayName: "Деньги"
   defaultAmount: 1000.0
   enabled: true
   item:
     material: "PAPER"
     amount: 1
-    displayName: "&b&lIsland Money"
+    displayName: "&b&lОстровные деньги"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
     - "&7$%amount%"
-    - "&b&l[!] &bLeft click to withdraw"
-    - "&b&l[!] &bRight click to deposit"
+    - "&b&l[!] &bЛКМ, чтобы вывести"
+    - "&b&l[!] &bПКМ, чтобы внести"
     slot: 11
