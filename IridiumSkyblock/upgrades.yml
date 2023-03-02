@@ -10,17 +10,17 @@ sizeUpgrade:
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Нужно больше места для развития?"
-    - "&7Купите это обновление, чтобы увеличить размер вашего острова."
+    - "&7Нужно больше места для расширения?"
+    - "&7Купите это обновление, чтобы увеличить размер острова."
     - ""
     - "&b&lИнформация:"
-    - "&b&l * &7Текущий Уровень: &b%level%"
-    - "&b&l * &7Текущий размер: &b%size%x%size% Blocks"
-    - "&b&l * &7Стоимость обновления: &b%crystalscost% Crystals and $%vaultcost%"
+    - "&b&l * &7Текущий уровень: &b%level%"
+    - "&b&l * &7Текущий размер: &b%size%x%size% блоков"
+    - "&b&l * &7Стоимость модернизации: &b%crystalscost% кристаллов и $%vaultcost%"
     - "&b&lУровни:"
-    - "&b&l * &7Уровень 1: &b50x50 Blocks"
-    - "&b&l * &7Уровень 2: &b100x100 Blocks"
-    - "&b&l * &7Уровень 3: &b150x150 Blocks"
+    - "&b&l * &7Уровень 1: &b50x50 блоков"
+    - "&b&l * &7Уровень 2: &b100x100 блоков"
+    - "&b&l * &7Уровень 3: &b150x150 блоков"
     - ""
     - "&b&l[!] &bЛКМ, чтобы приобрести это обновление"
     slot: 11
@@ -43,22 +43,22 @@ memberUpgrade:
   item:
     material: "ARMOR_STAND"
     amount: 1
-    displayName: "&b&lУчастники Острова"
+    displayName: "&b&lУчастники острова"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
     - "&7Нужно больше участников?"
-    - "&7Купите это обновление, чтобы увеличить количество ваших участников."
+    - "&7Купите это обновление, чтобы увеличить количество участников."
     - ""
     - "&b&lИнформация:"
-    - "&b&l * &7Текущий Уровень: &b%level%"
-    - "&b&l * &7Количество Участников: &b%amount%"
-    - "&b&l * &7Стоимость обновления: &b%crystalscost% Кристаллов и $%vaultcost%"
+    - "&b&l * &7Текущий уровень: &b%level%"
+    - "&b&l * &7Текущее кол-во: &b%amount% участников"
+    - "&b&l * &7Стоимость модернизации: &b%crystalscost% кристаллов и $%vaultcost%"
     - "&b&lУровни:"
-    - "&b&l * &7Уровень 1: &b9 Участников"
-    - "&b&l * &7Уровень 2: &b18 Участников"
-    - "&b&l * &7Уровень 3: &b27 Участников"
+    - "&b&l * &7Уровень 1: &b9 участников"
+    - "&b&l * &7Уровень 2: &b18 участников"
+    - "&b&l * &7Уровень 3: &b27 участников"
     - ""
     - "&b&l[!] &bЛКМ, чтобы приобрести это обновление"
     slot: 12
@@ -81,18 +81,18 @@ blockLimitUpgrade:
   item:
     material: "HOPPER"
     amount: 1
-    displayName: "&b&lЛимиты на блоки"
+    displayName: "&b&lОграничения по воронкам"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Нужно разместить больше блоков?"
-    - "&7Купите это обновление,"
-    - "&7чтобы увеличить количество блоков, которые вы можете разместить."
+    - "&7Нужно разместить больше воронок?"
+    - "&7Купите это обновление, чтобы увеличить количество воронок,"
+    - "&7которые вы можете разместить."
     - ""
     - "&b&lИнформация:"
-    - "&b&l * &7Текущий Уровень: &b%level%"
-    - "&b&l * &7Стоимость обновления: &b%crystalscost% Crystals and $%vaultcost%"
+    - "&b&l * &7Текущий уровень: &b%level%"
+    - "&b&l * &7Стоимость модернизации: &b%crystalscost% кристаллов и $%vaultcost%"
     - ""
     - "&b&l[!] &bЛКМ, чтобы приобрести это обновление"
     slot: 13
@@ -138,25 +138,25 @@ warpsUpgrade:
   item:
     material: "END_PORTAL_FRAME"
     amount: 1
-    displayName: "&b&lIsland Warps"
+    displayName: "&b&lВарпы"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Need more island warps? Buy this"
-    - "&7upgrade to increase your island warps."
+    - "&7Нужно больше островных варпов?"
+    - "&7Купите этот апгрейд, чтобы увеличить количество варпов острова."
     - ""
-    - "&b&lInformation:"
-    - "&b&l * &7Current Level: &b%level%"
-    - "&b&l * &7Upgrade Cost: &b%crystalscost% Crystals and $%vaultcost%"
-    - "&b&lLevels:"
-    - "&b&l * &7Level 1: &b1 Warp"
-    - "&b&l * &7Level 2: &b2 Warp"
-    - "&b&l * &7Level 3: &b3 Warp"
-    - "&b&l * &7Level 4: &b4 Warp"
-    - "&b&l * &7Level 5: &b5 Warp"
+    - "&b&lИнформация:"
+    - "&b&l * &7Текущий уровень: &b%level%"
+    - "&b&l * &7Стоимость модернизации: &b%crystalscost% кристаллов и $%vaultcost%"
+    - "&b&lУровни:"
+    - "&b&l * &7Уровень 1: &b1 Варп"
+    - "&b&l * &7Уровень 2: &b2 Варпа"
+    - "&b&l * &7Уровень 3: &b3 Варпа"
+    - "&b&l * &7Уровень 4: &b4 Варпа"
+    - "&b&l * &7Уровень 5: &b5 Варпов"
     - ""
-    - "&b&l[!] &bLeft Click to Purchase this Upgrade"
+    - "&b&l[!] &bЛКМ, чтобы приобрести это обновление"
     slot: 14
   upgrades:
     1:
@@ -185,19 +185,19 @@ oresUpgrade:
   item:
     material: "DIAMOND_ORE"
     amount: 1
-    displayName: "&b&lIsland Generator"
+    displayName: "&b&lОстровной генератор"
     headData: null
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Want to improve your generator? Buy this"
-    - "&7upgrade to improve your island generator."
+    - "&7Хотите улучшить свой генератор?"
+    - "&7Купите это обновление, чтобы улучшить генератор острова."
     - ""
-    - "&b&lInformation:"
-    - "&b&l * &7Current Level: &b%level%"
-    - "&b&l * &7Upgrade Cost: &b%crystalscost% Crystals and $%vaultcost%"
+    - "&b&lИнформация:"
+    - "&b&l * &7Текущий уровень: &b%level%"
+    - "&b&l * &7Стоимость модернизации: &b%crystalscost% кристаллов и $%vaultcost%"
     - ""
-    - "&b&l[!] &bLeft Click to Purchase this Upgrade"
+    - "&b&l[!] &bЛКМ, чтобы приобрести это обновление"
     slot: 15
   upgrades:
     1:
