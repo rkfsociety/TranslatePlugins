@@ -2,7 +2,7 @@
 aboutCommand:
   aliases:
   - "about"
-  description: "Display plugin info"
+  description: "Отображение информации о плагине"
   permission: ""
   syntax: ""
   enabled: true
@@ -11,7 +11,7 @@ banCommand:
   aliases:
   - "ban"
   - "bans"
-  description: "Bans a player from visiting your Island"
+  description: "Запрещает игроку посещать ваш остров"
   permission: ""
   syntax: "%prefix% &7/is ban <player>"
   enabled: true
@@ -19,7 +19,7 @@ banCommand:
 bankCommand:
   aliases:
   - "bank"
-  description: "Open your Island bank"
+  description: "Откройте свой островной банк"
   permission: ""
   syntax: ""
   enabled: true
@@ -27,7 +27,7 @@ bankCommand:
   bankGive:
     aliases:
     - "give"
-    description: "Give players money into their island bank"
+    description: "Давать игрокам деньги в их островной банк"
     permission: "iridiumskyblock.bank.give"
     syntax: "%prefix% &7/is bank give <player> <type> <amount>"
     enabled: true
@@ -35,7 +35,7 @@ bankCommand:
   bankSet:
     aliases:
     - "set"
-    description: "Set a players bank value"
+    description: "Установите значение банка игроков"
     permission: "iridiumskyblock.bank.set"
     syntax: "%prefix% &7/is bank set <player> <type> <amount>"
     enabled: true
@@ -43,7 +43,7 @@ bankCommand:
   bankRemove:
     aliases:
     - "remove"
-    description: "Remove value from a players bank"
+    description: "Удалить значение из банка игроков"
     permission: "iridiumskyblock.bank.remove"
     syntax: "%prefix% &7/is bank remove <player> <type> <amount>"
     enabled: true
@@ -51,7 +51,7 @@ bankCommand:
 biomeCommand:
   aliases:
   - "biome"
-  description: "Change your island biome."
+  description: "Измените биом своего острова."
   permission: ""
   syntax: "%prefix% &7/is biome <biome>"
   enabled: true
@@ -59,7 +59,7 @@ biomeCommand:
 blockValueCommand:
   aliases:
   - "blockvalues"
-  description: "Show the values of blocks"
+  description: "Показать значения блоков"
   permission: ""
   syntax: ""
   enabled: true
@@ -68,7 +68,7 @@ boostersCommand:
   aliases:
   - "booster"
   - "boosters"
-  description: "Open the Island Boosters Menu"
+  description: "Откройте меню Ускорители острова"
   permission: ""
   syntax: "%prefix% &7/is booster <name>"
   enabled: true
@@ -76,7 +76,7 @@ boostersCommand:
 borderCommand:
   aliases:
   - "border"
-  description: "Change the Island Border"
+  description: "Изменить границу острова"
   permission: ""
   syntax: "%prefix% &7/is border <color>"
   enabled: true
@@ -84,7 +84,7 @@ borderCommand:
 bypassCommand:
   aliases:
   - "bypass"
-  description: "Bypass Island restrictions"
+  description: "Обход ограничений острова"
   permission: "iridiumskyblock.bypass"
   syntax: ""
   enabled: true
@@ -92,7 +92,7 @@ bypassCommand:
 chatCommand:
   aliases:
   - "chat"
-  description: "Chat with online Island members"
+  description: "Общайтесь с членами онлайн клуба Island"
   permission: ""
   syntax: "%prefix% &7/is chat <message>"
   enabled: true
@@ -100,7 +100,7 @@ chatCommand:
 clearDataCommand:
   aliases:
   - "clearalldata"
-  description: "Resets all IridiumSkyblock Data"
+  description: "Сброс всех данных IridiumSkyblock"
   permission: "iridiumskyblock.clearalldata"
   syntax: ""
   enabled: true
@@ -116,7 +116,7 @@ createCommand:
 deleteCommand:
   aliases:
   - "delete"
-  description: "Delete your Island"
+  description: "Удалить свой остров"
   permission: ""
   syntax: "%prefix% &7/is delete <name>"
   enabled: true
@@ -141,7 +141,7 @@ demoteCommand:
 depositCommand:
   aliases:
   - "deposit"
-  description: "Deposit into your Island bank"
+  description: "Депозит в ваш островной банк"
   permission: ""
   syntax: "%prefix% &7/is deposit <name> <amount>"
   enabled: true
@@ -157,7 +157,7 @@ editWarpCommand:
 expelCommand:
   aliases:
   - "expel"
-  description: "Kick a visitor"
+  description: "Выгнать посетителя"
   permission: ""
   syntax: "%prefix% &7/is expel <player>"
   enabled: true
@@ -165,7 +165,7 @@ expelCommand:
 extraValueCommand:
   aliases:
   - "extravalue"
-  description: "Set extra values of island"
+  description: "Установите дополнительные значения острова"
   permission: "iridiumskyblock.extravalue"
   syntax: "%prefix% &7/is extravalue <player/add/remove/set>"
   enabled: true
@@ -173,7 +173,7 @@ extraValueCommand:
   addCommand:
     aliases:
     - "add"
-    description: "Add value to the extra value of a player"
+    description: "Добавьте дополнительную ценность игроку"
     permission: "iridiumskyblock.extravalue"
     syntax: "%prefix% &7/is extravalue add <player> <amount>"
     enabled: true
@@ -181,7 +181,7 @@ extraValueCommand:
   removeCommand:
     aliases:
     - "remove"
-    description: "Remove value from the extra value of a player"
+    description: "Удалить значение из дополнительной стоимости игрока"
     permission: "iridiumskyblock.extravalue"
     syntax: "%prefix% &7/is extravalue remove <player> <amount>"
     enabled: true
@@ -206,7 +206,7 @@ flyCommand:
 helpCommand:
   aliases:
   - "help"
-  description: "Show a list of all commands"
+  description: "Показать список всех команд"
   permission: ""
   syntax: "%prefix% &7/is help <page/command>"
   enabled: true
@@ -215,7 +215,7 @@ homeCommand:
   aliases:
   - "home"
   - "go"
-  description: "Teleport to your Island home"
+  description: "Телепортируйтесь в свой дом на острове"
   permission: ""
   syntax: ""
   enabled: true
@@ -223,7 +223,7 @@ homeCommand:
   currentOffsetCommand:
     aliases:
     - "currentOffset"
-    description: "Displays the relative location from the center"
+    description: "Отображает относительное расположение от центра"
     permission: "iridiumskyblock.currentoffset"
     syntax: "%prefix% &7/is home currentOffset"
     enabled: true
@@ -231,7 +231,7 @@ homeCommand:
 infoCommand:
   aliases:
   - "info"
-  description: "Show infos about this Island."
+  description: "Показать информацию об этом острове."
   permission: ""
   syntax: "%prefix% &7/is info <player>"
   enabled: true
@@ -240,7 +240,7 @@ inviteCommand:
   aliases:
   - "invite"
   - "invites"
-  description: "Invite a user to your Island"
+  description: "Пригласить пользователя на свой остров"
   permission: ""
   syntax: "%prefix% &7/is invite <player>"
   enabled: true
@@ -248,7 +248,7 @@ inviteCommand:
 joinCommand:
   aliases:
   - "join"
-  description: "Join an Island"
+  description: "Присоединиться к острову"
   permission: ""
   syntax: "%prefix% &7/is join <player>"
   enabled: true
@@ -256,7 +256,7 @@ joinCommand:
 kickCommand:
   aliases:
   - "kick"
-  description: "Kick a player"
+  description: "Выгнать игрока"
   permission: ""
   syntax: "%prefix% &7/is kick <player>"
   enabled: true
@@ -264,7 +264,7 @@ kickCommand:
 leaveCommand:
   aliases:
   - "leave"
-  description: "Leave your Island"
+  description: "Покинуть свой остров"
   permission: ""
   syntax: ""
   enabled: true
@@ -273,7 +273,7 @@ levelCommand:
   aliases:
   - "level"
   - "experience"
-  description: "Displays Island Level/Experience"
+  description: "Отображает уровень/опыт на острове"
   permission: ""
   syntax: ""
   enabled: true
@@ -281,7 +281,7 @@ levelCommand:
 logsCommand:
   aliases:
   - "logs"
-  description: "Open your Island Logs"
+  description: "Откройте журналы острова"
   permission: ""
   syntax: ""
   enabled: true
@@ -289,7 +289,7 @@ logsCommand:
 membersCommand:
   aliases:
   - "members"
-  description: "View your Island members"
+  description: "Просмотр участников вашего острова"
   permission: ""
   syntax: ""
   enabled: true
@@ -297,7 +297,7 @@ membersCommand:
 missionCommand:
   aliases:
   - "missions"
-  description: "View your Island missions"
+  description: "Просмотр заданий на острове"
   permission: ""
   syntax: "%prefix% &7/is mission <type>"
   enabled: true
@@ -306,7 +306,7 @@ permissionsCommand:
   aliases:
   - "permissions"
   - "perms"
-  description: "Edit your Island permissions"
+  description: "Редактирование разрешений на острове"
   permission: ""
   syntax: ""
   enabled: true
@@ -314,7 +314,7 @@ permissionsCommand:
 privateCommand:
   aliases:
   - "private"
-  description: "Make your Island private"
+  description: "Сделайте свой остров частным"
   permission: ""
   syntax: ""
   enabled: true
@@ -322,7 +322,7 @@ privateCommand:
 promoteCommand:
   aliases:
   - "promote"
-  description: "Promote a user"
+  description: "Продвижение пользователя"
   permission: ""
   syntax: "%prefix% &7/is promote <player>"
   enabled: true
@@ -330,7 +330,7 @@ promoteCommand:
 publicCommand:
   aliases:
   - "public"
-  description: "Make your Island public"
+  description: "Сделайте свой остров публичным"
   permission: ""
   syntax: ""
   enabled: true
@@ -339,7 +339,7 @@ recalculateCommand:
   aliases:
   - "recalculate"
   - "recalc"
-  description: "Recalculate all Island Values"
+  description: "Пересчитать все значения острова"
   permission: "iridiumskyblock.recalculate"
   syntax: ""
   enabled: true
@@ -347,7 +347,7 @@ recalculateCommand:
 regenCommand:
   aliases:
   - "regen"
-  description: "Regenerate your Island"
+  description: "Восстановить свой остров"
   permission: ""
   syntax: "%prefix% &7/is regen <schematic>"
   enabled: true
@@ -355,7 +355,7 @@ regenCommand:
 reloadCommand:
   aliases:
   - "reload"
-  description: "Reload the plugin configurations"
+  description: "Перезагрузите конфигурации плагина"
   permission: "iridiumskyblock.reload"
   syntax: ""
   enabled: true
@@ -363,7 +363,7 @@ reloadCommand:
 renameCommand:
   aliases:
   - "rename"
-  description: "Change your island name"
+  description: "Изменить название своего острова"
   permission: ""
   syntax: "%prefix% &7/is rename <name>"
   enabled: true
@@ -371,7 +371,7 @@ renameCommand:
 rewardsCommand:
   aliases:
   - "rewards"
-  description: "Claim your Island Rewards"
+  description: "Получите свои вознаграждения на острове"
   permission: ""
   syntax: ""
   enabled: true
@@ -379,7 +379,7 @@ rewardsCommand:
 setHomeCommand:
   aliases:
   - "sethome"
-  description: "Set your Island home"
+  description: "Установите свой островной дом"
   permission: ""
   syntax: ""
   enabled: true
@@ -404,7 +404,7 @@ settingsCommand:
 shopCommand:
   aliases:
   - "shop"
-  description: "Opens the Island shop"
+  description: "Открывает магазин на острове"
   permission: ""
   syntax: "%prefix% &7/is shop <category>"
   enabled: true
@@ -412,7 +412,7 @@ shopCommand:
 spyCommand:
   aliases:
   - "spy"
-  description: "Read the chats of other Islands"
+  description: "Читайте чаты других островов"
   permission: "iridiumskyblock.spy"
   syntax: ""
   enabled: true
@@ -420,7 +420,7 @@ spyCommand:
 topCommand:
   aliases:
   - "top"
-  description: "Display the top Islands"
+  description: "Отображение топовых островов"
   permission: ""
   syntax: ""
   enabled: true
@@ -428,7 +428,7 @@ topCommand:
 transferCommand:
   aliases:
   - "transfer"
-  description: "Transfer Island ownership to another player"
+  description: "Передача владения островом другому игроку"
   permission: ""
   syntax: "%prefix% &7/is transfer <player>"
   enabled: true
@@ -470,7 +470,7 @@ upgradesCommand:
   aliases:
   - "upgrades"
   - "upgrade"
-  description: "Open the Island Upgrades Menu"
+  description: "Откройте меню обновления острова"
   permission: ""
   syntax: "%prefix% &7/is upgrade <name>"
   enabled: true
@@ -486,7 +486,7 @@ valueCommand:
 visitCommand:
   aliases:
   - "visit"
-  description: "Visit another players Island"
+  description: "Посетите остров другого игрока"
   permission: ""
   syntax: "%prefix% &7/is visit <player>"
   enabled: true
@@ -503,7 +503,7 @@ warpsCommand:
 withdrawCommand:
   aliases:
   - "withdraw"
-  description: "Withdraw from your Island bank"
+  description: "Вывод средств из вашего островного банка"
   permission: ""
   syntax: "%prefix% &7/is withdraw <type> <amount>"
   enabled: true
