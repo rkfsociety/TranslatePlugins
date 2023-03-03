@@ -277,7 +277,7 @@ islandMenu:
       slot: 44
 missionSelectGUI:
   size: 27
-  title: "&7Island Missions"
+  title: "&7Миссии острова"
   background:
     filler:
       material: "BLACK_STAINED_GLASS_PANE"
@@ -374,7 +374,7 @@ missionSelectGUI:
     is missions once:
       material: "WRITABLE_BOOK"
       amount: 1
-      displayName: "&b&lQuests"
+      displayName: "&b&lКвесты"
       headData: null
       headOwner: null
       headOwnerUUID: null
@@ -383,7 +383,7 @@ missionSelectGUI:
     is missions daily:
       material: "DIAMOND_SWORD"
       amount: 1
-      displayName: "&b&lDaily Missions"
+      displayName: "&b&lЕжедневные миссии"
       headData: null
       headOwner: null
       headOwnerUUID: null
@@ -391,7 +391,7 @@ missionSelectGUI:
       slot: 11
 blockValueSelectGUI:
   size: 27
-  title: "Block Values"
+  title: "Ценности блоков"
   background:
     filler:
       material: "BLACK_STAINED_GLASS_PANE"
@@ -497,7 +497,7 @@ blockValueSelectGUI:
     is blockvalues spawner:
       material: "SPAWNER"
       amount: 1
-      displayName: "&b&lValuable Spawners"
+      displayName: "&b&lЦенные спавнеры"
       headData: null
       headOwner: null
       headOwnerUUID: null
@@ -505,7 +505,7 @@ blockValueSelectGUI:
       slot: 15
 visitGUI:
   size: 45
-  title: "&7Visit an Island"
+  title: "&7Посетите остров"
   background:
     filler:
       material: "BLACK_STAINED_GLASS_PANE"
@@ -525,12 +525,12 @@ visitGUI:
     headOwner: "%island_owner%"
     headOwnerUUID: null
     lore:
-    - "&7Created: %island_create%"
-    - "&7Owner: %island_owner%"
+    - "&7Создал: %island_create%"
+    - "&7Владелец: %island_owner%"
     slot: null
 membersGUI:
   size: 27
-  title: "&7Island Members"
+  title: "&7Участники острова"
   background:
     filler:
       material: "BLACK_STAINED_GLASS_PANE"
@@ -550,15 +550,15 @@ membersGUI:
     headOwner: "%player_name%"
     headOwnerUUID: null
     lore:
-    - "&7Joined: %player_join%"
-    - "&7Rank: %player_rank%"
+    - "&7Присоединился: %player_join%"
+    - "&7Рейтинг: %player_rank%"
     - ""
-    - "&b&l[!] &7Right Click to promote"
-    - "&b&l[!] &7Left click to demote/kick"
+    - "&b&l[!] &7ПКМ для продвижения"
+    - "&b&l[!] &7ЛКМ для понижения/кика"
     slot: 0
 bansGUI:
   size: 27
-  title: "&7Island Bans"
+  title: "&7Баны"
   background:
     filler:
       material: "BLACK_STAINED_GLASS_PANE"
@@ -578,14 +578,14 @@ bansGUI:
     headOwner: "%player_name%"
     headOwnerUUID: null
     lore:
-    - "&7Banned time: %ban_time%"
-    - "&7Banned by: %banned_by%"
+    - "&7Время бана: %ban_time%"
+    - "&7Забанил: %banned_by%"
     - ""
-    - "&b&l[!] &7Left Click to unban"
+    - "&b&l[!] &7ЛКМ, чтобы снять ограничение доступа"
     slot: 0
 trustedGUI:
   size: 27
-  title: "&7Trusted Members"
+  title: "&7Доверенные участники"
   background:
     filler:
       material: "BLACK_STAINED_GLASS_PANE"
@@ -634,8 +634,8 @@ visitorsGUI:
     lore:
     - "&7Has Island: %has_island%"
     - ""
-    - "&b&l[!] &7Left Click to expel this visitor from your island"
-    - "&b&l[!] &7Right Click to ban this visitor from your island"
+    - "&b&l[!] &7ЛКМ, чтобы изгнать этого посетителя с вашего острова"
+    - "&b&l[!] &7ПКМ, чтобы запретить этому посетителю посещать ваш остров"
     slot: 0
 islandTopGUI:
   size: 27
@@ -988,15 +988,15 @@ logsGUI:
   IslandMembers:
     material: "PLAYER_HEAD"
     amount: 1
-    displayName: "&b&lЧлены острова"
+    displayName: "&b&lУчастники острова"
     headData: null
     headOwner: "%island_owner%"
     headOwnerUUID: null
     lore:
     - ""
     - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
+    - "&b&l[!] &bЛКМ для просмотра предыдущей страницы"
+    - "&b&l[!] &bПКМ для просмотра следующей страницы"
     slot: 10
   IslandTrusts:
     material: "EMERALD"
@@ -1008,8 +1008,8 @@ logsGUI:
     lore:
     - ""
     - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
+    - "&b&l[!] &bЛКМ для просмотра предыдущей страницы"
+    - "&b&l[!] &bПКМ для просмотра следующей страницы"
     slot: 11
   IslandInvites:
     material: "LAPIS_LAZULI"
@@ -1021,8 +1021,8 @@ logsGUI:
     lore:
     - ""
     - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
+    - "&b&l[!] &bЛКМ для просмотра предыдущей страницы"
+    - "&b&l[!] &bПКМ для просмотра следующей страницы""
     slot: 12
   IslandBank:
     material: "GOLD_INGOT"
@@ -1034,8 +1034,8 @@ logsGUI:
     lore:
     - ""
     - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
+    - "&b&l[!] &bЛКМ для просмотра предыдущей страницы"
+    - "&b&l[!] &bПКМ для просмотра следующей страницы"
     slot: 13
   IslandBoosters:
     material: "EXPERIENCE_BOTTLE"
@@ -1047,8 +1047,8 @@ logsGUI:
     lore:
     - ""
     - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
+    - "&b&l[!] &bЛКМ для просмотра предыдущей страницы"
+    - "&b&l[!] &bПКМ для просмотра следующей страницы"
     slot: 14
   IslandUpgrades:
     material: "BEACON"
@@ -1060,8 +1060,8 @@ logsGUI:
     lore:
     - ""
     - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
+    - "&b&l[!] &bЛКМ для просмотра предыдущей страницы"
+    - "&b&l[!] &bПКМ для просмотра следующей страницы"
     slot: 15
   IslandRewards:
     material: "DIAMOND"
@@ -1073,8 +1073,8 @@ logsGUI:
     lore:
     - ""
     - "&7Page %current_page%/%max_page%"
-    - "&b&l[!] &bLeft click to view Previous Page"
-    - "&b&l[!] &bRight click to view Next Page"
+    - "&b&l[!] &bЛКМ для просмотра предыдущей страницы"
+    - "&b&l[!] &bПКМ для просмотра следующей страницы"
     slot: 16
   USER_JOINED: "&b%user% Joined (%days% days %hours% hours %minutes% minutes %seconds%\
     \ seconds ago)"
