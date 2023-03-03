@@ -1,28 +1,27 @@
 # Language file
 
 ABOUT-LINE: <BLUE>-----------------------------------------------------
-ACROSS-ALL-SERVERS: ' <GREEN>across all servers.'
+ACROSS-ALL-SERVERS: ' <GREEN>на всех серверах.'
 ACTIVE: '<LIGHT_PURPLE>Active paths (<GOLD>{0}<LIGHT_PURPLE>): <GOLD>{1}'
-ADVANCEMENT-MULTIPLE-REQUIREMENT: Получить по крайней мере {0} достижений
+ADVANCEMENT-MULTIPLE-REQUIREMENT: Получите как минимум {0} достижений
 ADVANCEMENT-SINGLE-REQUIREMENT: Получить достижений '{0}'
-ALREADY-COMPLETED-PATH: уже выполнил это задание раньше.
+ALREADY-COMPLETED-PATH: но уже прошел этот путь ранее.
 ALREADY-COMPLETED-REQUIREMENT: <RED>Вы уже выполнили это требование!
-ALREADY-ON-THIS-PATH: <RED>Ты уже на этом задании!
+ALREADY-ON-THIS-PATH: <RED>Вы уже выполняете это задание!
 AR: '<GREEN>/ar '
 AND: и
 AND-YOUR-PROGRESS: <RED>и ваш прогресс на этом пути был сброшен.
-ANIMALS-BRED-REQUIREMENT: Разведите по крайней мере {0} животных
+ANIMALS-BRED-REQUIREMENT: Развести не менее {0} животных
 ASSIGNED: <GREEN>Assigned '<GOLD>{1}<GREEN>' to {0}
-AURELIUM-SKILLS-MANA-REQUIREMENT: Have at least {0} mana.
+AURELIUM-SKILLS-MANA-REQUIREMENT: Иметь не менее {0} маны.
 AURELIUM-SKILLS-SKILL-REQUIREMENT: Reach level {0} in {1}.
 AURELIUM-SKILLS-STAT-REQUIREMENT: Reach level {0} in {1}.
 AURELIUM-SKILLS-XP-REQUIREMENT: Have {0} xp in {1}.
-AUTOMATICALLY-ASSIGNED-PATH: <DARK_GREEN>You have automatically been assigned the
-  path '<GOLD>{0}<DARK_GREEN>'.
-AUTORANK-NUMBER-OF-ACTIVE-PATHS-REQUIREMENT: Have at least {0} active paths.
-AUTORANK-NUMBER-OF-COMPLETED-PATHS-REQUIREMENT: Have at least completed {0} paths.
+AUTOMATICALLY-ASSIGNED-PATH: <DARK_GREEN>Вам автоматически назначено задание '<GOLD>{0}<DARK_GREEN>'.
+AUTORANK-NUMBER-OF-ACTIVE-PATHS-REQUIREMENT: Иметь не менее {0} активных заданий.
+AUTORANK-NUMBER-OF-COMPLETED-PATHS-REQUIREMENT: Иметь, по крайней мере, завершенные {0} задания.
 AUTORANK-RELOADED: <DARK_AQUA>Autorank's files have been reloaded.
-AUTORANK-SPECIFIC-ACTIVE-PATH-REQUIREMENT: Have '{0}' set as an active path.
+AUTORANK-SPECIFIC-ACTIVE-PATH-REQUIREMENT: Установите '{0}' в качестве активного задания.
 AUTORANK-SPECIFIC-COMPLETED-PATH-REQUIREMENT: Have completed path '{0}'.
 AUTORANK-TIMES-HEADER: <GREEN>----------- [Times of <GOLD>{0}<GREEN>] -----------
 AUTORANK-TIMES-PLAYER-PLAYED: '<GOLD>{0}<BLUE> played:'
@@ -30,44 +29,43 @@ AUTORANK-TIMES-THIS-MONTH: '<YELLOW>This month: <LIGHT_PURPLE>{0}'
 AUTORANK-TIMES-THIS-WEEK: '<RED>This week: <LIGHT_PURPLE>{0}'
 AUTORANK-TIMES-TODAY: '<DARK_AQUA>Today: <LIGHT_PURPLE>{0}'
 AUTORANK-TIMES-TOTAL: '<GREEN>Total: <LIGHT_PURPLE>{0}'
-BENTOBOX-LEVEL-REQUIREMENT: Have at least an island level of {0} on {1}.
+BENTOBOX-LEVEL-REQUIREMENT: Иметь уровень острова не ниже {0} на {1}.
 BLOCKS-MOVED-REQUIREMENT: Travel at least {0} {1}
 BROKEN-BLOCKS-REQUIREMENT: Break at least {0}
-BUT-YOUR-PROGRESS: <GOLD>but your progress for this path has been stored.
-CAKESLICES-EATEN-REQUIREMENT: Eat at least {0} slices of cake
+BUT-YOUR-PROGRESS: <GOLD>но ваш прогресс на этом пути был сохранен.
+CAKESLICES-EATEN-REQUIREMENT: Съесть не менее {0} кусочков торта
 CANNOT-CHECK-CONSOLE: <RED>Cannot check for console!
 CHECKED: ' <GREEN>checked!'
 CHOSEN-PATH: <DARK_GREEN>You have chosen <GRAY>'{0}'<DARK_GREEN>.
 COLON: ': '
-COMMAND-NOT-RECOGNISED: <RED>Command not recognised!
+COMMAND-NOT-RECOGNISED: <RED>Команда не распознана!
 COMMAND-RESULT: 'Perform the following command(s): {0}'
 COMPLETED: '<LIGHT_PURPLE>Completed paths (<GOLD>{0}<LIGHT_PURPLE>): <GOLD>{1}'
 COMPLETED-PATH-NOW: ' and now completed his path.'
-COMPLETED-REQUIREMENT: '<DARK_GREEN>You completed requirement <GOLD>{0}<DARK_GREEN>:
+COMPLETED-REQUIREMENT: '<DARK_GREEN>Вы выполнили требование <GOLD>{0}<DARK_GREEN>:
   <DARK_AQUA>{1}'
 COULD-NOT-ASSIGN: <DARK_RED>Could not assign '<GOLD>{1}<DARK_RED>' to {0}
-COULD-NOT-FIND: <RED>Could not find a migration plugin for the type you specified.
-COULD-NOT-IMPORT: <RED>Could not import any players for {0}! Are you sure you put
-  any files in the imports folder?
-COULD-NOT-SYNC: <GREEN>Could not sync stats. Run command again!
+COULD-NOT-FIND: <RED>Не удалось найти плагин миграции для указанного вами типа.
+COULD-NOT-IMPORT: <RED>Не удалось импортировать ни одного игрока для {0}! Вы уверены, что поместили какие-либо файлы в папку imports?
+COULD-NOT-SYNC: <GREEN>Не удалось синхронизировать статистику. Выполните команду еще раз!
 CURRENT: '<GREEN>Current: <GOLD>{0}'
-DAMAGE-TAKEN-REQUIREMENT: Take at least {0} damage
+DAMAGE-TAKEN-REQUIREMENT: Получают по меньшей мере {0} повреждений
 DAY-PLURAL: days
 DAY-SINGULAR: day
-DEBUG-FILE: <GREEN>Debug file '{0}' created!
-DEBUG-MODE: '<GOLD>Debug mode of Autorank has been '
+DEBUG-FILE: <GREEN>Файл отладки '{0}' создан!
+DEBUG-MODE: '<GOLD>Режим отладки Autorank был '
 DEPENDENCIES: <RED>Cannot show dependencies as PluginLibrary is not installed
-DEPRECATED-COMMAND: This command is not used anymore and will be deprecated.
+DEPRECATED-COMMAND: Эта команда больше не используется и будет устаревшей.
 DESCRIPTION: <AQUA>{0}
-DEVELOPED: '<GOLD>Developed by: <GRAY>{0}'
-DID-YOU: '<DARK_AQUA>Did you perhaps mean '
+DEVELOPED: '<GOLD>Разработано: <GRAY>{0}'
+DID-YOU: '<DARK_AQUA>Возможно, вы имели в виду '
 DISABLED: ' <RED>disabled'
-DOES-NOT-HAVE-ACTIVE: <GOLD>{0} <RED>does not have any active paths.
+DOES-NOT-HAVE-ACTIVE: <GOLD>{0} <RED>не имеет активных заданий.
 DOES-NOT-HAVE-AS-ACTIVE: <GOLD>{0} <DARK_RED>does not have <GOLD>{1} <DARK_RED>as
   an active path!
 DONE-MARKER: Done
-DO-NOT-MEET-REQUIREMENTS-FOR: '<RED>You do not meet requirements for #<GOLD>{0}<RED>:'
-EFFECT-RESULT: Play '{0}' effect on you.
+DO-NOT-MEET-REQUIREMENTS-FOR: '<RED>Вы не соответствуете требованиям для #<GOLD>{0}<RED>:'
+EFFECT-RESULT: Наложите на вас эффект '{0}'.
 ENABLED: ' <GREEN>enabled'
 ESSENTIALS-GEOIP-LOCATION-REQUIREMENT: Be from area {0}
 EXP-RANGE-REQUIREMENT: Have range of level between {0} and {1} in exp
@@ -257,52 +255,48 @@ THESE-ARE: These are suggestions based on your input.
 THE-FOLLOWING-PATHS: '<GREEN>The following paths are possible: <WHITE>'
 THIS-COMMAND: <RED>This command has been deprecated and can therefore not be used
   anymore.
-THIS-IS-NOT: <RED>This is not a valid type of migration!
-THIS-MIGRATION: <RED>This migration plugin is not ready to be used. Are the plugins
-  that depend on it active?
-THIS-PATH-DOES-NOT: <RED>This path does not allow you to complete requirements one
-  by one. You need to meet all requirements simultaneously.
-TIMES-DIED-REQUIREMENT: Die at least {0} times
-TIMES-SHEARED-REQUIREMENT: Shear at least {0} sheep
-TIMES-TRADED-WITH-VILLAGERS-REQUIREMENT: Trade at least {0} with villagers
-TIME-DAILY-REQUIREMENT: ' Play for at least {0} in a single day.'
-TIME-HAS: <GREEN>Time has succesfully been updated for all entries.
-TIME-MONTHLY-REQUIREMENT: ' Play for at least {0} in a month.'
-TIME-REQUIREMENT: Play for at least {0}
-TIME-WEEKLY-REQUIREMENT: ' Play for at least {0} in a week.'
-TOTAL-MOBS-KILLED-REQUIREMENT: Kill at least {0} {1} {2}
-TOTAL-TIME-REQUIREMENT: Be with this server for at least {0}
-TOWNY-HAS-NATION-REQUIREMENT: Need to be part of a nation.
-TOWNY-HAS-TOWN-REQUIREMENT: Need to be part of a town.
-TOWNY-IS-KING-REQUIREMENT: Need to be king of a nation.
-TOWNY-IS-MAYOR-REQUIREMENT: Need to be mayor of a town.
-TOWNY-NEED-NUMBER-OF-TOWN-BLOCKS: Need to have at least {0} town blocks.
-TO-VIEW-THE-PROGRESS: <GOLD>To view the progress of a specific path, use /ar check
-  <path name>.
-TYPE: <DARK_RED>Type <GOLD>/ar view {0} <DARK_RED>to see a list of prerequisites.
+THIS-IS-NOT: <RED>Это не действительный тип миграции!
+THIS-MIGRATION: <RED>Этот плагин миграции не готов к использованию. Активны ли плагины, которые зависят от него?
+THIS-PATH-DOES-NOT: <RED>Этот путь не позволяет вам выполнять требования по одному. Вы должны выполнить все требования одновременно.
+TIMES-DIED-REQUIREMENT: Умереть по крайней мере {0} раз
+TIMES-SHEARED-REQUIREMENT: Стрижка не менее {0} овец
+TIMES-TRADED-WITH-VILLAGERS-REQUIREMENT: Торговля по крайней мере {0} с жителями деревни
+TIME-DAILY-REQUIREMENT: ' Играйте не менее {0} в течение одного дня.'
+TIME-HAS: <GREEN>Время было успешно обновлено для всех записей.
+TIME-MONTHLY-REQUIREMENT: ' Играйте не менее {0} в месяц.'
+TIME-REQUIREMENT: Играйте не менее {0}
+TIME-WEEKLY-REQUIREMENT: ' Играйте не менее {0} раз в неделю.'
+TOTAL-MOBS-KILLED-REQUIREMENT: Убить по крайней мере {0} {1} {2}
+TOTAL-TIME-REQUIREMENT: Проработайте на этом сервере не менее {0}
+TOWNY-HAS-NATION-REQUIREMENT: Необходимость быть частью нации.
+TOWNY-HAS-TOWN-REQUIREMENT: Необходимо быть частью города.
+TOWNY-IS-KING-REQUIREMENT: Нужно стать королем нации.
+TOWNY-IS-MAYOR-REQUIREMENT: Нужно стать мэром города.
+TOWNY-NEED-NUMBER-OF-TOWN-BLOCKS: Необходимо иметь не менее {0} городских кварталов.
+TO-VIEW-THE-PROGRESS: <GOLD>Чтобы просмотреть ход выполнения определенного задания, используйте /ar check <имя задания>.
+TYPE: <DARK_RED>Type <GOLD>/ar view {0} <DARK_RED> для просмотра списка предварительных условий.
 UHC-STATS-DEATHS-REQUIREMENT: Get at least {0} deaths.
 UHC-STATS-KILLS-REQUIREMENT: Get at least {0} kills.
 UHC-STATS-WINS-REQUIREMENT: Get at least {0} wins.
 UNASSIGNED: <DARK_RED>Unassigned '<GOLD>{1}<DARK_RED>' from {0}
-UNKNOWN-PLAYER: <RED>Player {0} is unknown and couldn't be identified.
-UPDATING: <GREEN>Updating the leaderboard. This could take a while!
+UNKNOWN-PLAYER: <RED>Игрок {0} неизвестен и не может быть идентифицирован.
+UPDATING: <GREEN>Обновление таблицы лидеров. Это может занять некоторое время!
 VERSION: '<GOLD>Version: <GRAY>{0}'
-VOTE-REQUIREMENT: Vote at least {0} times
-WORLD-GUARD-REGION-REQUIREMENT: Be in region {0}
+VOTE-REQUIREMENT: Проголосовать не менее {0} раз
+WORLD-GUARD-REGION-REQUIREMENT: Находиться в регионе {0}
 WORLD-REQUIREMENT: Be in {0}
-YOU-ARE-A-ROBOT: <RED>You are a robot, you can't run this command from console, silly..
-YOU-ARE-A-ROBOT-CHOOSE: <RED>You are a robot, you can't choose ranking paths, silly..
-YOU-ARE-A-ROBOT-COMPLETE: <RED>You are a robot, you can't rank up, silly..
-YOU-ARE-A-ROBOT-DEACTIVATE: <RED>You are a robot, you can't deactivate paths, silly..
-YOU-ARE-A-ROBOT-TRACK: <RED>You are a robot, you don't make progress, silly..
-YOU-ARE-ON-COOLDOWN: You are on cooldown for this path!
-YOU-ARE-VIEWING: <DARK_GREEN>You are viewing the path <GOLD>{1}<DARK_GREEN> for {0}.
-YOU-DONT-HAVE: <RED>You don't have any requirements left.
+YOU-ARE-A-ROBOT: <RED>Ты робот, ты не можешь выполнить эту команду из консоли, глупый...
+YOU-ARE-A-ROBOT-CHOOSE: <RED>Вы - робот, вы не можете выбирать задания ранжирования, глупый...
+YOU-ARE-A-ROBOT-COMPLETE: <RED>Ты робот, ты не можешь подняться, глупый...
+YOU-ARE-A-ROBOT-DEACTIVATE: <RED>Ты робот, ты не можешь деактивировать задания, глупый...
+YOU-ARE-A-ROBOT-TRACK: <RED>Ты робот, ты не делаешь успехов, глупый...
+YOU-ARE-ON-COOLDOWN: Вы находитесь в режиме ожидания для этого задания!
+YOU-ARE-VIEWING: <DARK_GREEN>Вы просматриваете задание <GOLD>{1}<DARK_GREEN> for {0}.
+YOU-DONT-HAVE: <RED>У вас не осталось никаких требований.
 YOU-DONT-HAVE-ANY: <RED>You don't have any requirements!
 YOU-DO-NOT-HAVE: <GREEN>You do not have to use this command regularly.
-YOU-DO-NOT-MEET: <RED>You do not meet the prerequisites of this path!
-YOU-NEED-TO: <RED>You need to wait <GOLD>
-YOU-PROBARLY: <RED>You probably meant /ar syncstats or /ar sync!
-YOU-SHOULD-SPECIFY: <RED>You should specify a player to check.
-YOU-WANT: <RED>You want to store the imported data to the global database, but no
-  database is active.
+YOU-DO-NOT-MEET: <RED>Вы не соответствуете требованиям этого задания!
+YOU-NEED-TO: <RED>Вам нужно подождать <GOLD>
+YOU-PROBARLY: <RED>Возможно, вы имели в виду /ar syncstats или /ar sync!
+YOU-SHOULD-SPECIFY: <RED>Вы должны указать игрока для проверки.
+YOU-WANT: <RED>Вы хотите сохранить импортированные данные в глобальной базе данных, но ни одна база данных не активна.
