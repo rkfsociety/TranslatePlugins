@@ -204,11 +204,11 @@ PLAYER-KILLS-REQUIREMENT: Kill at least {0} player(s)
 PLAYER-NOT-ONLINE: <GOLD>{0} <RED>is not online!
 PLAYTIME-CHANGED: <GREEN>Изменено время игры с {0} на {1}.
 PREREQUISITES: '<GREEN>Prerequisites of path ''<GRAY>{0}<GREEN>'':'
-PROGRESS-OF: '<GRAY>Progress of ''<BLUE>{0}<GRAY>'': '
+PROGRESS-OF: '<GRAY>Прогресс ''<BLUE>{0}<GRAY>'': '
 PROGRESS-OF-PATHS: <GREEN>----- <GRAY>[Прогресс заданий для <GOLD>{0}<GRAY>]<GREEN>
   -----
-PROGRESS-RESET: <YELLOW>Your progress for the path is reset.
-PROGRESS-RESTORED: <YELLOW>Your progress for the path has been restored.
+PROGRESS-RESET: <YELLOW>Ваш прогресс на этом задании обнуляется.
+PROGRESS-RESTORED: <YELLOW>Ваш прогресс задания был восстановлен.
 QUESTION-MARK: <DARK_AQUA>?
 QUESTS-ACTIVE-QUESTS-REQUIREMENT: Have {0} quests active at the same time.
 QUESTS-COMPLETED-QUESTS-REQUIREMENT: Complete at least {0} quests.
@@ -219,17 +219,15 @@ REMOVED-ALL-ACTIVE: <GREEN>Удалены все активные задания
 REMOVED-ALL-COMPLETED: <GREEN>Removed all completed paths of <YELLOW>{0}
 REQUIREMENT: <GREEN>Requirement '<GOLD>{1}<GREEN>' has been completed for {0}
 REQUIREMENTS: '<GRAY>Requirements:'
-REQUIREMENTS_OF_PATH: '<GREEN>Requirements of path ''<GRAY>{0}<GREEN>'':'
-REQUIREMENT-PROGRESS: '<RED>Progress of requirement #<GOLD>{0}<RED>:'
+REQUIREMENTS_OF_PATH: '<GREEN>Требования к заданию ''<GRAY>{0}<GREEN>'':'
+REQUIREMENT-PROGRESS: '<RED>Выполнение требований #<GOLD>{0}<RED>:'
 RESET-DAILY-TIME: <GOLD>[Autorank] <DARK_PURPLE>A new day has arrived! <YELLOW>All
   daily times have been reset.
 RESET-MONTHLY-TIME: <GOLD>[Autorank] <DARK_PURPLE>A new month has arrived! <YELLOW>All
   monthly times have been reset.
-RESET-PROGRESS: <GREEN>Reset progress on all active paths of <YELLOW>{0}
-RESET-PROGRESS-ON-ALL: <GREEN>Reset progress on all paths (active AND completed) of
-  <YELLOW>{0}
-RESET-WEEKLY-TIME: <GOLD>[Autorank] <DARK_PURPLE>A new week has arrived! <YELLOW>All
-  weekly times have been reset.
+RESET-PROGRESS: <GREEN>Сброс прогресса на всех активных заданиях <YELLOW>{0}
+RESET-PROGRESS-ON-ALL: <GREEN>Сброс прогресса по всем заданиям (активным и завершенным) из <YELLOW>{0}
+RESET-WEEKLY-TIME: <GOLD>[SYSTEM] <DARK_PURPLE>Наступила новая неделя! <YELLOW>Все недельные задания были восстановлены.
 RESULTS-OF-PATH: '<GREEN>Results of path ''<GRAY>{0}<GREEN>'':'
 RPGME-COMBAT-LEVEL-REQUIREMENT: Have at least a combat level of {0} in RPGme.
 RPGME-POWER-LEVEL-REQUIREMENT: Have at least a combined level {0} of RPGMe.
