@@ -138,11 +138,11 @@ MCRPG-POWER-LEVEL-REQUIREMENT: Have at least power level {0}
 MCRPG-SKILL-LEVEL-REQUIREMENT: Have at least level {0} in {1}
 MEETS-ALL-REQUIREMENTS: meets all the requirements for path {0}
 MEETS-ALL-REQUIREMENTS-WITHOUT-RANK-UP: meets all the requirements
-MESSAGE-RESULT: 'Send you the following message: {0}'
-MINUTE-PLURAL: minutes
-MINUTE-SINGULAR: minute
-MONEY-REQUIREMENT: Have at least {0}
-MONEY-RESULT: Reward you with {0}.
+MESSAGE-RESULT: 'Отправить вам следующее сообщение: {0}'
+MINUTE-PLURAL: минут
+MINUTE-SINGULAR: минута
+MONEY-REQUIREMENT: иметь по крайней мере {0}
+MONEY-RESULT: Вознаградить вас {0}.
 MYSQL-IS-NOT-ENABLED: <RED>MySQL is not enabled!
 NCC-ARE-YOU-SURE-RESET: Are you sure you want to reset the %type% of {0} ? Please
   confirm or deny.
@@ -170,9 +170,9 @@ NCC_WHAT_PATH_ASSIGN: Какое задание вы хотите присвои
 NCC-WHAT-PATH-COMPLETE: What path do you want to complete for {0}?
 NCC_WHAT_PATH_UNASSIGN: What path do you want to unassign from {0}?
 NCC-WHAT-PLAYER: Какого игрока вы хотите редактировать?
-NCC-WHAT-REQUIREMENT-ID: What requirement id do you want to complete?
-NCC-WHAT-TYPE: 'What type of edit do you want to make? '
-NCC-YOU-ARE-ALREADY-IN: You are already in a conversation.
+NCC-WHAT-REQUIREMENT-ID: Какое требование id вы хотите выполнить?
+NCC-WHAT-TYPE: 'Какой тип редактирования вы хотите сделать? '
+NCC-YOU-ARE-ALREADY-IN: Вы уже участвуете в разговоре.
 NONE: none
 NO-FURTHER-PATH-FOUND: none (no path found)
 NO-PATHS-TO-CHOOSE: <RED>Не существует заданий, которые вы можете выбрать.
@@ -203,7 +203,7 @@ PLAYER-IS-INVALID: <GOLD>{0} <RED>has never been logged before.
 PLAYER-KILLS-REQUIREMENT: Kill at least {0} player(s)
 PLAYER-NOT-ONLINE: <GOLD>{0} <RED>is not online!
 PLAYTIME-CHANGED: <GREEN>Изменено время игры с {0} на {1}.
-PREREQUISITES: '<GREEN>Prerequisites of path ''<GRAY>{0}<GREEN>'':'
+PREREQUISITES: '<GREEN>Необходимые условия задания ''<GRAY>{0}<GREEN>'':'
 PROGRESS-OF: '<GRAY>Прогресс ''<BLUE>{0}<GRAY>'': '
 PROGRESS-OF-PATHS: <GREEN>----- <GRAY>[Прогресс заданий для <GOLD>{0}<GRAY>]<GREEN>
   -----
@@ -217,12 +217,11 @@ QUESTS-QUEST-POINTS-REQUIREMENT: Obtain at least {0} quest points.
 RANK-CHANGE-RESULT: Change rank to {0}.
 REMOVED-ALL-ACTIVE: <GREEN>Удалены все активные задания <YELLOW>{0}
 REMOVED-ALL-COMPLETED: <GREEN>Removed all completed paths of <YELLOW>{0}
-REQUIREMENT: <GREEN>Requirement '<GOLD>{1}<GREEN>' has been completed for {0}
-REQUIREMENTS: '<GRAY>Requirements:'
+REQUIREMENT: <GREEN>Требования '<GOLD>{1}<GREEN>' была завершена для {0}
+REQUIREMENTS: '<GRAY>Требования:'
 REQUIREMENTS_OF_PATH: '<GREEN>Требования к заданию ''<GRAY>{0}<GREEN>'':'
 REQUIREMENT-PROGRESS: '<RED>Выполнение требований #<GOLD>{0}<RED>:'
-RESET-DAILY-TIME: <GOLD>[Autorank] <DARK_PURPLE>A new day has arrived! <YELLOW>All
-  daily times have been reset.
+RESET-DAILY-TIME: <GOLD>[SYSTEM] <DARK_PURPLE>Наступил новый день! <YELLOW>Все ежедневные задания были восстановлено.
 RESET-MONTHLY-TIME: <GOLD>[Autorank] <DARK_PURPLE>A new month has arrived! <YELLOW>All
   monthly times have been reset.
 RESET-PROGRESS: <GREEN>Сброс прогресса на всех активных заданиях <YELLOW>{0}
@@ -236,29 +235,22 @@ SECOND-PLURAL: seconds
 SECOND-SINGULAR: second
 SPAWN-FIREWORK-RESULT: Spawn firework at {0}.
 SPECIFIC-PATH: <DARK_AQUA>-----------------------
-STORAGE-IMPORTED: <GREEN>New storage has been imported!
-SUCCESSFULLY-COMPLETED-REQUIREMENT: 'You have successfully completed requirement <GOLD>{0}<GREEN>:'
-SUCCESSFULLY-CREATED-PLAYERDATA: <GREEN>Successfully created a backup of playerdata!
-SUCCESSFULLY-CREATED-STORAGE: <GREEN>Successfully created a backup of regular time
-  storage!
-SUCCESSFULLY-UPDATED: <GREEN>Successfully updated {0} items in data.yml from MySQL
-  database records!
+STORAGE-IMPORTED: <GREEN>Новое хранилище было импортировано!
+SUCCESSFULLY-COMPLETED-REQUIREMENT: 'Вы успешно выполнили требование <GOLD>{0}<GREEN>:'
+SUCCESSFULLY-CREATED-PLAYERDATA: <GREEN>Успешно создано резервное копирование playerdata!
+SUCCESSFULLY-CREATED-STORAGE: <GREEN>Успешно создано резервное копирование обычного хранилища времени!
+SUCCESSFULLY-UPDATED: <GREEN>Успешно обновлено {0} элементов в data.yml из записей базы данных MySQL!
 SUCCESSFULLY-UPDATED-MYSQL: <GREEN>Successfully updated MySQL records!
 TELEPORT-RESULT: Get teleported to {0}.
-THERE-ARE-NO-ACTIVE: <RED>There are no active storage providers, so I can't store
-  the imported data!
-THERE-IS-NO-ACTIVE-FLATFILE: <RED>here is no active storage provider that supports
-  flatfile data.
-THERE-IS-NO-PLAYER: <RED>There is no player or path named '<GOLD>{0}<RED>'.
-THESE-ARE: These are suggestions based on your input.
+THERE-ARE-NO-ACTIVE: <RED>Нет активных провайдеров хранения, поэтому я не могу хранить импортированные данные!
+THERE-IS-NO-ACTIVE-FLATFILE: <RED>не существует активного поставщика услуг хранения, поддерживающего данные плоских файлов.
+THERE-IS-NO-PLAYER: <RED>Не существует игрока или задания с именем '<GOLD>{0}<RED>'.
+THESE-ARE: Это предложения, основанные на вашем участии.
 THE-FOLLOWING-PATHS: '<GREEN>The following paths are possible: <WHITE>'
-THIS-COMMAND: <RED>This command has been deprecated and can therefore not be used
-  anymore.
+THIS-COMMAND: <RED>Эта команда была устаревшей и поэтому больше не может использоваться.
 THIS-IS-NOT: <RED>Это не действительный тип миграции!
-THIS-MIGRATION: <RED>Этот плагин миграции не готов к использованию. Активны ли плагины,
-  которые зависят от него?
-THIS-PATH-DOES-NOT: <RED>Этот путь не позволяет вам выполнять требования по одному.
-  Вы должны выполнить все требования одновременно.
+THIS-MIGRATION: <RED>Этот плагин миграции не готов к использованию. Активны ли плагины, которые зависят от него?
+THIS-PATH-DOES-NOT: <RED>Этот путь не позволяет вам выполнять требования по одному. Вы должны выполнить все требования одновременно.
 TIMES-DIED-REQUIREMENT: Умереть по крайней мере {0} раз
 TIMES-SHEARED-REQUIREMENT: Стрижка не менее {0} овец
 TIMES-TRADED-WITH-VILLAGERS-REQUIREMENT: Торговля по крайней мере {0} с жителями деревни
