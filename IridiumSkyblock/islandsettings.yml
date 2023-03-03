@@ -9,7 +9,7 @@ mobSpawn:
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Allow mobs to spawn on your Island."
+    - "&7Разрешите мобам спауниться на вашем острове."
     - ""
     - "&b&lValue"
     - "&7%value%"
@@ -25,7 +25,7 @@ leafDecay:
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Allow leaves to decay on your Island."
+    - "&7Позвольте листьям перегнить на вашем острове."
     - ""
     - "&b&lValue"
     - "&7%value%"
@@ -41,7 +41,7 @@ weather:
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Change the weather of your Island."
+    - "&7Измените погоду на своем острове."
     - ""
     - "&b&lValue"
     - "&7%value%"
@@ -57,7 +57,7 @@ time:
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Change your Island time."
+    - "&7Измените время на острове."
     - ""
     - "&b&lValue"
     - "&7%value%"
@@ -73,7 +73,7 @@ endermanGrief:
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Allow enderman to grief your Island."
+    - "&7Позвольте Эндерману испортить ваш Остров."
     - ""
     - "&b&lValue"
     - "&7%value%"
@@ -89,7 +89,7 @@ liquidFlow:
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Allow Water and Lava to flow on your Island."
+    - "&7Позвольте воде и лаве течь на вашем острове."
     - ""
     - "&b&lValue"
     - "&7%value%"
@@ -105,7 +105,7 @@ tntDamage:
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Allow TnT to explode on your Island."
+    - "&7Позвольте TnT взорваться на вашем острове."
     - ""
     - "&b&lValue"
     - "&7%value%"
@@ -121,7 +121,7 @@ fireSpread:
     headOwner: null
     headOwnerUUID: null
     lore:
-    - "&7Allow fire to spread on your Island."
+    - "&7Позвольте огню распространяться по вашему острову."
     - ""
     - "&b&lValue"
     - "&7%value%"
