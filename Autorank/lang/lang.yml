@@ -53,8 +53,8 @@ COULD-NOT-SYNC: <GREEN>Не удалось синхронизировать ст
   раз!
 CURRENT: '<GREEN>Current: <GOLD>{0}'
 DAMAGE-TAKEN-REQUIREMENT: Получают по меньшей мере {0} повреждений
-DAY-PLURAL: days
-DAY-SINGULAR: day
+DAY-PLURAL: дней
+DAY-SINGULAR: день
 DEBUG-FILE: <GREEN>Файл отладки '{0}' создан!
 DEBUG-MODE: '<GOLD>Режим отладки Autorank был '
 DEPENDENCIES: <RED>Cannot show dependencies as PluginLibrary is not installed
@@ -77,7 +77,7 @@ FACTIONS-POWER-REQUIREMENT: Have at least {0} power in your faction
 FIRST-LOGIN-DATE: First Login Date {0}
 FISH-CAUGHT-REQUIREMENT: Catch at least {0} fish
 FOOD-EATEN-REQUIREMENT: Eat at least {0}
-GAMEMODE-REQUIREMENT: Be in gamemode {0}
+GAMEMODE-REQUIREMENT: Быть в игровом режиме {0}
 GLOBAL: '<LIGHT_PURPLE>Global playtime: <GOLD>{0}'
 GLOBAL-TIME-REQUIREMENT: Play for at least {0} on any of the servers
 GRIEF-PREVENTION-BONUS-BLOCKS-REQUIREMENT: Have at least {0} bonus blocks in GriefPrevention
@@ -85,12 +85,12 @@ GRIEF-PREVENTION-CLAIMED-BLOCKS-REQUIREMENT: Have at least {0} claimed blocks in
 GRIEF-PREVENTION-CLAIMS-COUNT-REQUIREMENT: Have at least {0} claims in GriefPrevention
 GRIEF-PREVENTION-REMAINING-BLOCKS-REQUIREMENT: Have at least {0} remaining blocks
   to use in claims in GriefPrevention
-GROUP-REQUIREMENT: Be in group {0}.
+GROUP-REQUIREMENT: Быть в группе {0}.
 HAS-PLAYED: <GOLD>{0} <GREEN>отыграл <GOLD>
 HAS-PLAYED-FOR: <GOLD>{0}<GRAY> отыграл {1}.
 HOOKED-PLUGINS: <GRAY>- <GREEN>{0}
 HOOKS: '<GOLD>Autorank Hooks:'
-HOUR-PLURAL: часы
+HOUR-PLURAL: часов
 HOUR-SINGULAR: час
 ILL-LET: <GOLD>Я сообщу вам, когда таблица лидеров будет обновлена.
 IMPORTED-DATA: <GREEN>Imported data of {0} players from Minecraft statistics!
@@ -227,7 +227,7 @@ RESET-MONTHLY-TIME: <GOLD>[Autorank] <DARK_PURPLE>A new month has arrived! <YELL
 RESET-PROGRESS: <GREEN>Сброс прогресса на всех активных заданиях <YELLOW>{0}
 RESET-PROGRESS-ON-ALL: <GREEN>Сброс прогресса по всем заданиям (активным и завершенным) из <YELLOW>{0}
 RESET-WEEKLY-TIME: <GOLD>[SYSTEM] <DARK_PURPLE>Наступила новая неделя! <YELLOW>Все недельные задания были восстановлены.
-RESULTS-OF-PATH: '<GREEN>Results of path ''<GRAY>{0}<GREEN>'':'
+RESULTS-OF-PATH: '<GREEN>Результаты прохождения задания ''<GRAY>{0}<GREEN>'':'
 RPGME-COMBAT-LEVEL-REQUIREMENT: Have at least a combat level of {0} in RPGme.
 RPGME-POWER-LEVEL-REQUIREMENT: Have at least a combined level {0} of RPGMe.
 RPGME-SKILL-LEVEL-REQUIREMENT: Have at least level {0} in {1} in RPGme.
