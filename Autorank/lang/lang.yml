@@ -14,40 +14,43 @@ AND-YOUR-PROGRESS: <RED>и ваш прогресс на этом пути был
 ANIMALS-BRED-REQUIREMENT: Развести не менее {0} животных
 ASSIGNED: <GREEN>Assigned '<GOLD>{1}<GREEN>' to {0}
 AURELIUM-SKILLS-MANA-REQUIREMENT: Иметь не менее {0} маны.
-AURELIUM-SKILLS-SKILL-REQUIREMENT: Reach level {0} in {1}.
-AURELIUM-SKILLS-STAT-REQUIREMENT: Reach level {0} in {1}.
-AURELIUM-SKILLS-XP-REQUIREMENT: Have {0} xp in {1}.
+AURELIUM-SKILLS-SKILL-REQUIREMENT: Достигните уровня {0} за {1}.
+AURELIUM-SKILLS-STAT-REQUIREMENT: Достигните уровня {0} за {1}.
+AURELIUM-SKILLS-XP-REQUIREMENT: Иметь {0} xp в {1}.
 AUTOMATICALLY-ASSIGNED-PATH: <DARK_GREEN>Вам автоматически назначено задание '<GOLD>{0}<DARK_GREEN>'.
 AUTORANK-NUMBER-OF-ACTIVE-PATHS-REQUIREMENT: Иметь не менее {0} активных заданий.
-AUTORANK-NUMBER-OF-COMPLETED-PATHS-REQUIREMENT: Иметь, по крайней мере, завершенные {0} задания.
-AUTORANK-RELOADED: <DARK_AQUA>Autorank's files have been reloaded.
+AUTORANK-NUMBER-OF-COMPLETED-PATHS-REQUIREMENT: Иметь, по крайней мере, завершенные
+  {0} задания.
+AUTORANK-RELOADED: <DARK_AQUA>Файлы Autorank были перезагружены.
 AUTORANK-SPECIFIC-ACTIVE-PATH-REQUIREMENT: Установите '{0}' в качестве активного задания.
 AUTORANK-SPECIFIC-COMPLETED-PATH-REQUIREMENT: Have completed path '{0}'.
 AUTORANK-TIMES-HEADER: <GREEN>----------- [Times of <GOLD>{0}<GREEN>] -----------
 AUTORANK-TIMES-PLAYER-PLAYED: '<GOLD>{0}<BLUE> played:'
-AUTORANK-TIMES-THIS-MONTH: '<YELLOW>This month: <LIGHT_PURPLE>{0}'
-AUTORANK-TIMES-THIS-WEEK: '<RED>This week: <LIGHT_PURPLE>{0}'
-AUTORANK-TIMES-TODAY: '<DARK_AQUA>Today: <LIGHT_PURPLE>{0}'
-AUTORANK-TIMES-TOTAL: '<GREEN>Total: <LIGHT_PURPLE>{0}'
+AUTORANK-TIMES-THIS-MONTH: '<YELLOW>В этом месяце: <LIGHT_PURPLE>{0}'
+AUTORANK-TIMES-THIS-WEEK: '<RED>На этой неделе: <LIGHT_PURPLE>{0}'
+AUTORANK-TIMES-TODAY: '<DARK_AQUA>Сегодня: <LIGHT_PURPLE>{0}'
+AUTORANK-TIMES-TOTAL: '<GREEN>Всего: <LIGHT_PURPLE>{0}'
 BENTOBOX-LEVEL-REQUIREMENT: Иметь уровень острова не ниже {0} на {1}.
-BLOCKS-MOVED-REQUIREMENT: Travel at least {0} {1}
-BROKEN-BLOCKS-REQUIREMENT: Break at least {0}
+BLOCKS-MOVED-REQUIREMENT: Путешествовать не менее {0} {1}
+BROKEN-BLOCKS-REQUIREMENT: Сломайте хотя бы {0}
 BUT-YOUR-PROGRESS: <GOLD>но ваш прогресс на этом пути был сохранен.
 CAKESLICES-EATEN-REQUIREMENT: Съесть не менее {0} кусочков торта
 CANNOT-CHECK-CONSOLE: <RED>Cannot check for console!
 CHECKED: ' <GREEN>checked!'
-CHOSEN-PATH: <DARK_GREEN>You have chosen <GRAY>'{0}'<DARK_GREEN>.
+CHOSEN-PATH: <DARK_GREEN>Вы выбрали <GRAY>'{0}'<DARK_GREEN>.
 COLON: ': '
 COMMAND-NOT-RECOGNISED: <RED>Команда не распознана!
-COMMAND-RESULT: 'Perform the following command(s): {0}'
+COMMAND-RESULT: 'Выполните следующую команду (команды): {0}'
 COMPLETED: '<LIGHT_PURPLE>Completed paths (<GOLD>{0}<LIGHT_PURPLE>): <GOLD>{1}'
-COMPLETED-PATH-NOW: ' and now completed his path.'
+COMPLETED-PATH-NOW: ' и теперь завершил своё задание.'
 COMPLETED-REQUIREMENT: '<DARK_GREEN>Вы выполнили требование <GOLD>{0}<DARK_GREEN>:
   <DARK_AQUA>{1}'
-COULD-NOT-ASSIGN: <DARK_RED>Could not assign '<GOLD>{1}<DARK_RED>' to {0}
+COULD-NOT-ASSIGN: <DARK_RED>Не удалось присвоить '<GOLD>{1}<DARK_RED>' к {0}
 COULD-NOT-FIND: <RED>Не удалось найти плагин миграции для указанного вами типа.
-COULD-NOT-IMPORT: <RED>Не удалось импортировать ни одного игрока для {0}! Вы уверены, что поместили какие-либо файлы в папку imports?
-COULD-NOT-SYNC: <GREEN>Не удалось синхронизировать статистику. Выполните команду еще раз!
+COULD-NOT-IMPORT: <RED>Не удалось импортировать ни одного игрока для {0}! Вы уверены,
+  что поместили какие-либо файлы в папку imports?
+COULD-NOT-SYNC: <GREEN>Не удалось синхронизировать статистику. Выполните команду еще
+  раз!
 CURRENT: '<GREEN>Current: <GOLD>{0}'
 DAMAGE-TAKEN-REQUIREMENT: Получают по меньшей мере {0} повреждений
 DAY-PLURAL: days
@@ -83,15 +86,15 @@ GRIEF-PREVENTION-CLAIMS-COUNT-REQUIREMENT: Have at least {0} claims in GriefPrev
 GRIEF-PREVENTION-REMAINING-BLOCKS-REQUIREMENT: Have at least {0} remaining blocks
   to use in claims in GriefPrevention
 GROUP-REQUIREMENT: Be in group {0}.
-HAS-PLAYED: <GOLD>{0} <GREEN>has played for <GOLD>
-HAS-PLAYED-FOR: <GOLD>{0}<GRAY> has played for {1}.
+HAS-PLAYED: <GOLD>{0} <GREEN>играл за <GOLD>
+HAS-PLAYED-FOR: <GOLD>{0}<GRAY> играл за {1}.
 HOOKED-PLUGINS: <GRAY>- <GREEN>{0}
 HOOKS: '<GOLD>Autorank Hooks:'
-HOUR-PLURAL: hours
-HOUR-SINGULAR: hour
-ILL-LET: <GOLD>I'll let you know when the leaderboard is updated.
+HOUR-PLURAL: часы
+HOUR-SINGULAR: час
+ILL-LET: <GOLD>Я сообщу вам, когда таблица лидеров будет обновлена.
 IMPORTED-DATA: <GREEN>Imported data of {0} players from Minecraft statistics!
-IMPORTED-OPERATION: <RED>Import operation cancelled by user.
+IMPORTED-OPERATION: <RED>Операция импорта отменена пользователем.
 IMPORTING-DATA-ADDING-GLOBAL: Importing data and adding to global database.
 IMPORTING-DATA-ADDING-LOCAL: Importing data and adding to local database.
 IMPORTING-DATA-BOTH: <GOLD>Importing data and overriding both the global and local
@@ -148,63 +151,61 @@ NCC-ACTIVE: active paths
 NCC-ACTIVE-PROGRESS: active progress
 NCC-ALL-PROGRESS: all progress
 NCC-COMPLETED: completed paths
-NCC-CONVERSATION-HAS-BEEN: This conversation has been abandoned by you.
-NCC-CONVERSATION-HAS-ENDED: This conversation has ended.
-NCC-CONVERSATION-HAS-ENDED-BECAUSE: This conversation has ended because you didn't
-  reply in time.
-NCC-HAS-ALREADY: '{0} has already completed this requirement'
-NCC-IS-ALREADY: '{0} is already on that path.'
-NCC-IS-NOT: '{0} is not on that path.'
-NCC-OF-WHICH-PLAYER-ACTIVE: Of which player do you want to reset the active paths?
-NCC-OF-WHICH-PLAYER-ACTIVE-PROGRESS: Of which player do you want to reset the active
-  progress?
-NCC-OF-WHICH-PLAYER-ALL-PROGRESS: Of which player do you want to reset the all progress?
-NCC-OF-WHICH-PLAYER-COMPLETED: Of which player do you want to reset the completed
-  paths?
-NCC-THAT-REQUIREMENT: That requirement id does not exist for {0}
-NCC-THE-PATH: The path {0} does not exist!
-NCC-WHAT-DO-YOU: 'What do you want to reset? You can reset '
-NCC-WHAT-PATH: What path does the requirement belong to?
-NCC_WHAT_PATH_ASSIGN: What path do you want to assign to {0}?
+NCC-CONVERSATION-HAS-BEEN: Этот разговор был оставлен вами.
+NCC-CONVERSATION-HAS-ENDED: Разговор окончен.
+NCC-CONVERSATION-HAS-ENDED-BECAUSE: Этот разговор закончился, потому что вы не ответили
+  вовремя.
+NCC-HAS-ALREADY: '{0} уже выполнил это требование'
+NCC-IS-ALREADY: '{0} уже находится на этом задании.'
+NCC-IS-NOT: '{0} не на этом задании.'
+NCC-OF-WHICH-PLAYER-ACTIVE: Для какого игрока вы хотите сбросить активные задания?
+NCC-OF-WHICH-PLAYER-ACTIVE-PROGRESS: У какого игрока вы хотите сбросить активный прогресс?
+NCC-OF-WHICH-PLAYER-ALL-PROGRESS: Для какого игрока вы хотите сбросить весь прогресс?
+NCC-OF-WHICH-PLAYER-COMPLETED: У кого из игроков вы хотите сбросить выполненные задания?
+NCC-THAT-REQUIREMENT: Это требование id не существует для {0}
+NCC-THE-PATH: Задание {0} не существует!
+NCC-WHAT-DO-YOU: 'Что вы хотите сбросить? Вы можете сбросить '
+NCC-WHAT-PATH: К какому заданию относится данное требование?
+NCC_WHAT_PATH_ASSIGN: Какое задание вы хотите присвоить {0}?
 NCC-WHAT-PATH-COMPLETE: What path do you want to complete for {0}?
 NCC_WHAT_PATH_UNASSIGN: What path do you want to unassign from {0}?
-NCC-WHAT-PLAYER: What player do you want to edit?
+NCC-WHAT-PLAYER: Какого игрока вы хотите редактировать?
 NCC-WHAT-REQUIREMENT-ID: What requirement id do you want to complete?
 NCC-WHAT-TYPE: 'What type of edit do you want to make? '
 NCC-YOU-ARE-ALREADY-IN: You are already in a conversation.
 NONE: none
 NO-FURTHER-PATH-FOUND: none (no path found)
-NO-PATHS-TO-CHOOSE: <RED>There are no paths that you can choose.
-NO-PATH-FOUND-WITH-THAT-NAME: <RED>There was no ranking path found with that name.
-NO-PATH-LEFT-TO-CHOOSE: <DARK_GREEN>{0} has played for {1} and currently has no path.
-  There are no paths left to choose.
+NO-PATHS-TO-CHOOSE: <RED>Не существует заданий, которые вы можете выбрать.
+NO-PATH-FOUND-WITH-THAT-NAME: <RED>Путь ранжирования с таким именем не был найден.
+NO-PATH-LEFT-TO-CHOOSE: <DARK_GREEN>{0} сыграл за {1} и в настоящее время не имеет
+  заданий. Не осталось заданий, которые можно было бы выбрать.
 NO-PERMISSION: <RED>You need ({0}) for that!
 OR: <GREEN>or
 OPTIONAL-MARKER: Optional
 PARENTHESIS-LEFT: <LIGHT_PURPLE> (
 PARENTHESIS-RIGHT: '<LIGHT_PURPLE>): '
-PARTIAL-COMPLETION-NOT-ENABLED: <RED>You cannot use this command as this server has
-  not enabled partial completion!
-PATH-HAS-BEEN: <GREEN>Path '<GOLD>{1}<GREEN>' has been completed for {0}
+PARTIAL-COMPLETION-NOT-ENABLED: <RED>Вы не можете использовать эту команду, так как
+  на этом сервере не включено частичное завершение!
+PATH-HAS-BEEN: <GREEN>Path '<GOLD>{1}<GREEN>' была завершена для {0}
 PATH-IS-DEACTIVATED: '<GREEN>Path ''{0}'' is deactivated '
-PATH-IS-NOT-ACTIVE: You are not active on path {0}.
-PATH-NOT-ALLOWED-TO-RETAKE: <RED>You already completed this path before. You are not
-  allowed to retake it!
-PERMISSION-REQUIREMENT: Have permission {0}
-PLACED-BLOCKS-REQUIREMENT: Place at least {0}
+PATH-IS-NOT-ACTIVE: Вы не активны на задании {0}.
+PATH-NOT-ALLOWED-TO-RETAKE: <RED>Вы уже прошли это задание ранее. Вам не разрешается
+  проходить его повторно!
+PERMISSION-REQUIREMENT: Иметь разрешение {0}
+PLACED-BLOCKS-REQUIREMENT: Разместите хотя бы {0}
 PLACEHOLDERAPI-INTEGER-REQUIREMENT: Have at least {0} {1}
 PLACEHOLDERAPI-STRING-REQUIREMENT: Have at least {0} {1}
 PLANTS-POTTED-REQUIREMENT: Pot at least {0} plants
-PLAYERPOINTS-POINTS-REQUIREMENT: Obtain at least {0} player points.
-PLAYERS-HAVE-BEEN-MIGRATED: '{0} players have been migrated to Autorank.'
+PLAYERPOINTS-POINTS-REQUIREMENT: Получите не менее {0} очков игрока.
+PLAYERS-HAVE-BEEN-MIGRATED: '{0} игроки были переведены в Autorank.'
 PLAYER-IS-EXCLUDED: <GOLD>{0} <RED>is excluded from ranking!
 PLAYER-IS-INVALID: <GOLD>{0} <RED>has never been logged before.
 PLAYER-KILLS-REQUIREMENT: Kill at least {0} player(s)
 PLAYER-NOT-ONLINE: <GOLD>{0} <RED>is not online!
-PLAYTIME-CHANGED: <GREEN>Changed playtime of {0} to {1}.
+PLAYTIME-CHANGED: <GREEN>Изменено время игры с {0} на {1}.
 PREREQUISITES: '<GREEN>Prerequisites of path ''<GRAY>{0}<GREEN>'':'
 PROGRESS-OF: '<GRAY>Progress of ''<BLUE>{0}<GRAY>'': '
-PROGRESS-OF-PATHS: <GREEN>----- <GRAY>[Progress of paths for <GOLD>{0}<GRAY>]<GREEN>
+PROGRESS-OF-PATHS: <GREEN>----- <GRAY>[Прогресс заданий для <GOLD>{0}<GRAY>]<GREEN>
   -----
 PROGRESS-RESET: <YELLOW>Your progress for the path is reset.
 PROGRESS-RESTORED: <YELLOW>Your progress for the path has been restored.
@@ -214,7 +215,7 @@ QUESTS-COMPLETED-QUESTS-REQUIREMENT: Complete at least {0} quests.
 QUESTS-COMPLETE-SPECIFIC-QUEST-REQUIREMENT: Complete the quest '{0}'.
 QUESTS-QUEST-POINTS-REQUIREMENT: Obtain at least {0} quest points.
 RANK-CHANGE-RESULT: Change rank to {0}.
-REMOVED-ALL-ACTIVE: <GREEN>Removed all active paths of <YELLOW>{0}
+REMOVED-ALL-ACTIVE: <GREEN>Удалены все активные задания <YELLOW>{0}
 REMOVED-ALL-COMPLETED: <GREEN>Removed all completed paths of <YELLOW>{0}
 REQUIREMENT: <GREEN>Requirement '<GOLD>{1}<GREEN>' has been completed for {0}
 REQUIREMENTS: '<GRAY>Requirements:'
@@ -256,8 +257,10 @@ THE-FOLLOWING-PATHS: '<GREEN>The following paths are possible: <WHITE>'
 THIS-COMMAND: <RED>This command has been deprecated and can therefore not be used
   anymore.
 THIS-IS-NOT: <RED>Это не действительный тип миграции!
-THIS-MIGRATION: <RED>Этот плагин миграции не готов к использованию. Активны ли плагины, которые зависят от него?
-THIS-PATH-DOES-NOT: <RED>Этот путь не позволяет вам выполнять требования по одному. Вы должны выполнить все требования одновременно.
+THIS-MIGRATION: <RED>Этот плагин миграции не готов к использованию. Активны ли плагины,
+  которые зависят от него?
+THIS-PATH-DOES-NOT: <RED>Этот путь не позволяет вам выполнять требования по одному.
+  Вы должны выполнить все требования одновременно.
 TIMES-DIED-REQUIREMENT: Умереть по крайней мере {0} раз
 TIMES-SHEARED-REQUIREMENT: Стрижка не менее {0} овец
 TIMES-TRADED-WITH-VILLAGERS-REQUIREMENT: Торговля по крайней мере {0} с жителями деревни
@@ -273,8 +276,10 @@ TOWNY-HAS-TOWN-REQUIREMENT: Необходимо быть частью горо�
 TOWNY-IS-KING-REQUIREMENT: Нужно стать королем нации.
 TOWNY-IS-MAYOR-REQUIREMENT: Нужно стать мэром города.
 TOWNY-NEED-NUMBER-OF-TOWN-BLOCKS: Необходимо иметь не менее {0} городских кварталов.
-TO-VIEW-THE-PROGRESS: <GOLD>Чтобы просмотреть ход выполнения определенного задания, используйте /ar check <имя задания>.
-TYPE: <DARK_RED>Type <GOLD>/ar view {0} <DARK_RED> для просмотра списка предварительных условий.
+TO-VIEW-THE-PROGRESS: <GOLD>Чтобы просмотреть ход выполнения определенного задания,
+  используйте /ar check <имя задания>.
+TYPE: <DARK_RED>Type <GOLD>/ar view {0} <DARK_RED> для просмотра списка предварительных
+  условий.
 UHC-STATS-DEATHS-REQUIREMENT: Get at least {0} deaths.
 UHC-STATS-KILLS-REQUIREMENT: Get at least {0} kills.
 UHC-STATS-WINS-REQUIREMENT: Get at least {0} wins.
@@ -286,7 +291,8 @@ VOTE-REQUIREMENT: Проголосовать не менее {0} раз
 WORLD-GUARD-REGION-REQUIREMENT: Находиться в регионе {0}
 WORLD-REQUIREMENT: Be in {0}
 YOU-ARE-A-ROBOT: <RED>Ты робот, ты не можешь выполнить эту команду из консоли, глупый...
-YOU-ARE-A-ROBOT-CHOOSE: <RED>Вы - робот, вы не можете выбирать задания ранжирования, глупый...
+YOU-ARE-A-ROBOT-CHOOSE: <RED>Вы - робот, вы не можете выбирать задания ранжирования,
+  глупый...
 YOU-ARE-A-ROBOT-COMPLETE: <RED>Ты робот, ты не можешь подняться, глупый...
 YOU-ARE-A-ROBOT-DEACTIVATE: <RED>Ты робот, ты не можешь деактивировать задания, глупый...
 YOU-ARE-A-ROBOT-TRACK: <RED>Ты робот, ты не делаешь успехов, глупый...
@@ -299,4 +305,5 @@ YOU-DO-NOT-MEET: <RED>Вы не соответствуете требовани�
 YOU-NEED-TO: <RED>Вам нужно подождать <GOLD>
 YOU-PROBARLY: <RED>Возможно, вы имели в виду /ar syncstats или /ar sync!
 YOU-SHOULD-SPECIFY: <RED>Вы должны указать игрока для проверки.
-YOU-WANT: <RED>Вы хотите сохранить импортированные данные в глобальной базе данных, но ни одна база данных не активна.
+YOU-WANT: <RED>Вы хотите сохранить импортированные данные в глобальной базе данных,
+  но ни одна база данных не активна.
