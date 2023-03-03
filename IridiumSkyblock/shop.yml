@@ -4,7 +4,7 @@ categories:
     item:
       material: "GRASS_BLOCK"
       amount: 1
-      displayName: "&9&lBlocks"
+      displayName: "&9&lБлоки"
       headData: null
       headOwner: null
       headOwnerUUID: null
@@ -15,7 +15,7 @@ categories:
     item:
       material: "COOKED_CHICKEN"
       amount: 1
-      displayName: "&9&lFood"
+      displayName: "&9&lЕда"
       headData: null
       headOwner: null
       headOwnerUUID: null
@@ -26,7 +26,7 @@ categories:
     item:
       material: "GOLD_INGOT"
       amount: 1
-      displayName: "&9&lOres"
+      displayName: "&9&lРуда"
       headData: null
       headOwner: null
       headOwnerUUID: null
@@ -37,7 +37,7 @@ categories:
     item:
       material: "WHEAT"
       amount: 1
-      displayName: "&9&lFarming"
+      displayName: "&9&lФермерство"
       headData: null
       headOwner: null
       headOwnerUUID: null
@@ -48,7 +48,7 @@ categories:
     item:
       material: "SPIDER_EYE"
       amount: 1
-      displayName: "&9&lMob Drops"
+      displayName: "&9&lДроп с мобов"
       headData: null
       headOwner: null
       headOwnerUUID: null
@@ -59,7 +59,7 @@ categories:
     item:
       material: "SADDLE"
       amount: 1
-      displayName: "&9&lMiscellaneous"
+      displayName: "&9&lПрочее"
       headData: null
       headOwner: null
       headOwnerUUID: null

@@ -80,8 +80,8 @@ islandCrystal:
   headOwnerUUID: null
   lore:
   - ""
-  - "&b%amount% кристалов"
-  - "&b&l[!] &bПКМ, чтобы активировать"
+  - "&b%amount% Island Crystals"
+  - "&b&l[!] &bRight-Click to Redeem"
   slot: null
 islandLevelUpSound: "ENTITY_PLAYER_LEVELUP"
 numberFormatter:
@@ -129,7 +129,7 @@ islandLevelRewards:
       - "&b&l* &b5 Island Crystals"
       - "&b&l* &b200 Island Money"
       - ""
-      - "&b&l[!] &bЛКМ, чтобы активировать"
+      - "&b&l[!] &bЛКМ для активации"
       slot: null
     commands: []
     islandExperience: 0
@@ -150,7 +150,7 @@ islandLevelRewards:
       - "&b&l* &b15 Island Crystals"
       - "&b&l* &b2000 Island Money"
       - ""
-      - "&b&l[!] &bLeft click to redeem"
+      - "&b&l[!] &bЛКМ для активации"
       slot: null
     commands: []
     islandExperience: 0
