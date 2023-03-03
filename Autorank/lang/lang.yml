@@ -86,8 +86,8 @@ GRIEF-PREVENTION-CLAIMS-COUNT-REQUIREMENT: Have at least {0} claims in GriefPrev
 GRIEF-PREVENTION-REMAINING-BLOCKS-REQUIREMENT: Have at least {0} remaining blocks
   to use in claims in GriefPrevention
 GROUP-REQUIREMENT: Be in group {0}.
-HAS-PLAYED: <GOLD>{0} <GREEN>играл за <GOLD>
-HAS-PLAYED-FOR: <GOLD>{0}<GRAY> играл за {1}.
+HAS-PLAYED: <GOLD>{0} <GREEN>отыграл <GOLD>
+HAS-PLAYED-FOR: <GOLD>{0}<GRAY> отыграл {1}.
 HOOKED-PLUGINS: <GRAY>- <GREEN>{0}
 HOOKS: '<GOLD>Autorank Hooks:'
 HOUR-PLURAL: часы
