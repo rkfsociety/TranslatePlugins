@@ -1,8 +1,8 @@
 ---
 prefix: "<GRADIENT:09C6F9>&lSkyblock</GRADIENT:045DE9> &8»"
 worldName: "mSkyblock"
-islandCreateTitle: "&b&lIsland Created"
-islandCreateSubTitle: "&7IridiumSkyblock by Peaches_MLG"
+islandCreateTitle: "&b&lОстров создан"
+islandCreateSubTitle: "&7Skyblock by Peaches_MLG"
 dateTimeFormat: "EEEE, MMMM dd HH:mm:ss"
 spawnWorldName: "world"
 defaultCommandSyntax: "/is %command%"
@@ -74,14 +74,14 @@ trackTicks: 20
 islandCrystal:
   material: "NETHER_STAR"
   amount: 1
-  displayName: "&b*** &b&lIsland Crystal &b***"
+  displayName: "&b*** &b&lКристаллы &b***"
   headData: null
   headOwner: null
   headOwnerUUID: null
   lore:
   - ""
-  - "&b%amount% Island Crystals"
-  - "&b&l[!] &bRight-Click to Redeem"
+  - "&b%amount% кристаллов"
+  - "&b&l[!] &bПКМ, чтобы воспользоваться"
   slot: null
 islandLevelUpSound: "ENTITY_PLAYER_LEVELUP"
 numberFormatter:
@@ -120,14 +120,14 @@ islandLevelRewards:
     item:
       material: "EXPERIENCE_BOTTLE"
       amount: 1
-      displayName: "&b&lLevel %island_level% Reward"
+      displayName: "&b&lУровень %island_level% Награда"
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7Island Level %island_level% Rewards:"
-      - "&b&l* &b5 Island Crystals"
-      - "&b&l* &b200 Island Money"
+      - "&7Уровень острова %island_level% Награда:"
+      - "&b&l* &b5 кристаллов"
+      - "&b&l* &b200 монет"
       - ""
       - "&b&l[!] &bЛКМ для активации"
       slot: null
@@ -141,14 +141,14 @@ islandLevelRewards:
     item:
       material: "EXPERIENCE_BOTTLE"
       amount: 1
-      displayName: "&b&lLevel %island_level% Reward"
+      displayName: "&b&lУровень %island_level% Награда"
       headData: null
       headOwner: null
       headOwnerUUID: null
       lore:
-      - "&7Island Level %island_level% Rewards:"
-      - "&b&l* &b15 Island Crystals"
-      - "&b&l* &b2000 Island Money"
+      - "&7Уровень острова %island_level% Награда:"
+      - "&b&l* &b15 Кристаллов"
+      - "&b&l* &b2000 Монет"
       - ""
       - "&b&l[!] &bЛКМ для активации"
       slot: null
